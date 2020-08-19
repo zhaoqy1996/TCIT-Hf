@@ -43,13 +43,13 @@ def main(argv):
     parser.add_argument('-o', dest='outputname', default='results',
                         help = 'Controls the output file name for the results (default: "results")')
 
-    parser.add_argument('-db', dest='dbfile', default='TAFFI_HF.db',
+    parser.add_argument('-db', dest='dbfile', default='database/TAFFI_HF.db',
                         help = 'The directory path of TCIT CAVs database. (default: "TAFFI_Hf.db"')
 
-    parser.add_argument('-g4db', dest='g4dbfile', default='Hf_G4.db',
+    parser.add_argument('-g4db', dest='g4dbfile', default='database/Hf_G4.db',
                         help = 'The directory path of TCIT CAVs database. (default: "TAFFI_Hf.db"')
 
-    parser.add_argument('-rcdb', dest='rcdbfile', default='depth0_RC.db',
+    parser.add_argument('-rcdb', dest='rcdbfile', default='database/depth0_RC.db',
                         help = 'The directory path of TCIT CAVs database. (default: "TAFFI_Hf.db"')
 
     # parse configuration dictionary (c)                                                                                                   
@@ -108,15 +108,21 @@ def main(argv):
     else:
         target_xyzs=[os.path.join(dp, f) for dp, dn, filenames in os.walk(args.input_folder) for f in filenames if (fnmatch(f,"*.xyz"))]
 
-    # load in ML model
-    start_time = time.time()
-    for i in range(5):
-        model_0K = getModel('0k_model.h5')
-    elapsed_time = time.time() - start_time
-    print(elapsed_time)
-    exit()
-    #model_298= getModel('nfp.h5')
-
+    '''
+    # Load in the 0K ML model
+    zero_graph = tf.Graph()
+    with zero_graph.as_default():
+        zero_session = tf.Session()
+        with zero_session.as_default():
+            zero_model=getModel('zero_model.h5')
+    
+    #Load in the 298K model
+    roomT_graph = tf.Graph()
+    with roomT_graph.as_default():
+        roomT_session = tf.Session()
+        with roomT_session.as_default():
+            roomT_model=getModel('roomT_model.h5')
+    '''
     # loop for target xyz files
     for i in sorted(target_xyzs):
         print("Working on {}...".format(i))
@@ -154,15 +160,24 @@ def main(argv):
                         print("\n{} can not use TGIT to calculate, the result comes from G4 result".format(i.split('/')[-1]))
 
                     if float(depth0_ring["hash_index"]) in ring_dict["HF_0"].keys():
+
                         # find here
-                        model   = getModel('0k_model.h5')   
+                        '''
+                        with zero_graph.as_default(), zero_session.as_default():
+                            diff_0K = getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],zero_model)
+                        
+                        with roomT_graph.as_default(), roomT_session.as_default():
+                            diff_298= getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],roomT_model)
+                        print(diff_0K,diff_298)
+                        exit()
+                        '''
+                        model   = getModel('zero_model.h5')   
                         diff_0K = getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],model)
-                        model   = getModel('nfp.h5')  
+                        model   = getModel('roomT_model.h5')  
                         diff_298= getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],model)
                         RC_0K   = ring_dict["HF_0"][float(depth0_ring["hash_index"])]  + diff_0K
                         RC_298  = ring_dict["HF_298"][float(depth0_ring["hash_index"])]+ diff_298
-                        print(diff_298,ring_dict["HF_298"][float(depth0_ring["hash_index"])])
-                        exit()
+
                         ring_corr_0K  +=RC_0K 
                         ring_corr_298K+=RC_298
                 
