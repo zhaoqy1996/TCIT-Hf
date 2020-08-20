@@ -18,7 +18,7 @@ import utilities
 #getModel and getPrediction are the two main functions. Build the model and load the parameters,
 #then evaluate by supplying two lists, one of the depth1/2 smiles and one of the depth0 smiles
 #I've shown an example below
-def getModel(weights):
+def getModel():
     params = {
         'n_layers'  :3,
         'n_nodes'   :256,
@@ -48,7 +48,6 @@ def getModel(weights):
         input_size = params['input_shape']
     )
 
-    model.load_weights(weights)
     return model
     
 def getPrediction(smiles,R0_smiles,model):
@@ -57,6 +56,7 @@ def getPrediction(smiles,R0_smiles,model):
     predictions = np.squeeze(model.predict_on_batch(x=processed_eval))
     return predictions
 
-model = getModel('roomT_model.h5')
+model = getModel()
+model.load_weights('roomT_model.h5')
 preds = getPrediction(['CC(c1ccccc1)C'],['c1ccccc1'],model)
-
+print(preds)
