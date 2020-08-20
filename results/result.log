@@ -1,3 +1,414 @@
 Working on input_xyz/AAAQKTZKLRYKHR-UHFFFAOYNA-N.xyz...
 Identify rings! Add ring correction to final predictoon
--1.4241935 -20.50010593
+Add ring correction  604216.339932: -21.924299193053894 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
+Add ring correction  604216.339932: -21.924299193053894 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
+Add ring correction  604216.339932: -21.924299193053894 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AAAQKTZKLRYKHR-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[6][6][1]][6[6][1]][6[6][1]]]: 11.07582314
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+[6[6[6][6]][6[6][6]][6[6][6]][1]]: -2.58399519
+[6[6[6][6][1]][6[6][1]][6[6][1]]]: 11.07582314
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+[6[6[6][6][1]][6[6][1]][6[6][1]]]: 11.07582314
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+Prediction of Hf_0 for AAAQKTZKLRYKHR-UHFFFAOYNA-N.xyz is 299.82354765039986 KJ/mol
+Prediction of Hf_298 for AAAQKTZKLRYKHR-UHFFFAOYNA-N.xyz is 283.9852468173951 KJ/mol
+
+
+Working on input_xyz/ABDKAPXRBAPSQN-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  604018.272029: -18.561370683341675 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of ABDKAPXRBAPSQN-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[8[6[1][1][1]][6[6][6]]]      : -28.20410341
+[6[6[8][6]][6[6][1]][8[6]]]   : 8.42875978
+[6[6[8][6]][6[6][1]][8[6]]]   : 8.42875978
+[6[6[8][6]][6[6][1]][1]]      : 7.55212084
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[8][6]][6[6][1]][1]]      : 7.55212084
+[8[6[1][1][1]][6[6][6]]]      : -28.20410341
+Prediction of Hf_0 for ABDKAPXRBAPSQN-UHFFFAOYNA-N.xyz is -193.23419355914035 KJ/mol
+Prediction of Hf_298 for ABDKAPXRBAPSQN-UHFFFAOYNA-N.xyz is -207.0666380063332 KJ/mol
+
+
+Working on input_xyz/ACJPFLIEHGFXGP-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  503416.775569: 1.8855344572460941 kcal/mole into final prediction (based on depth=0 ring  502609.935149)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of ACJPFLIEHGFXGP-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[6][1][1]][6[1][1][1]][6[1][1][1]][6[8][8]]]: -0.01089411
+[6[6[6][6][6]][8[6]][8]]      : -42.34308403
+[8[6[8][6]][6[8][6]]]         : -32.04656154
+[6[6[6][1][1]][8[6]][8]]      : -42.97507548
+[6[6[6][6][6]][6[8][8]][1][1]]: 0.20151123
+Prediction of Hf_0 for ACJPFLIEHGFXGP-UHFFFAOYNA-N.xyz is -545.6073533116654 KJ/mol
+Prediction of Hf_298 for ACJPFLIEHGFXGP-UHFFFAOYNA-N.xyz is -565.922300999782 KJ/mol
+
+
+Working on input_xyz/AEHWKBXBXYNPCX-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  603216.335708: -20.520048789187722 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AEHWKBXBXYNPCX-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[1][1][1]][16[6]][1][1]]  : -5.14938204
+[16[6[6][1][1]][6[6][6]]]     : 9.61815149
+[6[6[6][1]][6[6][1]][16[6]]]  : 9.97867038
+[6[6[16][6]][6[6][1]][1]]     : 6.33811876
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[16][6]][6[6][1]][1]]     : 6.33811876
+Prediction of Hf_0 for AEHWKBXBXYNPCX-UHFFFAOYNA-N.xyz is 95.03191349266172 KJ/mol
+Prediction of Hf_298 for AEHWKBXBXYNPCX-UHFFFAOYNA-N.xyz is 70.5018101253202 KJ/mol
+
+
+Working on input_xyz/AGEZXYOZHKGVCM-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  603021.287516: -21.30051447215622 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AGEZXYOZHKGVCM-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[6][6]][35][1][1]]        : -4.82442564
+[6[6[35][1][1]][6[6][1]][6[6][1]]]: 9.28354483
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+Prediction of Hf_0 for AGEZXYOZHKGVCM-UHFFFAOYNA-N.xyz is 94.01054369241062 KJ/mol
+Prediction of Hf_298 for AGEZXYOZHKGVCM-UHFFFAOYNA-N.xyz is 73.19121054636193 KJ/mol
+
+
+Working on input_xyz/AGQOIYCTCOEHGR-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  502210.842831: -2.5260466039248657 kcal/mole into final prediction (based on depth=0 ring  501608.858770)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AGQOIYCTCOEHGR-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[1][1][1]][6[6][1]][8[7]]]: 9.62837888
+[6[6[8][6]][6[7][1]][1]]      : 3.92948908
+[6[6[6][1]][7[8]][1]]         : 5.15120937
+[7[6[6][1]][8[6]]]            : 25.81028659
+[8[6[6][6]][7[6]]]            : -19.12700024
+Prediction of Hf_0 for AGQOIYCTCOEHGR-UHFFFAOYNA-N.xyz is 74.47264632554457 KJ/mol
+Prediction of Hf_298 for AGQOIYCTCOEHGR-UHFFFAOYNA-N.xyz is 53.894835594399865 KJ/mol
+
+
+Working on input_xyz/AHHWIHXENZJRFG-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+
+AHHWIHXENZJRFG-UHFFFAOYNA-N.xyz can not use TGIT to calculate, the result comes from G4 result
+Add ring correction  402007.943202: 25.8044979756485 kcal/mole into final prediction (based on depth=0 ring  402007.943202)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AHHWIHXENZJRFG-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[8[6[6][1][1]][6[6][1][1]]]   : -27.45236523
+[6[6[6][1][1]][8[6]][1][1]]   : -6.40486185
+[6[6[8][1][1]][6[8][1][1]][1][1]]: -5.75056507
+[6[6[6][1][1]][8[6]][1][1]]   : -6.40486185
+Prediction of Hf_0 for AHHWIHXENZJRFG-UHFFFAOYNA-N.xyz is -60.58876841990258 KJ/mol
+Prediction of Hf_298 for AHHWIHXENZJRFG-UHFFFAOYNA-N.xyz is -84.55083146176875 KJ/mol
+
+
+Working on input_xyz/AJPGNQYBSTXCJE-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  503213.972174: 1.402040371263733 kcal/mole into final prediction (based on depth=0 ring  502611.970209)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AJPGNQYBSTXCJE-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[6][1][1]][6[1][1][1]][16[6]][1]]: -2.22579575
+[16[6[6][6][1]][6[6][1][1]]]  : 9.93368432
+[6[6[6][1][1]][16[6]][1][1]]  : -5.10750967
+[6[6[16][1][1]][6[6][1][1]][1][1]]: -5.21277851
+[6[6[16][6][1]][6[6][1][1]][1][1]]: -5.02661443
+Prediction of Hf_0 for AJPGNQYBSTXCJE-UHFFFAOYNA-N.xyz is -38.1606064217479 KJ/mol
+Prediction of Hf_298 for AJPGNQYBSTXCJE-UHFFFAOYNA-N.xyz is -67.87319844998146 KJ/mol
+
+
+Working on input_xyz/AJPXTSMULZANCB-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  602818.187443: -18.0944879776532 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AJPXTSMULZANCB-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[8][6]][6[6][1]][17]]     : -0.79877799
+[6[6[17][6]][6[6][1]][8[1]]]  : 5.46308973
+[6[6[8][6]][6[6][1]][1]]      : 7.55212084
+[6[6[8][6]][6[6][1]][1]]      : 7.55212084
+[6[6[6][1]][6[6][1]][8[1]]]   : 4.29113119
+[6[6[17][6]][6[8][6]][1]]     : 11.04678615
+[8[6[6][6]][1]]               : -42.14950418
+[8[6[6][6]][1]]               : -42.14950418
+Prediction of Hf_0 for AJPXTSMULZANCB-UHFFFAOYNA-N.xyz is -260.2459225138908 KJ/mol
+Prediction of Hf_298 for AJPXTSMULZANCB-UHFFFAOYNA-N.xyz is -281.52860420932194 KJ/mol
+
+
+Working on input_xyz/ALYNCZNDIQEVRV-BGGKNDAXNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  603417.752067: -24.970905376105957 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of ALYNCZNDIQEVRV-BGGKNDAXNA-N.xyz
+Prediction are made based on such group types:
+[7[6[6][6]][1][1]]            : 1.6463263
+[6[7[1][1]][6[6][1]][6[6][1]]]: 3.38105655
+[6[6[7][6]][6[6][1]][1]]      : 6.45477222
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+[6[6[8][8]][6[6][1]][6[6][1]]]: 11.65676955
+[6[6[6][6]][8[1]][8]]         : -42.70397666
+[8[6[8][6]][1]]               : -49.63129399
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+[6[6[7][6]][6[6][1]][1]]      : 6.45477222
+Prediction of Hf_0 for ALYNCZNDIQEVRV-BGGKNDAXNA-N.xyz is -275.37516281877566 KJ/mol
+Prediction of Hf_298 for ALYNCZNDIQEVRV-BGGKNDAXNA-N.xyz is -307.98306530424327 KJ/mol
+
+
+Working on input_xyz/AQIHMSVIAGNIDM-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  602822.640355: -20.5100283953095 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AQIHMSVIAGNIDM-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[6][6]][35][8]]           : -34.44060923
+[6[6[35][8]][6[6][1]][6[6][1]]]: 11.65909343
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+Prediction of Hf_0 for AQIHMSVIAGNIDM-UHFFFAOYNA-N.xyz is -32.98991110843379 KJ/mol
+Prediction of Hf_298 for AQIHMSVIAGNIDM-UHFFFAOYNA-N.xyz is -37.47609032957123 KJ/mol
+
+
+Working on input_xyz/AQSRRZGQRFFFGS-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  603014.313375: -12.240219275428467 kcal/mole into final prediction (based on depth=0 ring  602210.356875)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AQSRRZGQRFFFGS-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[1][1][1]][6[8][6]][7[6]]]: 8.48861143
+[7[6[6][6]][6[6][1]]]         : 19.03515773
+[6[6[6][1]][7[6]][1]]         : 5.34535224
+[6[6[7][1]][6[6][1]][1]]      : 6.40618774
+[6[6[8][6]][6[6][1]][1]]      : 7.55212084
+[6[6[7][6]][6[6][1]][8[1]]]   : 4.98742505
+[8[6[6][6]][1]]               : -42.14950418
+Prediction of Hf_0 for AQSRRZGQRFFFGS-UHFFFAOYNA-N.xyz is -41.02584578239695 KJ/mol
+Prediction of Hf_298 for AQSRRZGQRFFFGS-UHFFFAOYNA-N.xyz is -52.550967027725115 KJ/mol
+
+
+Working on input_xyz/ATAMXDLUUTYFKT-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  603015.385072: 1.890022323576355 kcal/mole into final prediction (based on depth=0 ring  603213.961149)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of ATAMXDLUUTYFKT-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[16[6[6][1][1]][6[6][1][1]]]  : 10.09207077
+[6[6[8][6]][16[6]][1][1]]     : -5.93909796
+[6[6[16][1][1]][6[6][1][1]][8]]: -31.90808681
+[6[6[6][1][1]][6[8][6]][1][1]]: -5.03545967
+[6[6[16][1][1]][6[6][1][1]][1][1]]: -5.21277851
+[6[6[6][1][1]][16[6]][1][1]]  : -5.10750967
+Prediction of Hf_0 for ATAMXDLUUTYFKT-UHFFFAOYNA-N.xyz is -145.75908964192715 KJ/mol
+Prediction of Hf_298 for ATAMXDLUUTYFKT-UHFFFAOYNA-N.xyz is -172.46780217410293 KJ/mol
+
+
+Working on input_xyz/ATQUFXWBVZUTKO-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  503211.413650: 3.5395813899188235 kcal/mole into final prediction (based on depth=0 ring  502609.428148)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of ATQUFXWBVZUTKO-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[6][1][1]][6[1][1][1]][6[6][1]]]: 10.99333224
+[6[6[6][1][1]][6[6][6]][1]]   : 9.385553
+[6[6[6][1][1]][6[6][1]][1][1]]: -4.91316901
+[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
+[6[6[6][1][1]][6[6][6]][1][1]]: -4.77403301
+Prediction of Hf_0 for ATQUFXWBVZUTKO-UHFFFAOYNA-N.xyz is 27.527776960544667 KJ/mol
+Prediction of Hf_298 for ATQUFXWBVZUTKO-UHFFFAOYNA-N.xyz is -2.940869099860153 KJ/mol
+
+
+Working on input_xyz/AUAGGMPIKOZAJZ-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+
+AUAGGMPIKOZAJZ-UHFFFAOYNA-N.xyz can not use TGIT to calculate, the result comes from G4 result
+Add ring correction  803615.868875: 8.746625893596496 kcal/mole into final prediction (based on depth=0 ring  803615.868875)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AUAGGMPIKOZAJZ-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[8[6[8][1][1]][6[6][1][1]]]   : -28.71674774
+[6[8[6]][8[6]][1][1]]         : -9.74329887
+[8[6[8][1][1]][6[6][1][1]]]   : -28.71674774
+[6[6[8][1][1]][8[6]][1][1]]   : -6.28847123
+[6[6[8][1][1]][8[6]][1][1]]   : -6.28847123
+[8[6[6][1][1]][6[6][1][1]]]   : -27.45236523
+[6[6[8][1][1]][8[6]][1][1]]   : -6.28847123
+[6[6[8][1][1]][8[6]][1][1]]   : -6.28847123
+Prediction of Hf_0 for AUAGGMPIKOZAJZ-UHFFFAOYNA-N.xyz is -424.01675643695404 KJ/mol
+Prediction of Hf_298 for AUAGGMPIKOZAJZ-UHFFFAOYNA-N.xyz is -464.57586255744 KJ/mol
+
+
+Working on input_xyz/AUHZEENZYGFFBQ-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  604216.321382: -29.11417300763672 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AUHZEENZYGFFBQ-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[1][1][1]][6[6][1]][6[6][1]]]: 8.89861164
+[6[6[6][6]][6[6][6]][1]]      : 10.25176267
+[6[6[1][1][1]][6[6][1]][6[6][1]]]: 8.89861164
+[6[6[6][6]][6[6][6]][1]]      : 10.25176267
+[6[6[1][1][1]][6[6][1]][6[6][1]]]: 8.89861164
+[6[6[6][6]][6[6][6]][1]]      : 10.25176267
+Prediction of Hf_0 for AUHZEENZYGFFBQ-UHFFFAOYNA-N.xyz is 11.560037875965524 KJ/mol
+Prediction of Hf_298 for AUHZEENZYGFFBQ-UHFFFAOYNA-N.xyz is -6.771520705073167 KJ/mol
+
+
+Working on input_xyz/AUQDITHEDVOTCU-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  302008.905765: 29.259825332723388 kcal/mole into final prediction (based on depth=0 ring  301805.962243)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AUQDITHEDVOTCU-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[6][1][1]][6[6][1][1]][6[7]][1]]: -2.97367742
+[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
+[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
+[6[6[6][6][1]][7]]            : 27.89085164
+Prediction of Hf_0 for AUQDITHEDVOTCU-UHFFFAOYNA-N.xyz is 195.6443327097095 KJ/mol
+Prediction of Hf_298 for AUQDITHEDVOTCU-UHFFFAOYNA-N.xyz is 182.5675591940093 KJ/mol
+
+
+Working on input_xyz/AWHNUHMUCGRKRA-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  603216.316681: -20.39212190124338 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
+Add ring correction  603216.316681: -20.39212190124338 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AWHNUHMUCGRKRA-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[16[8][8][6]][6[6][6]][1][1]]: -4.93846976
+[6[6[16][1][1]][6[6][1]][6[6][1]]]: 9.82644985
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+[16[6[6][1][1]][6[6][1][1]][8][8]]: -69.63783579
+[6[16[8][8][6]][6[6][6]][1][1]]: -4.93846976
+[6[6[16][1][1]][6[6][1]][6[6][1]]]: 9.82644985
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][1]][6[6][1]][1]]      : 6.74395169
+[6[6[6][6]][6[6][1]][1]]      : 7.05133934
+Prediction of Hf_0 for AWHNUHMUCGRKRA-UHFFFAOYNA-N.xyz is -82.83785081929557 KJ/mol
+Prediction of Hf_298 for AWHNUHMUCGRKRA-UHFFFAOYNA-N.xyz is -133.791837495656 KJ/mol
+
+
+Working on input_xyz/AYKYXWQEBUNJCN-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  502414.229551: -5.096950159887696 kcal/mole into final prediction (based on depth=0 ring  502209.408917)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AYKYXWQEBUNJCN-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[1][1][1]][6[8][8]][6[6][1]]]: 10.03436819
+[6[6[6][6]][8[6]][8]]         : -42.36356968
+[8[6[8][6]][6[8][6]]]         : -32.04656154
+[6[6[6][1]][8[6]][8]]         : -42.70845527
+[6[6[8][8]][6[6][6]][1]]      : 7.88886242
+Prediction of Hf_0 for AYKYXWQEBUNJCN-UHFFFAOYNA-N.xyz is -446.0054060892297 KJ/mol
+Prediction of Hf_298 for AYKYXWQEBUNJCN-UHFFFAOYNA-N.xyz is -478.13625616046335 KJ/mol
+
+
+Working on input_xyz/AZQWKYJCGOJGHM-UHFFFAOYNA-N.xyz...
+Identify rings! Add ring correction to final predictoon
+Add ring correction  602413.740290: 7.963940455722656 kcal/mole into final prediction (based on depth=0 ring  602810.893639)
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of AZQWKYJCGOJGHM-UHFFFAOYNA-N.xyz
+Prediction are made based on such group types:
+[6[6[6][1]][6[6][1]][8]]      : -30.60019155
+[6[6[8][6]][6[6][1]][1]]      : 7.55212084
+[6[6[8][6]][6[6][1]][1]]      : 7.55212084
+[6[6[6][1]][6[6][1]][8]]      : -30.60019155
+[6[6[8][6]][6[6][1]][1]]      : 7.55212084
+[6[6[8][6]][6[6][1]][1]]      : 7.55212084
+Prediction of Hf_0 for AZQWKYJCGOJGHM-UHFFFAOYNA-N.xyz is -110.89747172034993 KJ/mol
+Prediction of Hf_298 for AZQWKYJCGOJGHM-UHFFFAOYNA-N.xyz is -96.3488752762581 KJ/mol
+
+

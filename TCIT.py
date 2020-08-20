@@ -108,21 +108,9 @@ def main(argv):
     else:
         target_xyzs=[os.path.join(dp, f) for dp, dn, filenames in os.walk(args.input_folder) for f in filenames if (fnmatch(f,"*.xyz"))]
 
-    '''
-    # Load in the 0K ML model
-    zero_graph = tf.Graph()
-    with zero_graph.as_default():
-        zero_session = tf.Session()
-        with zero_session.as_default():
-            zero_model=getModel('zero_model.h5')
-    
-    #Load in the 298K model
-    roomT_graph = tf.Graph()
-    with roomT_graph.as_default():
-        roomT_session = tf.Session()
-        with roomT_session.as_default():
-            roomT_model=getModel('roomT_model.h5')
-    '''
+    # load in ML model
+    base_model = getModel()
+
     # loop for target xyz files
     for i in sorted(target_xyzs):
         print("Working on {}...".format(i))
@@ -160,21 +148,12 @@ def main(argv):
                         print("\n{} can not use TGIT to calculate, the result comes from G4 result".format(i.split('/')[-1]))
 
                     if float(depth0_ring["hash_index"]) in ring_dict["HF_0"].keys():
-
-                        # find here
-                        '''
-                        with zero_graph.as_default(), zero_session.as_default():
-                            diff_0K = getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],zero_model)
-                        
-                        with roomT_graph.as_default(), roomT_session.as_default():
-                            diff_298= getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],roomT_model)
-                        print(diff_0K,diff_298)
-                        exit()
-                        '''
-                        model   = getModel('zero_model.h5')   
-                        diff_0K = getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],model)
-                        model   = getModel('roomT_model.h5')  
-                        diff_298= getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],model)
+                        # predict difference at 0K
+                        base_model.load_weights('zero_model.h5')
+                        diff_0K = getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],base_model)
+                        # predict difference at 298K
+                        base_model.load_weights('roomT_model.h5')
+                        diff_298= getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],base_model)
                         RC_0K   = ring_dict["HF_0"][float(depth0_ring["hash_index"])]  + diff_0K
                         RC_298  = ring_dict["HF_298"][float(depth0_ring["hash_index"])]+ diff_298
 
@@ -372,9 +351,7 @@ def minimal_structure(atomtype,geo,elements,adj_mat=None,gens=2):
     return minimal_flag
 
 #getModel and getPrediction are the two main functions. Build the model and load the parameters,
-#then evaluate by supplying two lists, one of the depth1/2 smiles and one of the depth0 smiles
-#I've shown an example below
-def getModel(weights):
+def getModel():
     params = {
         'n_layers'  :3,
         'n_nodes'   :256,
@@ -404,7 +381,7 @@ def getModel(weights):
         input_size = params['input_shape']
     )
 
-    model.load_weights(weights)
+    #model.load_weights(weights)
     return model
     
 def getPrediction(smiles,R0_smiles,model):
