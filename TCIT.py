@@ -22,7 +22,8 @@ random.seed(0)
 from taffi_need import * 
 from deal_ring import get_rings
 
-#these two are included scripts
+# import Machine learning related functions
+sys.path.append('/'.join(os.path.abspath(__file__).split('/')[:-1])+'/ML-package')
 import preprocess
 import utilities
 
@@ -40,7 +41,7 @@ def main(argv):
     parser.add_argument('-i', dest='input_folder', default='input_xyz',
                         help = 'The program loops over all of the .xyz files in this input folder and makes Hf predictions for them (default: "input_xyz"')
 
-    parser.add_argument('-o', dest='outputname', default='results',
+    parser.add_argument('-o', dest='outputname', default='result',
                         help = 'Controls the output file name for the results (default: "results")')
 
     parser.add_argument('-db', dest='dbfile', default='database/TAFFI_HF.db',
@@ -149,10 +150,10 @@ def main(argv):
 
                     if float(depth0_ring["hash_index"]) in ring_dict["HF_0"].keys():
                         # predict difference at 0K
-                        base_model.load_weights('zero_model.h5')
+                        base_model.load_weights('ML-package/zero_model.h5')
                         diff_0K = getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],base_model)
                         # predict difference at 298K
-                        base_model.load_weights('roomT_model.h5')
+                        base_model.load_weights('ML-package/roomT_model.h5')
                         diff_298= getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],base_model)
                         RC_0K   = ring_dict["HF_0"][float(depth0_ring["hash_index"])]  + diff_0K
                         RC_298  = ring_dict["HF_298"][float(depth0_ring["hash_index"])]+ diff_298
@@ -164,7 +165,7 @@ def main(argv):
                     
                     else:
                         print("Information of ring {} is missing, the final prediction might be not accurate, please update ring_correction database first".format(ring["hash_index"]))
-                        write_xyz("missing_rings/ring_{}".format(ring["hash_index"]),ring["elements"],ring["geometry"])
+                        write_xyz("missing_rings/ring_{}".format(float(ring["hash_index"])),ring["elements"],ring["geometry"])
 
             else: 
                 print("Identify rings, but the heavy atom number in the ring is greater than 12, don't need add ring correction")
@@ -381,7 +382,6 @@ def getModel():
         input_size = params['input_shape']
     )
 
-    #model.load_weights(weights)
     return model
     
 def getPrediction(smiles,R0_smiles,model):
@@ -392,9 +392,9 @@ def getPrediction(smiles,R0_smiles,model):
 
 # Logger object redirects standard output to a file.
 class Logger(object):
-    def __init__(self,folder):
+    def __init__(self,filename):
         self.terminal = sys.stdout
-        self.log = open(folder+"/result.log", "w")
+        self.log = open("{}.log".format(filename), "w")
 
     def write(self, message):
         self.terminal.write(message)

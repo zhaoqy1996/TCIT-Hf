@@ -15,3 +15,4 @@ The script operates on .xyz files, prints out the taffi components and correspon
 ## Usage
 1. Put xyz files of the compounds with research interest in one folder (default: input_xyz)
 2. Type "python TCIT.py -h" for help if you want specify the database files and run this program.
+3. By default, run "python TCIT" and the program will take all xyz files in "input_xyz" and return a prediction result in result.log
