@@ -526,6 +526,7 @@ def opt_geo(geo,adj_mat,elements,q=0,ff='uff',step=100):
     # Remove the tmp file that was read by obminimize
     try:
         os.remove(tmp_filename)
+        os.remove("result.xyz")
     except:
         pass
     return geo

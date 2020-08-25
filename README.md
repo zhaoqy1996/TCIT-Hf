@@ -13,6 +13,12 @@ The script operates on .xyz files, prints out the taffi components and correspon
 4. numpy 1.17 or higher
 
 ## Usage
+If your input type a xyz file:
 1. Put xyz files of the compounds with research interest in one folder (default: input_xyz)
 2. Type "python TCIT.py -h" for help if you want specify the database files and run this program.
 3. By default, run "python TCIT" and the program will take all xyz files in "input_xyz" and return a prediction result in result.log
+
+If your input type is smiles string:
+1. Make a list of smiles string (default: input.txt)
+2. Type "python TCIT.py -h" for help if you want specify the database files and run this program.
+3. By default, run "python TCIT -t smiles" and the program will take all smiles string in input.txt and return a prediction result in result.log

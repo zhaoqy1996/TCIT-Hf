@@ -109,7 +109,7 @@ def get_rings(E,G,gens=2,return_R0=True):
         rings_depth0[lr_0]["ring_inds"]  = N_ring_inds
         rings_depth0[lr_0]["hash_index"] = "{:< 12.6f}".format(hash_sum)
         rings_depth0[lr_0]["N_heavy"]    = len(ring_ind_depth0)
-        rings_depth0[lr_0]["smiles"]     = return_smi(N_E,N_G)
+        rings_depth0[lr_0]["smiles"]     = return_smi(N_E,N_G,N_adj_mat)
         lr_0 += 1    
 
         # Then generate depth=2 RC
@@ -144,7 +144,7 @@ def get_rings(E,G,gens=2,return_R0=True):
             rings_depth2[lr_2]["ring_inds"]  = N_ring_inds
             rings_depth2[lr_2]["hash_index"] = "{:< 12.6f}".format(hash_sum)
             rings_depth2[lr_2]["N_heavy"]    = len(ring_ind_depth2)
-            rings_depth2[lr_2]["smiles"]     = return_smi(N_E,N_G)
+            rings_depth2[lr_2]["smiles"]     = return_smi(N_E,N_G,N_adj_mat)
             rings_depth2[lr_2]["ringsides"]  = ring_ns_nonH
             lr_2 += 1    
 
@@ -153,9 +153,8 @@ def get_rings(E,G,gens=2,return_R0=True):
     else:
         return rings_depth2
 
-################################################################
 # This function is used to give a connect sequence of ring atoms
-################################################################
+#
 def canon_ring_geo(E,G,atomtypes,adj_mat,ring_inds,atoms):
     
     first=[atom for atom in atoms if atom in ring_inds][0]
@@ -178,6 +177,7 @@ def canon_ring_geo(E,G,atomtypes,adj_mat,ring_inds,atoms):
 # Add hydrogens based upon the supplied atom types. 
 # This function is only compatible with TAFFI atom types
 # NOTE: Hydrogenation heuristics for geometry assume carbon behavior. This isn't usually a problem when the results are refined with transify, but more specific rules should be implemented in the future
+#
 def ring_add_hydrogens(geo,adj_mat_0,bond_mat_0,atomtypes,elements,q_tot=0,preserve=[],saturate=True,retype=True):
     
     # Initialize the saturation dictionary the first time this function is called
@@ -427,15 +427,15 @@ def normalize(x):
     return x/sum(x**(2.0))**(0.5)
 
 # Return smiles string 
-def return_smi(E,G):
-    xyz_write("ring",E,G)
-    substring = "obabel -ixyz ring.xyz -ocan"
+def return_smi(E,G,adj_mat):
+    mol_write("obabel_input.mol",E,G,adj_mat)
+    substring = "obabel -imol obabel_input.mol -ocan"
     output = subprocess.Popen(substring,shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE).communicate()[0]
     output = output.decode('utf-8')
     smile  = output.split()[0]
+    os.system("rm obabel_input.mol")
     return smile
 
-#'''
 # Return true if idx is a ring atom
 def ring_atom(adj_mat,idx,start=None,ring_size=10,counter=0,avoid_set=None,in_ring=None):
 
@@ -477,7 +477,7 @@ def ring_atom(adj_mat,idx,start=None,ring_size=10,counter=0,avoid_set=None,in_ri
                 in_ring.add(i)
                 return True,in_ring
         return False,[]
-#'''
+
 if __name__ == "__main__":
    main(sys.argv[1:])
 

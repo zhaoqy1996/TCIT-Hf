@@ -38,8 +38,12 @@ def main(argv):
                                                  'of the script, and compounds that require missing CAVs are skipped.' )
 
     #optional arguments                                                                                                                   
-    parser.add_argument('-i', dest='input_folder', default='input_xyz',
-                        help = 'The program loops over all of the .xyz files in this input folder and makes Hf predictions for them (default: "input_xyz"')
+    parser.add_argument('-t', dest='Itype', default='xyz',
+                        help = 'Controls the input type, either xyz of smiles (default: "xyz")')
+
+    parser.add_argument('-i', dest='input_name',
+                        help = 'If input type is xyz, the program loops over all of the .xyz files in this input folder and makes Hf predictions for them (default: "input_xyz",\
+                                If input type is smiles, the program loops over all of the smiles string in the given file (default: "input.txt")')
 
     parser.add_argument('-o', dest='outputname', default='result',
                         help = 'Controls the output file name for the results (default: "results")')
@@ -56,6 +60,16 @@ def main(argv):
     # parse configuration dictionary (c)                                                                                                   
     print("parsing calculation configuration...")
     args=parser.parse_args()    
+    # set default value
+    if args.Itype not in ['xyz','smiles']:
+        print("Warning! input_type must be either xyz or smiles, use default xyz...")
+        args.Itype = 'xyz'
+
+    if args.Itype == 'xyz' and args.input_name == None:
+        args.input_name = 'input_xyz'
+
+    if args.Itype == 'smiles' and args.input_name == None:
+        args.input_name = 'input.txt'
     
     ##################################################                                                                                    
 
@@ -103,20 +117,29 @@ def main(argv):
     sys.stdout = Logger(args.outputname)
 
     # find all xyz files in given folder
-    if args.input_folder is None:
-        target_xyzs=[os.path.join(dp, f) for dp, dn, filenames in os.walk('.') for f in filenames if (fnmatch(f,"*.xyz"))]
-
+    if args.Itype == 'xyz':
+        target_xyzs=[os.path.join(dp, f) for dp, dn, filenames in os.walk(args.input_name) for f in filenames if (fnmatch(f,"*.xyz"))]
+        items      = sorted(target_xyzs)
     else:
-        target_xyzs=[os.path.join(dp, f) for dp, dn, filenames in os.walk(args.input_folder) for f in filenames if (fnmatch(f,"*.xyz"))]
-
+        target_smiles = []
+        with open(args.input_name,"r") as f:
+            for line in f:
+                target_smiles.append(line.strip())
+        items = target_smiles
+        
     # load in ML model
     base_model = getModel()
 
     # loop for target xyz files
-    for i in sorted(target_xyzs):
+    for i in items:
         print("Working on {}...".format(i))
-        E,G = xyz_parse(i)
-
+        if args.Itype == 'xyz':
+            E,G = xyz_parse(i)
+            name = i.split('/')[-1]
+        else:
+            E,G = parse_smiles(i)
+            name = i
+            
         if True in [element.lower() not in ['h','c','n','o','f','s','cl','br','p'] for element in E]:
             print("can't deal with some element in this compounds")
             continue
@@ -188,7 +211,7 @@ def main(argv):
                 print("\n"+"="*120)
                 print("="*120)
                 print("\nNo more information is needed, begin to calculate enthalpy of fomation of {}".format(i.split('/')[-1]))
-                calculate_GAV(i,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K)
+                calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K)
                 if len(group_types) < 2: 
                     print("\n{} is too small for TCIT prediction, the result comes directly from a G4 calculation".format(i.split('/')[-1]))
 
@@ -202,19 +225,20 @@ def main(argv):
                 print("\n"+"="*120)
                 print("="*120)
                 print("\nNo more information is needed, begin to calculate enthalpy of fomation of {}".format(i.split('/')[-1]))
-                calculate_GAV(i,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K)
+                calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K)
                 
             else:
                 print("\n"+"="*120)
                 print("Unknown CAVs are required for this compound, skipping...\n") 
                 print("\n"+"="*120)
+    quit()
 
-def calculate_GAV(input_xyz,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K):
+# function to calculate Hf based on given TCIT database
+def calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K):
 
     kj2kcal = 0.239006
     H2kcal =  627.509
 
-    E,G = xyz_parse(input_xyz)
     adj_mat = Table_generator(E,G)
     atom_types = id_types(E,adj_mat,2)
     atom_types = [atom_type.replace('R','') for atom_type in atom_types]
@@ -254,10 +278,36 @@ def calculate_GAV(input_xyz,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_co
     print("Prediction are made based on such group types:")
     for j in group_types:
         print("{:30s}: {}".format(j,FF_dict["HF_298"][j]))
-    print("Prediction of Hf_0 for {} is {} KJ/mol".format(input_xyz.split('/')[-1], Hf_target_0/kj2kcal))
-    print("Prediction of Hf_298 for {} is {} KJ/mol\n\n".format(input_xyz.split('/')[-1], Hf_target_298/kj2kcal))
+    print("Prediction of Hf_0 for {} is {} KJ/mol".format(name, Hf_target_0/kj2kcal))
+    print("Prediction of Hf_298 for {} is {} KJ/mol\n\n".format(name, Hf_target_298/kj2kcal))
     return
 
+# Function that take smile string and return element and geometry
+def parse_smiles(smiles):
+    # load in rdkit
+    from rdkit import Chem
+    from rdkit.Chem import AllChem
+
+    # construct rdkir object
+    m = Chem.MolFromSmiles(smiles)
+    m2= Chem.AddHs(m)
+    AllChem.EmbedMolecule(m2)
+    
+    # parse mol file and obtain E & G
+    lines = Chem.MolToMolBlock(m2).split('\n')
+    E = []
+    G = []
+    for line in lines:
+        fields = line.split()
+        if len(fields) > 5 and fields[0] != 'M' and fields[-1] != 'V2000':
+            E  += [fields[3]]
+            geo = [float(x) for x in fields[:3]]
+            G  += [geo]
+
+    G = np.array(G)
+    return E,G
+
+# load in TCIT CAV database
 def parse_HF_database(db_files,FF_dict={"HF_0":{},"HF_298":{}}):
     with open(db_files,'r') as f:
         for lines in f:
@@ -268,6 +318,7 @@ def parse_HF_database(db_files,FF_dict={"HF_0":{},"HF_298":{}}):
                 FF_dict["HF_298"][fields[1]] = float(fields[3])
     return FF_dict
 
+# load in depth=0 ring correction database
 def parse_ringcorr(db_file,RC_dict={"HF_0":{},"HF_298":{}}):
     with open(db_file,'r') as f:
         for lines in f:
@@ -279,6 +330,7 @@ def parse_ringcorr(db_file,RC_dict={"HF_0":{},"HF_298":{}}):
                 RC_dict["HF_298"][float(fields[0])] = float(fields[2])
     return RC_dict
 
+# load in G4 database
 def parse_G4_database(db_files,FF_dict={"HF_0":{},"HF_298":{}}):
     with open(db_files,'r') as f:
         for lines in f:
