@@ -1,3 +1,4 @@
+C(CC(=O)O)CN
 c1ccc(cc1)C(c1ccccc1)c1ccccc1
 COc1ccccc1OC
 O=C1OC(=O)C(C1)(C)C
