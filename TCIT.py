@@ -1,7 +1,8 @@
 # This is file is write to 
 # 1. Indentify whether this is a minimal structure or not, if so, append it into database
-# 2. use Taffi group theory to get prediction of Hf
-# Author: Qiyuan Zhao, Nicolae C. Iovanac (Based on taffi)
+# 2. use Taffi component theory to get prediction of Hf
+# Author: Qiyuan Zhao, Nicolae C. Iovanac
+
 def warn(*args,**kwargs): #Keras spits out a bunch of junk
     pass
 import warnings

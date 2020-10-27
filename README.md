@@ -12,6 +12,15 @@ The script operates on .xyz files, prints out the taffi components and correspon
 3. tensorflow 2.X
 4. numpy 1.17 or higher
 
+## Set up an environment if needed
+conda create -n python3 python=3.7
+source activate python3
+conda install numpy=1.17.2
+conda install tensorflow=2.0.0
+conda install matplotlib=3.1.0
+conda install -c anaconda scikit-learn=0.21.3 
+conda install -c conda-forge rdkit
+
 ## Usage
 If your input type a xyz file:
 1. Put xyz files of the compounds with research interest in one folder (default: input_xyz)
