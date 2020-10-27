@@ -33,3 +33,6 @@ If your input type is smiles string:
 1. Make a list of smiles string (default: input.txt)
 2. Type "python TCIT.py -h" for help if you want specify the database files and run this program.
 3. By default, run "python TCIT -t smiles" and the program will take all smiles string in input.txt and return a prediction result in result.log
+
+## Notes
+1. Make sure the bin folder of openbabel is added in the environment setting, or 'alias obabel=' to that bin folder 
