@@ -156,6 +156,8 @@ def main(argv):
         ring_corr_0K  = 0
         ring_corr_298K= 0
 
+        ring_flag = False
+        
         if True in ring_inds: # add ring correction to final prediction
             RC0,RC2=get_rings(E,G,gens=2,return_R0=True) 
 
