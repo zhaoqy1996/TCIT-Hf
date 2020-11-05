@@ -22,7 +22,10 @@ random.seed(0)
 # import taffi related functions
 sys.path.append('utilities')
 from taffi_functions import * 
-from deal_ring import get_rings
+from deal_ring import get_rings,return_smi
+
+sys.path.append('SIMPOL')
+from SIMPOL import calculate_PandHvap
 
 # import Machine learning related functions
 sys.path.append('/'.join(os.path.abspath(__file__).split('/')[:-1])+'/ML-package')
@@ -137,9 +140,11 @@ def main(argv):
         print("Working on {}...".format(i))
         if args.Itype == 'xyz':
             E,G = xyz_parse(i)
-            name = i.split('/')[-1]
+            name  = i.split('/')[-1]
+            
         else:
             E,G = parse_smiles(i)
+            smiles = i
             name = i
             
         if True in [element.lower() not in ['h','c','n','o','f','s','cl','br','p'] for element in E]:
@@ -147,8 +152,11 @@ def main(argv):
             continue
 
         adj_mat = Table_generator(E,G)
+        # if input type is xyz, generate smiles string
+        if args.Itype == 'xyz':
+            smiles= return_smi(E,G,adj_mat)
+                        
         atom_types = id_types(E,adj_mat,2)
-
         # replace "R" group by normal group
         atom_types = [atom_type.replace('R','') for atom_type in atom_types]
 
@@ -213,7 +221,12 @@ def main(argv):
                 print("\n"+"="*120)
                 print("="*120)
                 print("\nNo more information is needed, begin to calculate enthalpy of fomation of {}".format(i.split('/')[-1]))
-                calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K)
+                Hf_0,Hf_298 = calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K)
+
+                # predict liquid phase enthalpy of formation (at room temperature)
+                P,H_vap = calculate_PandHvap(smiles,T=298)
+                print("Prediction of Hf_298 for {} in liquid pahse is {} kJ/mol\n\n".format(name, Hf_298-H_vap))
+
                 if len(group_types) < 2: 
                     print("\n{} is too small for TCIT prediction, the result comes directly from a G4 calculation".format(i.split('/')[-1]))
 
@@ -227,8 +240,10 @@ def main(argv):
                 print("\n"+"="*120)
                 print("="*120)
                 print("\nNo more information is needed, begin to calculate enthalpy of fomation of {}".format(i.split('/')[-1]))
-                calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K)
-                
+                Hf_0,Hf_298 = calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K)
+                P,H_vap = calculate_PandHvap(smiles,T=298)
+                print("Prediction of Hf_298 for {} in liquid pahse is {} kJ/mol\n\n".format(name, Hf_298-H_vap))
+
             else:
                 print("\n"+"="*120)
                 print("Unknown CAVs are required for this compound, skipping...\n") 
@@ -280,9 +295,10 @@ def calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_cor
     print("Prediction are made based on such group types:")
     for j in group_types:
         print("{:30s}: {}".format(j,FF_dict["HF_298"][j]))
-    print("Prediction of Hf_0 for {} is {} KJ/mol".format(name, Hf_target_0/kj2kcal))
-    print("Prediction of Hf_298 for {} is {} KJ/mol\n\n".format(name, Hf_target_298/kj2kcal))
-    return
+    print("Prediction of Hf_0 for {} is {} kJ/mol".format(name, Hf_target_0/kj2kcal))
+    print("Prediction of Hf_298 for {} is {} kJ/mol\n\n".format(name, Hf_target_298/kj2kcal))
+
+    return Hf_target_0/kj2kcal,Hf_target_298/kj2kcal
 
 # Function that take smile string and return element and geometry
 def parse_smiles(smiles):

@@ -5,7 +5,7 @@ from math import sqrt,sin,acos,cos,tan,factorial
 from scipy import cross
 
 # import taffi related functions
-from taffi_need import * 
+from taffi_functions import * 
 
 def main(argv):
     gens=2
