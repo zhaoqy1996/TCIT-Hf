@@ -22,8 +22,9 @@ random.seed(0)
 # import taffi related functions
 sys.path.append('utilities')
 from taffi_functions import * 
-from deal_ring import get_rings,return_smi
+from deal_ring import get_rings,return_smi 
 
+# import SIMPOL module to get H_vap
 sys.path.append('SIMPOL')
 from SIMPOL import calculate_PandHvap
 
@@ -65,6 +66,7 @@ def main(argv):
     # parse configuration dictionary (c)                                                                                                   
     print("parsing calculation configuration...")
     args=parser.parse_args()    
+
     # set default value
     if args.Itype not in ['xyz','smiles']:
         print("Warning! input_type must be either xyz or smiles, use default xyz...")
@@ -76,37 +78,8 @@ def main(argv):
     if args.Itype == 'smiles' and args.input_name == None:
         args.input_name = 'input.txt'
     
-    ##################################################                                                                                    
-
-    # Initializing dictionary
-
-    ##################################################                                                                                   
-
+    # Energy convert from kj to kcal
     kj2kcal = 0.239006
-    H2kcal =  627.509
-
-    # Tabulated enthalpies of formation for gaseous atoms, taken from Curtiss et al. J Chem Phys, 1997
-    Hf_atom_0k = { "H":51.63, "Li":37.69, "Be":76.48, "B":136.2, "C":169.98, "N":112.53, "O":58.99, "F":18.47, "Na":25.69, "Mg":34.87, "Al":78.23, "Si":106.6, "P":75.42, "S":65.66, "Cl":28.59 ,"Br":26.77}
-
-    # G4 Atom Energy table, taken from Curtiss et al. J Chem Phys, 2007                                                                   
-    Atom_G4 = { "H":-0.501420, "Li":-7.46636, "Be":-14.65765, "B":-24.64665, "C":-37.834168, "N":-54.57367, "O":-75.0455, "F":-99.70498,\
-                "Na":-162.11789, "Mg":-199.91204, "Al":-242.22107, "Si":-289.23704, "P":-341.13463, "S":-397.98018, "Cl":-460.01505,\
-                "Br":-2573.5854}
-
-    # H(298K) - H(0K) values for gaseous atoms, taken from Curtiss et al. J Chem Phys, 1997
-    H298km0k   = { "H":1.01,  "Li":1.10,  "Be":0.46,  "B":0.29,  "C":0.25,   "N":1.04,   "O":1.04,  "F":1.05,  "Na":1.54,  "Mg":1.19,  "Al":1.08,  "Si":0.76,  "P":1.28,  "S":1.05,  "Cl":1.10, "Br":1.48}
-
-    # Initialize periodic table
-    periodic = { "H": 1,  "He": 2,\
-                 "Li":3,  "Be":4,                                                                                                      "B":5,    "C":6,    "N":7,    "O":8,    "F":9,    "Ne":10,\
-                 "Na":11, "Mg":12,                                                                                                     "Al":13,  "Si":14,  "P":15,   "S":16,   "Cl":17,  "Ar":18,\
-                  "K":19, "Ca":20,   "Sc":21,  "Ti":22,  "V":23,  "Cr":24,  "Mn":25,  "Fe":26,  "Co":27,  "Ni":28,  "Cu":29,  "Zn":30, "Ga":31,  "Ge":32,  "As":33, "Se":34,  "Br":35,   "Kr":36,\
-                 "rb":37, "sr":38,  "y":39,   "zr":40,  "nb":41, "mo":42,  "tc":43,  "ru":44,  "rh":45,  "pd":46,  "ag":47,  "cd":48,  "in":49,  "sn":50,  "sb":51,  "te":52,  "i":53,   "xe":54,\
-                 "cs":55, "ba":56,            "hf":72,  "ta":73, "w":74,   "re":75,  "os":76,  "ir":77,  "pt":78,  "au":79,  "hg":80,  "tl":81,  "pb":82,  "bi":83,  "po":84,  "at":85,  "rn":86}    
-
-    invert_periodic = {}
-    for p in periodic.keys():
-        invert_periodic[periodic[p]]=p
 
     # load database
     FF_dict = parse_HF_database(args.dbfile)    
@@ -143,68 +116,23 @@ def main(argv):
         print("Working on {}...".format(i))
         if args.Itype == 'xyz':
             E,G = xyz_parse(i)
-            name  = i.split('/')[-1]
-            
+            name = i.split('/')[-1]
+            smiles= return_smi(E,G,adj_mat)
+
         else:
             E,G = parse_smiles(i)
-            smiles = i
-            name = i
+            name =  i
+            smiles= i
             
         if True in [element.lower() not in ['h','c','n','o','f','s','cl','br','p'] for element in E]:
             print("can't deal with some element in this compounds")
             continue
 
         adj_mat = Table_generator(E,G)
-        # if input type is xyz, generate smiles string
-        if args.Itype == 'xyz':
-            smiles= return_smi(E,G,adj_mat)
-                        
         atom_types = id_types(E,adj_mat,2)
+
         # replace "R" group by normal group
         atom_types = [atom_type.replace('R','') for atom_type in atom_types]
-
-        # identify ring structure
-        ring_inds     = [ring_atom(adj_mat,j) for j,Ej in enumerate(E)] 
-        ring_corr_0K  = 0
-        ring_corr_298K= 0
-        ring_flag = False
-        
-        if True in ring_inds: # add ring correction to final prediction
-            RC0,RC2=get_rings(E,G,gens=2,return_R0=True) 
-
-            if len(RC0.keys()) > 0:
-                print("Identify rings! Add ring correction to final predictoon")
-                ring_flag = True
-                for key in RC0.keys():
-                    depth0_ring=RC0[key]
-                    depth2_ring=RC2[key] 
-
-                    NonH_E = [ele for ele in E if ele is not 'H']
-                    ring_NonH_E = [ele for ele in depth2_ring["elements"] if ele is not 'H']
-
-                    if len(depth2_ring["ringsides"]) == 0:
-                        print("\n{} can not use TGIT to calculate, the result comes from G4 result".format(i.split('/')[-1]))
-
-                    if float(depth0_ring["hash_index"]) in ring_dict["HF_0"].keys():
-                        # predict difference at 0K
-                        base_model.load_weights('ML-package/zero_model.h5')
-                        diff_0K = getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],base_model)
-                        # predict difference at 298K
-                        base_model.load_weights('ML-package/roomT_model.h5')
-                        diff_298= getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],base_model)
-                        RC_0K   = ring_dict["HF_0"][float(depth0_ring["hash_index"])]  + diff_0K
-                        RC_298  = ring_dict["HF_298"][float(depth0_ring["hash_index"])]+ diff_298
-
-                        ring_corr_0K  +=RC_0K 
-                        ring_corr_298K+=RC_298
-                
-                        print("Add ring correction {}: {} kcal/mole into final prediction (based on depth=0 ring {})".format(depth2_ring["hash_index"],RC_298,depth0_ring["hash_index"]))
-                    
-                    else:
-                        print("Information of ring {} is missing, the final prediction might be not accurate, please update ring_correction database first".format(depth0_ring["hash_index"]))
-
-            else: 
-                print("Identify rings, but the heavy atom number in the ring is greater than 12, don't need add ring correction")
         
         # remove terminal atoms                                                                                                           
         B_inds = [count_j for count_j,j in enumerate(adj_mat) if sum(j)>1 ]
@@ -219,54 +147,77 @@ def main(argv):
         # indentify whether this is a minimal structure or not
         min_types = [ j for j in group_types if minimal_structure(j,G,E,gens=2) is True ]
 
-        if ring_flag is False: # deal with linear strcuture
-            if len(Unknown) == 0: 
-                print("\n"+"="*120)
-                print("="*120)
-                print("\nNo more information is needed, begin to calculate enthalpy of fomation of {}".format(i.split('/')[-1]))
-                Hf_0,Hf_298 = calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K)
-                
-                # predict liquid phase enthalpy of formation (at room temperature)
-                P,H_vap = calculate_PandHvap(smiles,T=298)
-                print("Prediction of Hf_298 for {} in liquid pahse is {} kJ/mol\n\n".format(name, Hf_298-H_vap))
-                TCITresult[smiles]=Hf_298-H_vap
+        if len(Unknown) == 0: 
+            print("\n"+"="*120)
+            print("="*120)
+            print("\nNo more information is needed, begin to calculate enthalpy of fomation of {}".format(i.split('/')[-1]))
 
-                if len(group_types) < 2: 
-                    print("\n{} is too small for TCIT prediction, the result comes directly from a G4 calculation".format(i.split('/')[-1]))
+            # calculate gasous phase enthalpy of formation
+            Hf_0k,Hf_298k = calculate_CAV(E,G,adj_mat,name,FF_dict,ring_dict,base_model)
 
-            else:
-                print("\n"+"="*120)
-                print("Unknown CAVs are required for this compound, skipping...\n") 
-                print("\n"+"="*120)
+            # predict liquid phase enthalpy of formation (at room temperature)
+            P,H_vap = calculate_PandHvap(smiles,T=298.0)
+            print("Prediction of Hf_298 for {} in liquid pahse is {} kJ/mol\n\n".format(name, Hf_298k/kj2kcal-H_vap))
+            TCITresult[smiles]=Hf_298k-H_vap
+            
+        else:
+            print("\n"+"="*120)
+            print("Unknown CAVs are required for this compound, skipping...\n") 
+            print("\n"+"="*120)
 
-        else: # deal with ring structure
-            if len(Unknown) == 0:
-                print("\n"+"="*120)
-                print("="*120)
-                print("\nNo more information is needed, begin to calculate enthalpy of fomation of {}".format(i.split('/')[-1]))
-                Hf_0,Hf_298 = calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K)
-                P,H_vap = calculate_PandHvap(smiles,T=298)
-                print("Prediction of Hf_298 for {} in liquid pahse is {} kJ/mol\n\n".format(name, Hf_298-H_vap))
-                TCITresult[smiles]=Hf_298-H_vap
-
-            else:
-                print("\n"+"="*120)
-                print("Unknown CAVs are required for this compound, skipping...\n") 
-                print("\n"+"="*120)
-                
-    with open("TCIT_result.txt","w") as f:
-        for smiles in sorted(TCITresult.keys()):
-            f.write("{:<60s} {:<10.2f}\n".format(smiles,TCITresult[smiles]))
-
-    quit()
+    return
 
 # function to calculate Hf based on given TCIT database
-def calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K):
+def calculate_CAV(E,G,adj_mat,name,FF_dict,ring_dict,base_model):
 
+    # Energy convert from kj to kcal
     kj2kcal = 0.239006
-    H2kcal =  627.509
 
-    adj_mat = Table_generator(E,G)
+    # identify ring structure
+    ring_inds     = [ring_atom(adj_mat,j) for j,Ej in enumerate(E)] 
+    ring_corr_0K  = 0
+    ring_corr_298K= 0
+            
+    if True in ring_inds: # add ring correction to final prediction
+
+        # generate depth=0 and depth=2 rings
+        RC0,RC2=get_rings(E,G,gens=2,return_R0=True) 
+
+        if len(RC0.keys()) > 0:
+
+            print("Identify rings! Add ring correction to final predictoon")
+
+            for key in RC0.keys():
+                depth0_ring=RC0[key]
+                depth2_ring=RC2[key] 
+
+                NonH_E = [ele for ele in E if ele is not 'H']
+                ring_NonH_E = [ele for ele in depth2_ring["elements"] if ele is not 'H']
+
+                if float(depth0_ring["hash_index"]) in ring_dict["HF_0"].keys():
+
+                    # predict difference at 0K
+                    base_model.load_weights('ML-package/zero_model.h5')
+                    diff_0K = getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],base_model)
+
+                    # predict difference at 298K
+                    base_model.load_weights('ML-package/roomT_model.h5')
+                    diff_298= getPrediction([depth2_ring["smiles"]],[depth0_ring["smiles"]],base_model)
+                    RC_0K   = ring_dict["HF_0"][float(depth0_ring["hash_index"])]  + diff_0K
+                    RC_298  = ring_dict["HF_298"][float(depth0_ring["hash_index"])]+ diff_298
+
+                    ring_corr_0K  +=RC_0K 
+                    ring_corr_298K+=RC_298
+                
+                    print("Add ring correction {}: {} kcal/mole into final prediction (based on depth=0 ring {})".format(depth2_ring["hash_index"],RC_298,depth0_ring["hash_index"]))
+                    
+                else:
+                    print("Information of ring {} is missing, the final prediction might be not accurate, please update ring_correction database first".format(depth0_ring["hash_index"]))
+
+        else: 
+            print("Identify rings, but the heavy atom number in the ring is greater than 12, don't need add ring correction")
+
+    # determine component types
     atom_types = id_types(E,adj_mat,2)
     atom_types = [atom_type.replace('R','') for atom_type in atom_types]
 
@@ -305,10 +256,10 @@ def calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_cor
     print("Prediction are made based on such group types:")
     for j in group_types:
         print("{:30s}: {}".format(j,FF_dict["HF_298"][j]))
-    print("Prediction of Hf_0 for {} is {} kJ/mol".format(name, Hf_target_0/kj2kcal))
-    print("Prediction of Hf_298 for {} is {} kJ/mol\n\n".format(name, Hf_target_298/kj2kcal))
+    print("Prediction of Hf_0 for {} is {} KJ/mol".format(name, Hf_target_0/kj2kcal))
+    print("Prediction of Hf_298 for {} is {} KJ/mol\n\n".format(name, Hf_target_298/kj2kcal))
 
-    return Hf_target_0/kj2kcal,Hf_target_298/kj2kcal
+    return Hf_target_0,Hf_target_298
 
 # Function that take smile string and return element and geometry
 def parse_smiles(smiles):
