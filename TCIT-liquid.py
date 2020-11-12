@@ -135,6 +135,9 @@ def main(argv):
     # load in ML model
     base_model = getModel()
 
+    # create result dict
+    TCITresult = {}
+
     # loop for target xyz files
     for i in items:
         print("Working on {}...".format(i))
@@ -222,10 +225,11 @@ def main(argv):
                 print("="*120)
                 print("\nNo more information is needed, begin to calculate enthalpy of fomation of {}".format(i.split('/')[-1]))
                 Hf_0,Hf_298 = calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K)
-
+                
                 # predict liquid phase enthalpy of formation (at room temperature)
                 P,H_vap = calculate_PandHvap(smiles,T=298)
                 print("Prediction of Hf_298 for {} in liquid pahse is {} kJ/mol\n\n".format(name, Hf_298-H_vap))
+                TCITresult[smiles]=Hf_298-H_vap
 
                 if len(group_types) < 2: 
                     print("\n{} is too small for TCIT prediction, the result comes directly from a G4 calculation".format(i.split('/')[-1]))
@@ -243,11 +247,17 @@ def main(argv):
                 Hf_0,Hf_298 = calculate_CAV(E,G,name,FF_dict,Hf_atom_0k,Atom_G4,H298km0k,periodic,ring_corr_0K,ring_corr_298K)
                 P,H_vap = calculate_PandHvap(smiles,T=298)
                 print("Prediction of Hf_298 for {} in liquid pahse is {} kJ/mol\n\n".format(name, Hf_298-H_vap))
+                TCITresult[smiles]=Hf_298-H_vap
 
             else:
                 print("\n"+"="*120)
                 print("Unknown CAVs are required for this compound, skipping...\n") 
                 print("\n"+"="*120)
+                
+    with open("TCIT_result.txt","w") as f:
+        for smiles in sorted(TCITresult.keys()):
+            f.write("{:<60s} {:<10.2f}\n".format(smiles,TCITresult[smiles]))
+
     quit()
 
 # function to calculate Hf based on given TCIT database
