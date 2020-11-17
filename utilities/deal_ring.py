@@ -427,13 +427,21 @@ def normalize(x):
     return x/sum(x**(2.0))**(0.5)
 
 # Return smiles string 
-def return_smi(E,G,adj_mat):
-    mol_write("obabel_input.mol",E,G,adj_mat)
-    substring = "obabel -imol obabel_input.mol -ocan"
-    output = subprocess.Popen(substring,shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE).communicate()[0]
-    output = output.decode('utf-8')
-    smile  = output.split()[0]
-    os.system("rm obabel_input.mol")
+def return_smi(E,G,adj_mat=None):
+    if adj_mat is None:
+        xyz_write("obabel_input.xyz",E,G)
+        substring = "obabel -ixyz obabel_input.xyz -ocan"
+        output = subprocess.Popen(substring,shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE).communicate()[0].decode('utf-8')
+        smile  = output.split()[0]
+        os.system("rm obabel_input.xyz")
+    
+    else:
+        mol_write("obabel_input.mol",E,G,adj_mat)
+        substring = "obabel -imol obabel_input.mol -ocan"
+        output = subprocess.Popen(substring,shell=True,stdout=subprocess.PIPE,stderr=subprocess.PIPE).communicate()[0].decode('utf-8')
+        smile  = output.split()[0]
+        os.system("rm obabel_input.mol")
+
     return smile
 
 # Return true if idx is a ring atom
