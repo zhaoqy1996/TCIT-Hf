@@ -116,11 +116,13 @@ def main(argv):
         print("Working on {}...".format(i))
         if args.Itype == 'xyz':
             E,G = xyz_parse(i)
+            adj_mat = Table_generator(E,G)
             name = i.split('/')[-1]
             smiles= return_smi(E,G,adj_mat)
 
         else:
             E,G = parse_smiles(i)
+            adj_mat = Table_generator(E,G)
             name =  i
             smiles= i
             
@@ -128,10 +130,8 @@ def main(argv):
             print("can't deal with some element in this compounds")
             continue
 
-        adj_mat = Table_generator(E,G)
+        # determine atom types and replace "R" group by normal group
         atom_types = id_types(E,adj_mat,2)
-
-        # replace "R" group by normal group
         atom_types = [atom_type.replace('R','') for atom_type in atom_types]
         
         # remove terminal atoms                                                                                                           

@@ -1,1539 +1,191 @@
-Working on o1cccc1...
+Working on company/P1.xyz...
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of P1.xyz
 Identify rings! Add ring correction to final predictoon
-
-o1cccc1 can not use TGIT to calculate, the result comes from G4 result
-Add ring correction  501808.876564: -9.19472071656372 kcal/mole into final prediction (based on depth=0 ring  501808.876564)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of o1cccc1
+Add ring correction  503009.953592: 6.6835483199090575 kcal/mole into final prediction (based on depth=0 ring  503009.953592)
 Prediction are made based on such group types:
-[8[6[6][1]][6[6][1]]]         : -26.31445506
-[6[6[6][1]][8[6]][1]]         : 8.19753059
-[6[6[8][1]][6[6][1]][1]]      : 6.73012596
-[6[6[8][1]][6[6][1]][1]]      : 6.73012596
-[6[6[6][1]][8[6]][1]]         : 8.19753059
-Prediction of Hf_0 for o1cccc1 is -16.807707379162856 kJ/mol
-Prediction of Hf_298 for o1cccc1 is -23.655735322810834 kJ/mol
+[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
+[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
+[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
+[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
+[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
+Prediction of Hf_0 for P1.xyz is -47.4064241194819 KJ/mol
+Prediction of Hf_298 for P1.xyz is -75.56949001318354 KJ/mol
 
 
-Prediction of Hf_298 for o1cccc1 in liquid pahse is -54.66092270259388 kJ/mol
+Prediction of Hf_298 for P1.xyz in liquid pahse is -111.02232901485566 kJ/mol
 
 
-Working on COc1ccc(C=O)cc1...
+Working on company/R1.xyz...
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of R1.xyz
 Identify rings! Add ring correction to final predictoon
-Add ring correction  603617.736087: -25.869284701972656 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of COc1ccc(C=O)cc1
+Add ring correction  502609.428148: 5.616214366450806 kcal/mole into final prediction (based on depth=0 ring  502609.428148)
 Prediction are made based on such group types:
-[8[6[1][1][1]][6[6][6]]]      : -28.20410341
-[6[6[6][1]][6[6][1]][8[6]]]   : 8.94531216
-[6[6[8][6]][6[6][1]][1]]      : 7.55212084
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[8][1]][6[6][1]][6[6][1]]]: 12.27151034
-[6[6[6][6]][8][1]]            : -30.70542462
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[8][6]][6[6][1]][1]]      : 7.55212084
-Prediction of Hf_0 for COc1ccc(C=O)cc1 is -159.15316683996403 kJ/mol
-Prediction of Hf_298 for COc1ccc(C=O)cc1 is -185.5191830831555 kJ/mol
-
-
-Prediction of Hf_298 for COc1ccc(C=O)cc1 in liquid pahse is -257.9576361932954 kJ/mol
-
-
-Working on C1[C@H]([C@H]1c2ccccc2)c3ccccc3...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  304616.878164: 22.84884081657959 kcal/mole into final prediction (based on depth=0 ring  301805.962243)
-Add ring correction  604016.193169: -19.539100838332825 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-Add ring correction  604016.193169: -19.539100838332825 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of C1[C@H]([C@H]1c2ccccc2)c3ccccc3
-Prediction are made based on such group types:
-[6[6[6][6][1]][6[6][6][1]][1][1]]: -5.04387987
-[6[6[6][6][1]][6[6][1][1]][6[6][6]][1]]: -2.60207114
-[6[6[6][6][1]][6[6][1][1]][6[6][6]][1]]: -2.60207114
-[6[6[6][6][1]][6[6][1]][6[6][1]]]: 11.07582314
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[6][6][1]][6[6][1]][6[6][1]]]: 11.07582314
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-Prediction of Hf_0 for C1[C@H]([C@H]1c2ccccc2)c3ccccc3 is 320.9682880292479 kJ/mol
-Prediction of Hf_298 for C1[C@H]([C@H]1c2ccccc2)c3ccccc3 is 269.21219873105264 kJ/mol
-
-
-Prediction of Hf_298 for C1[C@H]([C@H]1c2ccccc2)c3ccccc3 in liquid pahse is 184.06151944506274 kJ/mol
-
-
-Working on CC(=C)C=O...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CC(=C)C=O
-Prediction are made based on such group types:
-[6[6[1][1][1]][6[8][1]][6[1][1]]]: 8.88572492
-[6[6[6][6]][8][1]]            : -30.70542462
-Prediction of Hf_0 for CC(=C)C=O is -90.78170715379528 kJ/mol
-Prediction of Hf_298 for CC(=C)C=O is -107.10377438223308 kJ/mol
-
-
-Prediction of Hf_298 for CC(=C)C=O in liquid pahse is -154.91951993691828 kJ/mol
-
-
-Working on CCCCCCCCCCCCCCCC...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCCCCCCCCCCCCC
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-Prediction of Hf_0 for CCCCCCCCCCCCCCCC is -271.55277959549136 kJ/mol
-Prediction of Hf_298 for CCCCCCCCCCCCCCCC is -372.90286193652054 kJ/mol
-
-
-Prediction of Hf_298 for CCCCCCCCCCCCCCCC in liquid pahse is -461.42734961718656 kJ/mol
-
-
-Working on CC(CCO)CC(C)(C)C...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CC(CCO)CC(C)(C)C
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[6][1][1]][6[1][1][1]][1]]: -1.41783206
-[6[6[6][6][1]][6[8][1][1]][1][1]]: -4.60008288
-[6[6[6][1][1]][8[1]][1][1]]   : -6.35338075
-[8[6[6][1][1]][1]]            : -39.62472172
-[6[6[6][6][6]][6[6][6][1]][1][1]]: -2.7956883
-[6[6[6][1][1]][6[1][1][1]][6[1][1][1]][6[1][1][1]]]: 0.19369692
-Prediction of Hf_0 for CC(CCO)CC(C)(C)C is -334.97952130908845 kJ/mol
-Prediction of Hf_298 for CC(CCO)CC(C)(C)C is -395.5487342995574 kJ/mol
-
-
-Prediction of Hf_298 for CC(CCO)CC(C)(C)C in liquid pahse is -469.7701183497643 kJ/mol
-
-
-Working on CC(O)CCO...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CC(O)CCO
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][8[1]][1]]: -4.46173771
-[8[6[6][6][1]][1]]            : -40.68113313
-[6[6[8][6][1]][6[8][1][1]][1][1]]: -6.58662738
-[6[6[6][1][1]][8[1]][1][1]]   : -6.35338075
-[8[6[6][1][1]][1]]            : -39.62472172
-Prediction of Hf_0 for CC(O)CCO is -417.76319188639616 kJ/mol
-Prediction of Hf_298 for CC(O)CCO is -450.58587939214914 kJ/mol
-
-
-Prediction of Hf_298 for CC(O)CCO in liquid pahse is -519.3994630556751 kJ/mol
-
-
-Working on CC1CCCCN1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  604013.952140: 0.09512195883369445 kcal/mole into final prediction (based on depth=0 ring  603411.954415)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CC1CCCCN1
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][7[6][1]][1]]: -2.75471035
-[6[6[7][6][1]][6[6][1][1]][1][1]]: -4.6637547
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[7][1][1]][6[6][1][1]][1][1]]: -4.76870277
-[6[6[6][1][1]][7[6][1]][1][1]]: -5.72513698
-[7[6[6][6][1]][6[6][1][1]][1]]: 14.03205077
-Prediction of Hf_0 for CC1CCCCN1 is -35.218078094991505 kJ/mol
-Prediction of Hf_298 for CC1CCCCN1 is -78.32138959342569 kJ/mol
-
-
-Prediction of Hf_298 for CC1CCCCN1 in liquid pahse is -121.89136224176202 kJ/mol
-
-
-Working on N#CSc1ccccc1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  603216.335708: -20.520048789187722 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-Unknown CAVs are required for this compound, skipping...
-
-
-========================================================================================================================
-Working on CC(C)(C)CC(=O)C(C)(C)C...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CC(C)(C)CC(=O)C(C)(C)C
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][6[1][1][1]][6[1][1][1]]]: 0.19369692
-[6[6[6][6][6]][6[8][6]][1][1]]: -4.18729951
-[6[6[6][6][6]][6[6][1][1]][8]]: -30.99196497
-[6[6[1][1][1]][6[1][1][1]][6[1][1][1]][6[8][6]]]: 0.67405506
-Prediction of Hf_0 for CC(C)(C)CC(=O)C(C)(C)C is -335.13317586169387 kJ/mol
-Prediction of Hf_298 for CC(C)(C)CC(=O)C(C)(C)C is -394.22558638695267 kJ/mol
-
-
-Prediction of Hf_298 for CC(C)(C)CC(=O)C(C)(C)C in liquid pahse is -455.6828138413895 kJ/mol
-
-
-Working on BrC(Br)=O...
-
-========================================================================================================================
-Unknown CAVs are required for this compound, skipping...
-
-
-========================================================================================================================
-Working on CCc1ccc(cc1N=C=O)N=C=O...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  604821.243268: -27.977094245582276 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCc1ccc(cc1N=C=O)N=C=O
-Prediction are made based on such group types:
-[6[6[1][1][1]][6[6][6]][1][1]]: -4.64376705
-[6[6[6][1][1]][6[7][6]][6[6][1]]]: 9.38467465
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[7][6]][6[6][1]][1]]      : 6.45477222
-[6[6[6][1]][6[6][1]][7[6]]]   : 8.3281051
-[6[6[7][6]][6[7][6]][1]]      : 6.53719492
-[6[6[6][6]][6[6][1]][7[6]]]   : 9.11736267
-[7[6[6][6]][6[8]]]            : 9.63542678
-[6[7[6]][8]]                  : -28.2498594
-[7[6[6][6]][6[8]]]            : 9.63542678
-[6[7[6]][8]]                  : -28.2498594
-Prediction of Hf_0 for CCc1ccc(cc1N=C=O)N=C=O is -114.1373473259677 kJ/mol
-Prediction of Hf_298 for CCc1ccc(cc1N=C=O)N=C=O is -137.9103689262289 kJ/mol
-
-
-Prediction of Hf_298 for CCc1ccc(cc1N=C=O)N=C=O in liquid pahse is -202.359608908274 kJ/mol
-
-
-Working on ClC(Cl)(Cl)Cl...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of ClC(Cl)(Cl)Cl
-Prediction are made based on such group types:
-[6[17][17][17][17]]           : -23.59137479
-Prediction of Hf_0 for ClC(Cl)(Cl)Cl is -96.72066676150389 kJ/mol
-Prediction of Hf_298 for ClC(Cl)(Cl)Cl is -98.70620314971173 kJ/mol
-
-
-Prediction of Hf_298 for ClC(Cl)(Cl)Cl in liquid pahse is -120.51591650204165 kJ/mol
-
-
-
-ClC(Cl)(Cl)Cl is too small for TCIT prediction, the result comes directly from a G4 calculation
-Working on CBr...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CBr
-Prediction are made based on such group types:
-Prediction of Hf_0 for CBr is -33.89857576797235 kJ/mol
-Prediction of Hf_298 for CBr is -41.77772942938671 kJ/mol
-
-
-Prediction of Hf_298 for CBr in liquid pahse is -63.58744278171663 kJ/mol
-
-
-
-CBr is too small for TCIT prediction, the result comes directly from a G4 calculation
-Working on CCOC(=O)C(C)C#N...
-
-========================================================================================================================
-Unknown CAVs are required for this compound, skipping...
-
-
-========================================================================================================================
-Working on CNCCC#N...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CNCCC#N
-Prediction are made based on such group types:
-[7[6[6][1][1]][6[1][1][1]][1]]: 15.17406124
-[6[6[6][1][1]][7[6][1]][1][1]]: -5.72513698
-[6[6[7][1][1]][6[7]][1][1]]   : -5.02552747
-[6[6[6][1][1]][7]]            : 27.61349267
-Prediction of Hf_0 for CNCCC#N is 117.9775834079479 kJ/mol
-Prediction of Hf_298 for CNCCC#N is 92.26446808866723 kJ/mol
-
-
-Prediction of Hf_298 for CNCCC#N in liquid pahse is 53.44231784589494 kJ/mol
-
-
-Working on CCCCCCCCCCCO[S](O)(=O)=O...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCCCCCCCCO[S](O)(=O)=O
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[8][1][1]][6[6][1][1]][1][1]]: -4.81305723
-[6[6[6][1][1]][8[16]][1][1]]  : -6.67397802
-[8[16[8][8][8]][6[6][1][1]]]  : -33.07663379
-[16[8[6]][8[1]][8][8]]        : -83.2057931
-[8[16[8][8][8]][1]]           : -44.07553848
-Prediction of Hf_0 for CCCCCCCCCCCO[S](O)(=O)=O is -845.6453482339356 kJ/mol
-Prediction of Hf_298 for CCCCCCCCCCCO[S](O)(=O)=O is -926.1568048500875 kJ/mol
-
-
-Prediction of Hf_298 for CCCCCCCCCCCO[S](O)(=O)=O in liquid pahse is -992.4430344213082 kJ/mol
-
-
-Working on CSC1CCCC1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  503815.960006: 8.365680921647034 kcal/mole into final prediction (based on depth=0 ring  503009.953592)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CSC1CCCC1
-Prediction are made based on such group types:
-[16[6[6][6][1]][6[1][1][1]]]  : 10.2810109
-[6[6[6][1][1]][6[6][1][1]][16[6]][1]]: -2.17199083
-[6[6[16][6][1]][6[6][1][1]][1][1]]: -5.02661443
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[16][6][1]][6[6][1][1]][1][1]]: -5.02661443
-Prediction of Hf_0 for CSC1CCCC1 is -24.67689010353717 kJ/mol
-Prediction of Hf_298 for CSC1CCCC1 is -56.32368981679526 kJ/mol
-
-
-Prediction of Hf_298 for CSC1CCCC1 in liquid pahse is -96.22418044035645 kJ/mol
-
-
-Working on COC(C)(C)OC...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of COC(C)(C)OC
-Prediction are made based on such group types:
-[8[6[8][6][6]][6[1][1][1]]]   : -27.67035329
-[6[6[1][1][1]][6[1][1][1]][8[6]][8[6]]]: -8.46500061
-[8[6[8][6][6]][6[1][1][1]]]   : -27.67035329
-Prediction of Hf_0 for COC(C)(C)OC is -396.15385417102493 kJ/mol
-Prediction of Hf_298 for COC(C)(C)OC is -434.07370187359317 kJ/mol
-
-
-Prediction of Hf_298 for COC(C)(C)OC in liquid pahse is -473.67402171347936 kJ/mol
-
-
-Working on CC(Cl)c1ccccc1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  603618.254074: -20.687257987886124 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CC(Cl)c1ccccc1
-Prediction are made based on such group types:
-[6[6[1][1][1]][6[6][6]][17][1]]: -14.08383824
-[6[6[17][6][1]][6[6][1]][6[6][1]]]: 11.40593405
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-Prediction of Hf_0 for CC(Cl)c1ccccc1 is 23.731443380374657 kJ/mol
-Prediction of Hf_298 for CC(Cl)c1ccccc1 is 4.1180705593745435 kJ/mol
-
-
-Prediction of Hf_298 for CC(Cl)c1ccccc1 in liquid pahse is -51.435866178892425 kJ/mol
-
-
-Working on CCOC(=O)/C=C/C...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of C
-Prediction are made based on such group types:
-[6[6[1][1][1]][8[6]][1][1]]   : -6.43426545
-[8[6[6][1][1]][6[8][6]]]      : -36.86618976
-[6[6[6][1]][8[6]][8]]         : -42.70845527
-[6[6[8][8]][6[6][1]][1]]      : 7.61658262
-[6[6[1][1][1]][6[6][1]][1]]   : 8.73325731
-Prediction of Hf_0 for CCOC(=O)/C=C/C is -345.1721671422475 kJ/mol
-Prediction of Hf_298 for CCOC(=O)/C=C/C is -375.00868827560816 kJ/mol
-
-
-Prediction of Hf_298 for CCOC(=O)/C=C/C in liquid pahse is -427.2636570993173 kJ/mol
-
-
-Working on CCCCCCCCCCC(C)=O...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCCCCCCCC(C)=O
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[8][6]][1][1]]: -5.03545967
-[6[6[6][1][1]][6[1][1][1]][8]]: -31.85621705
-Prediction of Hf_0 for CCCCCCCCCCC(C)=O is -332.2571701965641 kJ/mol
-Prediction of Hf_298 for CCCCCCCCCCC(C)=O is -403.29045044894275 kJ/mol
-
-
-Prediction of Hf_298 for CCCCCCCCCCC(C)=O in liquid pahse is -473.6429811471577 kJ/mol
-
-
-Working on ClSC(Cl)(Cl)Cl...
-
-========================================================================================================================
-Unknown CAVs are required for this compound, skipping...
-
-
-========================================================================================================================
-Working on CCCCCSCCCCC...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCCSCCCCC
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[16][1][1]][6[6][1][1]][1][1]]: -5.21277851
-[6[6[6][1][1]][16[6]][1][1]]  : -5.10750967
-[16[6[6][1][1]][6[6][1][1]]]  : 10.09207077
-[6[6[6][1][1]][16[6]][1][1]]  : -5.10750967
-[6[6[16][1][1]][6[6][1][1]][1][1]]: -5.21277851
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-Prediction of Hf_0 for CCCCCSCCCCC is -145.2717407512782 kJ/mol
-Prediction of Hf_298 for CCCCCSCCCCC is -209.97090997715543 kJ/mol
-
-
-Prediction of Hf_298 for CCCCCSCCCCC in liquid pahse is -271.809487926487 kJ/mol
-
-
-Working on C1CCCCCCC1...
-Identify rings! Add ring correction to final predictoon
-
-C1CCCCCCC1 can not use TGIT to calculate, the result comes from G4 result
-Add ring correction  804815.926013: 9.327591697304383 kcal/mole into final prediction (based on depth=0 ring  804815.926013)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of C1CCCCCCC1
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-Prediction of Hf_0 for C1CCCCCCC1 is -79.02416210285998 kJ/mol
-Prediction of Hf_298 for C1CCCCCCC1 is -126.62687992224303 kJ/mol
-
-
-Prediction of Hf_298 for C1CCCCCCC1 in liquid pahse is -175.42267378958238 kJ/mol
-
-
-Working on CC(C)c1cccc(c1O)C(C)(C)C...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  606826.288683: -26.32184894147461 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CC(C)c1cccc(c1O)C(C)(C)C
-Prediction are made based on such group types:
-[6[6[1][1][1]][6[1][1][1]][6[6][6]][1]]: -1.25296003
-[6[6[6][6][1]][6[8][6]][6[6][1]]]: 13.08292389
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[6][6][6]][6[8][6]][6[6][1]]]: 13.3842311
-[6[6[6][6]][6[6][6]][8[1]]]   : 8.7740193
-[8[6[6][6]][1]]               : -42.14950418
-[6[6[1][1][1]][6[1][1][1]][6[1][1][1]][6[6][6]]]: 1.18076857
-Prediction of Hf_0 for CC(C)c1cccc(c1O)C(C)(C)C is -208.21752765281806 kJ/mol
-Prediction of Hf_298 for CC(C)c1cccc(c1O)C(C)(C)C is -261.0034054436902 kJ/mol
-
-
-Prediction of Hf_298 for CC(C)c1cccc(c1O)C(C)(C)C in liquid pahse is -338.79560029140254 kJ/mol
-
-
-Working on CC(C)CCCC(C)CCCC(\C)=C\C=C\C(C)=O...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CC(C)CCCC(C)CCCC(\C)=C\C=C\C(C)=O
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][6[1][1][1]][1]]: -1.66693636
-[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
-[6[6[6][1][1]][6[6][1][1]][6[1][1][1]][1]]: -1.41783206
-[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][6]][1][1]]: -4.77403301
-[6[6[6][1][1]][6[1][1][1]][6[6][1]]]: 10.99333224
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[8][6]][6[6][1]][1]]      : 7.55212084
-[6[6[1][1][1]][6[6][1]][8]]   : -31.55877612
-Prediction of Hf_0 for CC(C)CCCC(C)CCCC(\C)=C\C=C\C(C)=O is -246.42849694149933 kJ/mol
-Prediction of Hf_298 for CC(C)CCCC(C)CCCC(\C)=C\C=C\C(C)=O is -346.07459072157195 kJ/mol
-
-
-Prediction of Hf_298 for CC(C)CCCC(C)CCCC(\C)=C\C=C\C(C)=O in liquid pahse is -444.6323442942039 kJ/mol
-
-
-Working on C1COCO1...
-Identify rings! Add ring correction to final predictoon
-
-C1COCO1 can not use TGIT to calculate, the result comes from G4 result
-Add ring correction  502209.915041: 10.061876648003846 kcal/mole into final prediction (based on depth=0 ring  502209.915041)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of C1COCO1
-Prediction are made based on such group types:
-[6[6[8][1][1]][8[6]][1][1]]   : -6.28847123
-[6[6[8][1][1]][8[6]][1][1]]   : -6.28847123
-[8[6[8][1][1]][6[6][1][1]]]   : -28.71674774
-[6[8[6]][8[6]][1][1]]         : -9.74329887
-[8[6[8][1][1]][6[6][1][1]]]   : -28.71674774
-Prediction of Hf_0 for C1COCO1 is -269.5680475688795 kJ/mol
-Prediction of Hf_298 for C1COCO1 is -291.5904210019672 kJ/mol
-
-
-Prediction of Hf_298 for C1COCO1 in liquid pahse is -318.14795675986113 kJ/mol
-
-
-Working on CCCCNCC(C)C...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCNCC(C)C
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[7][1][1]][6[6][1][1]][1][1]]: -4.76870277
-[6[6[6][1][1]][7[6][1]][1][1]]: -5.72513698
-[7[6[6][1][1]][6[6][1][1]][1]]: 14.33404772
-[6[6[6][6][1]][7[6][1]][1][1]]: -5.82624742
-[6[6[7][1][1]][6[1][1][1]][6[1][1][1]][1]]: -1.6087186
-Prediction of Hf_0 for CCCCNCC(C)C is -102.25980268277783 kJ/mol
-Prediction of Hf_298 for CCCCNCC(C)C is -160.80723052977748 kJ/mol
-
-
-Prediction of Hf_298 for CCCCNCC(C)C in liquid pahse is -217.41998726010604 kJ/mol
-
-
-Working on CCCCOCCCC...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCOCCCC
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[8][1][1]][6[6][1][1]][1][1]]: -4.81305723
-[6[6[6][1][1]][8[6]][1][1]]   : -6.40486185
-[8[6[6][1][1]][6[6][1][1]]]   : -27.45236523
-[6[6[6][1][1]][8[6]][1][1]]   : -6.40486185
-[6[6[8][1][1]][6[6][1][1]][1][1]]: -4.81305723
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-Prediction of Hf_0 for CCCCOCCCC is -278.428725555007 kJ/mol
-Prediction of Hf_298 for CCCCOCCCC is -333.15465373254233 kJ/mol
-
-
-Prediction of Hf_298 for CCCCOCCCC in liquid pahse is -390.46606943139545 kJ/mol
-
-
-Working on CCCCCCCCCCCCCC#N...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCCCCCCCCCCC#N
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[7]][1][1]]   : -5.15261838
-[6[6[6][1][1]][7]]            : 27.61349267
-Prediction of Hf_0 for CCCCCCCCCCCCCC#N is -94.61560366685359 kJ/mol
-Prediction of Hf_298 for CCCCCCCCCCCCCC#N is -175.3019769378175 kJ/mol
-
-
-Prediction of Hf_298 for CCCCCCCCCCCCCC#N in liquid pahse is -254.93116137470537 kJ/mol
-
-
-Working on C[C@H]1C[C@H](C)OC(C)(C)O1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  605219.899556: -3.2875500301867673 kcal/mole into final prediction (based on depth=0 ring  602811.906081)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of C[C@H]1C[C@H](C)OC(C)(C)O1
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][8[6]][1]]: -3.99989496
-[6[6[8][6][1]][6[8][6][1]][1][1]]: -4.78576128
-[6[6[6][1][1]][6[1][1][1]][8[6]][1]]: -3.99989496
-[8[6[8][6][6]][6[6][6][1]]]   : -30.0809702
-[6[6[1][1][1]][6[1][1][1]][8[6]][8[6]]]: -8.46500061
-[8[6[8][6][6]][6[6][6][1]]]   : -30.0809702
-Prediction of Hf_0 for C[C@H]1C[C@H](C)OC(C)(C)O1 is -470.3469551015496 kJ/mol
-Prediction of Hf_298 for C[C@H]1C[C@H](C)OC(C)(C)O1 is -521.4955032099059 kJ/mol
-
-
-Prediction of Hf_298 for C[C@H]1C[C@H](C)OC(C)(C)O1 in liquid pahse is -570.2912970772452 kJ/mol
-
-
-Working on O=C1CCCCCCCCCCCO1...
-Identify rings, but the heavy atom number in the ring is greater than 12, don't need add ring correction
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of O=C1CCCCCCCCCCCO1
-Prediction are made based on such group types:
-[6[6[6][1][1]][8[6]][8]]      : -42.97507548
-[6[6[6][1][1]][6[8][8]][1][1]]: -5.04376131
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[8][1][1]][6[6][1][1]][1][1]]: -4.81305723
-[6[6[6][1][1]][8[6]][1][1]]   : -6.40486185
-[8[6[6][1][1]][6[8][6]]]      : -36.86618976
-Prediction of Hf_0 for O=C1CCCCCCCCCCCO1 is -498.77472770558063 kJ/mol
-Prediction of Hf_298 for O=C1CCCCCCCCCCCO1 is -567.7477611022318 kJ/mol
-
-
-Prediction of Hf_298 for O=C1CCCCCCCCCCCO1 in liquid pahse is -639.8857298222532 kJ/mol
-
-
-Working on CCCCCCC1CC1(C)C...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  304213.947917: 23.68354092415405 kcal/mole into final prediction (based on depth=0 ring  301805.962243)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCCCC1CC1(C)C
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
-[6[6[6][6][6]][6[6][1][1]][6[6][1][1]][1]]: 2.22321689
-[6[6[6][6][6]][6[6][6][1]][1][1]]: -2.7956883
-[6[6[6][6][1]][6[6][1][1]][6[1][1][1]][6[1][1][1]]]: 1.68660112
-Prediction of Hf_0 for CCCCCCC1CC1(C)C is -66.90900017228437 kJ/mol
-Prediction of Hf_298 for CCCCCCC1CC1(C)C is -126.18787359248701 kJ/mol
-
-
-Prediction of Hf_298 for CCCCCCC1CC1(C)C in liquid pahse is -188.3266223254936 kJ/mol
-
-
-Working on OCc1occc1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  502612.844149: -12.065797062007446 kcal/mole into final prediction (based on depth=0 ring  501808.876564)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of OCc1occc1
-Prediction are made based on such group types:
-[8[6[6][1][1]][1]]            : -39.62472172
-[6[6[8][6]][8[1]][1][1]]      : -5.25187255
-[6[6[8][1][1]][6[6][1]][8[6]]]: 9.17569257
-[8[6[6][6]][6[6][1]]]         : -27.43585122
-[6[6[6][1]][8[6]][1]]         : 8.19753059
-[6[6[8][1]][6[6][1]][1]]      : 6.73012596
-[6[6[8][6]][6[6][1]][1]]      : 7.55212084
-Prediction of Hf_0 for OCc1occc1 is -192.57147180094344 kJ/mol
-Prediction of Hf_298 for OCc1occc1 is -220.59183699157109 kJ/mol
-
-
-Prediction of Hf_298 for OCc1occc1 in liquid pahse is -272.8751337160076 kJ/mol
-
-
-Working on CCC(C)(C)C...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCC(C)(C)C
-Prediction are made based on such group types:
-[6[6[6][6][6]][6[1][1][1]][1][1]]: -4.42581618
-[6[6[6][1][1]][6[1][1][1]][6[1][1][1]][6[1][1][1]]]: 0.19369692
-Prediction of Hf_0 for CCC(C)(C)C is -143.91827142414832 kJ/mol
-Prediction of Hf_298 for CCC(C)(C)C is -184.818085152674 kJ/mol
-
-
-Prediction of Hf_298 for CCC(C)(C)C in liquid pahse is -228.8660566144493 kJ/mol
-
-
-Working on CCOC(=O)CN(C)C...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCOC(=O)CN(C)C
-Prediction are made based on such group types:
-[6[6[1][1][1]][8[6]][1][1]]   : -6.43426545
-[8[6[6][1][1]][6[8][6]]]      : -36.86618976
-[6[6[7][1][1]][8[6]][8]]      : -42.88071186
-[6[7[6][6]][6[8][8]][1][1]]   : -4.91539175
-[7[6[6][1][1]][6[1][1][1]][6[1][1][1]]]: 23.43355822
-Prediction of Hf_0 for CCOC(=O)CN(C)C is -365.17040618227156 kJ/mol
-Prediction of Hf_298 for CCOC(=O)CN(C)C is -408.43487025430323 kJ/mol
-
-
-Prediction of Hf_298 for CCOC(=O)CN(C)C in liquid pahse is -458.03441008120427 kJ/mol
-
-
-Working on O=C1CCCCCCO1...
-Identify rings! Add ring correction to final predictoon
-Information of ring  804415.907574 is missing, the final prediction might be not accurate, please update ring_correction database first
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of O=C1CCCCCCO1
-Prediction are made based on such group types:
-[6[6[6][1][1]][8[6]][8]]      : -42.97507548
-[6[6[6][1][1]][6[8][8]][1][1]]: -5.04376131
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[8][1][1]][6[6][1][1]][1][1]]: -4.81305723
-[6[6[6][1][1]][8[6]][1][1]]   : -6.40486185
-[8[6[6][1][1]][6[8][6]]]      : -36.86618976
-Prediction of Hf_0 for O=C1CCCCCCO1 is -425.5357753361841 kJ/mol
-Prediction of Hf_298 for O=C1CCCCCCO1 is -464.21433579073334 kJ/mol
-
-
-Prediction of Hf_298 for O=C1CCCCCCO1 in liquid pahse is -514.1140464013093 kJ/mol
-
-
-Working on CNCCCN...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CNCCCN
-Prediction are made based on such group types:
-[7[6[6][1][1]][6[1][1][1]][1]]: 15.17406124
-[6[6[6][1][1]][7[6][1]][1][1]]: -5.72513698
-[6[6[7][1][1]][6[7][1][1]][1][1]]: -5.09066274
-[6[6[6][1][1]][7[1][1]][1][1]]: -5.76856406
-[7[6[6][1][1]][1][1]]         : 4.34712503
-Prediction of Hf_0 for CNCCCN is 10.688302594913933 kJ/mol
-Prediction of Hf_298 for CNCCCN is -29.49007769679422 kJ/mol
-
-
-Prediction of Hf_298 for CNCCCN in liquid pahse is -70.54909083768796 kJ/mol
-
-
-Working on COC(=O)C(C)(C)C(=O)OC...
-
-========================================================================================================================
-Unknown CAVs are required for this compound, skipping...
-
-
-========================================================================================================================
-Working on CCC(NCCN)NCCN...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCC(NCCN)NCCN
-Prediction are made based on such group types:
-[6[6[7][7][1]][6[1][1][1]][1][1]]: -4.73626702
-[6[6[6][1][1]][7[6][1]][7[6][1]][1]]: -5.70472377
-[7[6[7][6][1]][6[6][1][1]][1]]: 13.47103023
-[6[6[7][1][1]][7[6][1]][1][1]]: -5.69553106
-[6[6[7][1][1]][7[1][1]][1][1]]: -6.25760916
-[7[6[6][1][1]][1][1]]         : 4.34712503
-[7[6[7][6][1]][6[6][1][1]][1]]: 13.47103023
-[6[6[7][1][1]][7[6][1]][1][1]]: -5.69553106
-[6[6[7][1][1]][7[1][1]][1][1]]: -6.25760916
-[7[6[6][1][1]][1][1]]         : 4.34712503
-Prediction of Hf_0 for CCC(NCCN)NCCN is 33.22849761093863 kJ/mol
-Prediction of Hf_298 for CCC(NCCN)NCCN is -36.384394994267936 kJ/mol
-
-
-Prediction of Hf_298 for CCC(NCCN)NCCN in liquid pahse is -96.6927079237255 kJ/mol
-
-
-Working on CCCC(C)CC...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCC(C)CC
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
-[6[6[6][1][1]][6[6][1][1]][6[1][1][1]][1]]: -1.41783206
-[6[6[6][6][1]][6[1][1][1]][1][1]]: -4.62553722
-Prediction of Hf_0 for CCCC(C)CC is -144.06005322042122 kJ/mol
-Prediction of Hf_298 for CCCC(C)CC is -193.10658694760804 kJ/mol
-
-
-Prediction of Hf_298 for CCCC(C)CC in liquid pahse is -241.6022100312724 kJ/mol
-
-
-Working on CCSc1ccccc1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  603216.335708: -20.520048789187722 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCSc1ccccc1
-Prediction are made based on such group types:
-[6[6[1][1][1]][16[6]][1][1]]  : -5.14938204
-[16[6[6][1][1]][6[6][6]]]     : 9.61815149
-[6[6[6][1]][6[6][1]][16[6]]]  : 9.97867038
-[6[6[16][6]][6[6][1]][1]]     : 6.33811876
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[16][6]][6[6][1]][1]]     : 6.33811876
-Prediction of Hf_0 for CCSc1ccccc1 is 95.03191349266172 kJ/mol
-Prediction of Hf_298 for CCSc1ccccc1 is 70.5018101253202 kJ/mol
-
-
-Prediction of Hf_298 for CCSc1ccccc1 in liquid pahse is 14.947873387053235 kJ/mol
-
-
-Working on CC1CCCC1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  503611.951862: 7.053515154692612 kcal/mole into final prediction (based on depth=0 ring  503009.953592)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CC1CCCC1
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[6][1][1]][6[1][1][1]][1]]: -1.41783206
-[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
-Prediction of Hf_0 for CC1CCCC1 is -66.04457445992756 kJ/mol
-Prediction of Hf_298 for CC1CCCC1 is -103.72018420168276 kJ/mol
-
-
-Prediction of Hf_298 for CC1CCCC1 in liquid pahse is -143.62067482524395 kJ/mol
-
-
-Working on NCCO...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of NCCO
-Prediction are made based on such group types:
-[7[6[6][1][1]][1][1]]         : 4.34712503
-[6[6[8][1][1]][7[1][1]][1][1]]: -5.76015952
-[6[6[7][1][1]][8[1]][1][1]]   : -6.35001798
-[8[6[6][1][1]][1]]            : -39.62472172
-Prediction of Hf_0 for NCCO is -174.24101064408424 kJ/mol
-Prediction of Hf_298 for NCCO is -198.27022832062792 kJ/mol
-
-
-Prediction of Hf_298 for NCCO in liquid pahse is -243.59491391573277 kJ/mol
-
-
-Working on CCOC(COC)n1ccnc1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  503214.866782: -15.21544413392563 kcal/mole into final prediction (based on depth=0 ring  501808.896685)
-
-========================================================================================================================
-Unknown CAVs are required for this compound, skipping...
-
-
-========================================================================================================================
-Working on C[C@@H]1S[C@H]1C...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  302611.974785: 18.85735042613037 kcal/mole into final prediction (based on depth=0 ring  301407.974316)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of C[C@@H]1S[C@H]1C
-Prediction are made based on such group types:
-[6[6[16][6][1]][6[1][1][1]][16[6]][1]]: -2.1126066
-[16[6[6][6][1]][6[6][6][1]]]  : 9.53832972
-[6[6[16][6][1]][6[1][1][1]][16[6]][1]]: -2.1126066
-Prediction of Hf_0 for C[C@@H]1S[C@H]1C is 35.67177305492491 kJ/mol
-Prediction of Hf_298 for C[C@@H]1S[C@H]1C is 17.57366319728531 kJ/mol
-
-
-Prediction of Hf_298 for C[C@@H]1S[C@H]1C in liquid pahse is -13.43152418249774 kJ/mol
-
-
-Working on NC1CCC1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  402809.975344: 25.619102408655852 kcal/mole into final prediction (based on depth=0 ring  402407.961672)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of NC1CCC1
-Prediction are made based on such group types:
-[7[6[6][6][1]][1][1]]         : 3.56305254
-[6[6[6][1][1]][6[6][1][1]][7[1][1]][1]]: -3.28224329
-[6[6[7][6][1]][6[6][1][1]][1][1]]: -4.6637547
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[7][6][1]][6[6][1][1]][1][1]]: -4.6637547
-Prediction of Hf_0 for NC1CCC1 is 76.49413583713181 kJ/mol
-Prediction of Hf_298 for NC1CCC1 is 48.632169437821034 kJ/mol
-
-
-Prediction of Hf_298 for NC1CCC1 in liquid pahse is 15.39011915991653 kJ/mol
-
-
-Working on CCCCCCCC(C)=O...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCCCCC(C)=O
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[8][6]][1][1]]: -5.03545967
-[6[6[6][1][1]][6[1][1][1]][8]]: -31.85621705
-Prediction of Hf_0 for CCCCCCCC(C)=O is -288.31379877492617 kJ/mol
-Prediction of Hf_298 for CCCCCCCC(C)=O is -341.17039526204366 kJ/mol
-
-
-Prediction of Hf_298 for CCCCCCCC(C)=O in liquid pahse is -398.1799710945914 kJ/mol
-
-
-Working on Cc1onc(C)c1C...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  503414.811812: -10.144276350743407 kcal/mole into final prediction (based on depth=0 ring  501608.858770)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of Cc1onc(C)c1C
-Prediction are made based on such group types:
-[6[6[1][1][1]][6[6][6]][8[7]]]: 12.45341521
-[8[6[6][6]][7[6]]]            : -19.12700024
-[7[6[6][6]][8[6]]]            : 27.50829622
-[6[6[1][1][1]][6[6][6]][7[8]]]: 4.51913103
-[6[6[1][1][1]][6[8][6]][6[7][6]]]: 8.10656656
-Prediction of Hf_0 for Cc1onc(C)c1C is 6.082138996665845 kJ/mol
-Prediction of Hf_298 for Cc1onc(C)c1C is -27.778597904418334 kJ/mol
-
-
-Prediction of Hf_298 for Cc1onc(C)c1C in liquid pahse is -67.67908852797953 kJ/mol
-
-
-Working on CCOC(=O)CC(=O)OCC...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCOC(=O)CC(=O)OCC
-Prediction are made based on such group types:
-[6[6[1][1][1]][8[6]][1][1]]   : -6.43426545
-[8[6[6][1][1]][6[8][6]]]      : -36.86618976
-[6[6[6][1][1]][8[6]][8]]      : -42.97507548
-[6[6[8][8]][6[8][8]][1][1]]   : -0.56318927
-[6[6[6][1][1]][8[6]][8]]      : -42.97507548
-[8[6[6][1][1]][6[8][6]]]      : -36.86618976
-[6[6[1][1][1]][8[6]][1][1]]   : -6.43426545
-Prediction of Hf_0 for CCOC(=O)CC(=O)OCC is -768.9427330276229 kJ/mol
-Prediction of Hf_298 for CCOC(=O)CC(=O)OCC is -807.8646839409888 kJ/mol
-
-
-Prediction of Hf_298 for CCOC(=O)CC(=O)OCC in liquid pahse is -867.4634437549047 kJ/mol
-
-
-Working on CCc1ccccc1O...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  603816.316216: -22.89893848958557 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCc1ccccc1O
-Prediction are made based on such group types:
-[6[6[1][1][1]][6[6][6]][1][1]]: -4.64376705
-[6[6[6][1][1]][6[8][6]][6[6][1]]]: 12.48597455
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[8][6]][6[6][1]][1]]      : 7.55212084
-[6[6[6][6]][6[6][1]][8[1]]]   : 5.76634677
-[8[6[6][6]][1]]               : -42.14950418
-Prediction of Hf_0 for CCc1ccccc1O is -95.80605859661105 kJ/mol
-Prediction of Hf_298 for CCc1ccccc1O is -139.46784950832017 kJ/mol
-
-
-Prediction of Hf_298 for CCc1ccccc1O in liquid pahse is -195.02178624658714 kJ/mol
-
-
-Working on c1ccc(cc1)N=C=Nc2ccccc2...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  603013.818650: -20.36737532678192 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-Add ring correction  603013.818650: -20.36737532678192 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-Unknown CAVs are required for this compound, skipping...
-
-
-========================================================================================================================
-Working on C1CCC(CC1)c2ccccc2...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  605017.407117: 1.0408514322985458 kcal/mole into final prediction (based on depth=0 ring  603611.944490)
-Add ring correction  604216.339932: -21.924299193053894 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of C1CCC(CC1)c2ccccc2
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
-[6[6[6][1][1]][6[6][1][1]][6[6][6]][1]]: -2.8933704
-[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][6][1]][6[6][1]][6[6][1]]]: 11.07582314
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-Prediction of Hf_0 for C1CCC(CC1)c2ccccc2 is 25.07583673754585 kJ/mol
-Prediction of Hf_298 for C1CCC(CC1)c2ccccc2 is -15.714185755819367 kJ/mol
-
-
-Prediction of Hf_298 for C1CCC(CC1)c2ccccc2 in liquid pahse is -84.91124814342852 kJ/mol
-
-
-Working on CCSCC...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCSCC
-Prediction are made based on such group types:
-[6[6[1][1][1]][16[6]][1][1]]  : -5.14938204
-[16[6[6][1][1]][6[6][1][1]]]  : 10.09207077
-[6[6[1][1][1]][16[6]][1][1]]  : -5.14938204
-Prediction of Hf_0 for CCSCC is -55.829679045714336 kJ/mol
-Prediction of Hf_298 for CCSCC is -84.42026271306996 kJ/mol
-
-
-Prediction of Hf_298 for CCSCC in liquid pahse is -119.5729309310671 kJ/mol
-
-
-Working on CCSCc1ccccc1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  603216.316681: -20.39212190124338 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCSCc1ccccc1
-Prediction are made based on such group types:
-[6[6[1][1][1]][16[6]][1][1]]  : -5.14938204
-[16[6[6][1][1]][6[6][1][1]]]  : 10.09207077
-[6[6[6][6]][16[6]][1][1]]     : -6.09445795
-[6[6[16][1][1]][6[6][1]][6[6][1]]]: 9.82644985
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-Prediction of Hf_0 for CCSCc1ccccc1 is 90.31334752492288 kJ/mol
-Prediction of Hf_298 for CCSCc1ccccc1 is 52.85208103042024 kJ/mol
-
-
-Prediction of Hf_298 for CCSCc1ccccc1 in liquid pahse is -7.1495073297357905 kJ/mol
-
-
-Working on Cc1ccncc1C...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  603414.325685: -18.797090451194457 kcal/mole into final prediction (based on depth=0 ring  602210.356875)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of Cc1ccncc1C
-Prediction are made based on such group types:
-[6[6[1][1][1]][6[6][6]][6[6][1]]]: 10.27213187
-[6[6[6][6]][6[7][1]][1]]      : 7.75282204
-[6[6[6][1]][7[6]][1]]         : 5.34535224
-[7[6[6][1]][6[6][1]]]         : 18.75546498
-[6[6[6][6]][7[6]][1]]         : 3.76414474
-[6[6[1][1][1]][6[6][6]][6[7][1]]]: 8.86463608
-Prediction of Hf_0 for Cc1ccncc1C is 99.77906745927949 kJ/mol
-Prediction of Hf_298 for Cc1ccncc1C is 66.89039396000746 kJ/mol
-
-
-Prediction of Hf_298 for Cc1ccncc1C in liquid pahse is 22.542251714557196 kJ/mol
-
-
-Working on C1CCC(CC1)NC2CCCCC2...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  604615.944206: 0.6417406531323242 kcal/mole into final prediction (based on depth=0 ring  603611.944490)
-Add ring correction  604615.944206: 0.6417406531323242 kcal/mole into final prediction (based on depth=0 ring  603611.944490)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of C1CCC(CC1)NC2CCCCC2
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[7][6][1]][6[6][1][1]][1][1]]: -4.6637547
-[6[6[6][1][1]][6[6][1][1]][7[6][1]][1]]: -2.9972658
-[6[6[7][6][1]][6[6][1][1]][1][1]]: -4.6637547
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[7[6[6][6][1]][6[6][6][1]][1]]: 13.92877794
-[6[6[6][1][1]][6[6][1][1]][7[6][1]][1]]: -2.9972658
-[6[6[7][6][1]][6[6][1][1]][1][1]]: -4.6637547
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[7][6][1]][6[6][1][1]][1][1]]: -4.6637547
-Prediction of Hf_0 for C1CCC(CC1)NC2CCCCC2 is -90.46378882200965 kJ/mol
-Prediction of Hf_298 for C1CCC(CC1)NC2CCCCC2 is -163.7256929689437 kJ/mol
-
-
-Prediction of Hf_298 for C1CCC(CC1)NC2CCCCC2 in liquid pahse is -229.83409451040038 kJ/mol
-
-
-Working on CC#N...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CC#N
-Prediction are made based on such group types:
-[6[6[1][1][1]][7]]            : 27.33676111
-Prediction of Hf_0 for CC#N is 79.77401052693239 kJ/mol
-Prediction of Hf_298 for CC#N is 72.59915278277533 kJ/mol
-
-
-Prediction of Hf_298 for CC#N in liquid pahse is 46.34178780855634 kJ/mol
-
-
-
-CC#N is too small for TCIT prediction, the result comes directly from a G4 calculation
-Working on CCCCCCCCCCCCCCCCCCCCCc1ccccc1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  603614.343064: -20.80045421186035 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCCCCCCCCCCCCCCCCCCc1ccccc1
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][6]][1][1]]: -4.77403301
-[6[6[6][1][1]][6[6][1]][6[6][1]]]: 10.00459445
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-Prediction of Hf_0 for CCCCCCCCCCCCCCCCCCCCCc1ccccc1 is -211.1355010322421 kJ/mol
-Prediction of Hf_298 for CCCCCCCCCCCCCCCCCCCCCc1ccccc1 is -356.42048053965345 kJ/mol
-
-
-Prediction of Hf_298 for CCCCCCCCCCCCCCCCCCCCCc1ccccc1 in liquid pahse is -496.47979809381275 kJ/mol
-
-
-Working on CC(N(F)F)C(C)(C)N(F)F...
-
-========================================================================================================================
-Unknown CAVs are required for this compound, skipping...
-
-
-========================================================================================================================
-Working on C#CC1CC1...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  302208.928943: 28.104229732118377 kcal/mole into final prediction (based on depth=0 ring  301805.962243)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of C#CC1CC1
-Prediction are made based on such group types:
-[6[6[6][6][1]][6[1]]]         : 27.45927682
-[6[6[6][1][1]][6[6][1][1]][6[6]][1]]: -2.88224063
-[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
-[6[6[6][6][1]][6[6][1][1]][1][1]]: -5.27112875
-Prediction of Hf_0 for C#CC1CC1 is 304.83249268381394 kJ/mol
-Prediction of Hf_298 for C#CC1CC1 is 290.49964612653395 kJ/mol
-
-
-Prediction of Hf_298 for C#CC1CC1 in liquid pahse is 255.04680712486183 kJ/mol
-
-
-Working on CCCCCCCCCCCC...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCCCCCCCCC
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-Prediction of Hf_0 for CCCCCCCCCCCC is -212.96161769997406 kJ/mol
-Prediction of Hf_298 for CCCCCCCCCCCC is -290.07612168732174 kJ/mol
-
-
-Prediction of Hf_298 for CCCCCCCCCCCC in liquid pahse is -360.81000288043145 kJ/mol
-
-
-Working on CC(C)(C)COCO...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CC(C)(C)COCO
-Prediction are made based on such group types:
-[6[6[8][1][1]][6[1][1][1]][6[1][1][1]][6[1][1][1]]]: -0.1213126
-[6[6[6][6][6]][8[6]][1][1]]   : -6.70984215
-[8[6[8][1][1]][6[6][1][1]]]   : -28.71674774
-[6[8[6]][8[1]][1][1]]         : -9.52760002
-[8[6[8][1][1]][1]]            : -41.01716419
-Prediction of Hf_0 for CC(C)(C)COCO is -441.0655060124014 kJ/mol
-Prediction of Hf_298 for CC(C)(C)COCO is -485.5445080876631 kJ/mol
-
-
-Prediction of Hf_298 for CC(C)(C)COCO in liquid pahse is -529.5924795494384 kJ/mol
-
-
-Working on CC(=O)CC(=O)C(F)(F)F...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CC(=O)CC(=O)C(F)(F)F
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][8]]: -31.85621705
-[6[6[8][6]][6[8][6]][1][1]]   : -3.90830826
-[6[6[9][9][9]][6[6][1][1]][8]]: -26.11752049
-[6[6[8][6]][9][9][9]]         : -163.66197118
-Prediction of Hf_0 for CC(=O)CC(=O)C(F)(F)F is -966.2540841234112 kJ/mol
-Prediction of Hf_298 for CC(=O)CC(=O)C(F)(F)F is -985.4528546563685 kJ/mol
-
-
-Prediction of Hf_298 for CC(=O)CC(=O)C(F)(F)F in liquid pahse is -1024.290473506465 kJ/mol
-
-
-Working on CCOC(=O)C/C=C/C...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of C
-Prediction are made based on such group types:
-[6[6[1][1][1]][8[6]][1][1]]   : -6.43426545
-[8[6[6][1][1]][6[8][6]]]      : -36.86618976
-[6[6[6][1][1]][8[6]][8]]      : -42.97507548
-[6[6[8][8]][6[6][1]][1][1]]   : -3.58904184
-[6[6[6][1][1]][6[6][1]][1]]   : 8.7673097
-[6[6[1][1][1]][6[6][1]][1]]   : 8.73325731
-Prediction of Hf_0 for CCOC(=O)C/C=C/C is -351.1759265876171 kJ/mol
-Prediction of Hf_298 for CCOC(=O)C/C=C/C is -386.3261236956395 kJ/mol
-
-
-Prediction of Hf_298 for CCOC(=O)C/C=C/C in liquid pahse is -439.2371992907041 kJ/mol
-
-
-Working on CCOC(=O)C(=O)OCC...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCOC(=O)C(=O)OCC
-Prediction are made based on such group types:
-[6[6[1][1][1]][8[6]][1][1]]   : -6.43426545
-[8[6[6][1][1]][6[8][6]]]      : -36.86618976
-[6[6[8][8]][8[6]][8]]         : -37.36213124
-[6[6[8][8]][8[6]][8]]         : -37.36213124
-[8[6[6][1][1]][6[8][6]]]      : -36.86618976
-[6[6[1][1][1]][8[6]][1][1]]   : -6.43426545
-Prediction of Hf_0 for CCOC(=O)C(=O)OCC is -732.9032700434301 kJ/mol
-Prediction of Hf_298 for CCOC(=O)C(=O)OCC is -758.5392370902822 kJ/mol
-
-
-Prediction of Hf_298 for CCOC(=O)C(=O)OCC in liquid pahse is -813.6903452823091 kJ/mol
-
-
-Working on CCCCCCCCCCCO...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCCCCCCCCO
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[8][1][1]][6[6][1][1]][1][1]]: -4.81305723
-[6[6[6][1][1]][8[1]][1][1]]   : -6.35338075
-[8[6[6][1][1]][1]]            : -39.62472172
-Prediction of Hf_0 for CCCCCCCCCCCO is -347.0043173393137 kJ/mol
-Prediction of Hf_298 for CCCCCCCCCCCO is -419.6680936043447 kJ/mol
-
-
-Prediction of Hf_298 for CCCCCCCCCCCO in liquid pahse is -502.7847808983297 kJ/mol
-
-
-Working on CCCCCCCCCCCCCCCCCCCC...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCCCCCCCCCCCCCCCCC
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
-Prediction of Hf_0 for CCCCCCCCCCCCCCCCCCCC is -330.1439414910087 kJ/mol
-Prediction of Hf_298 for CCCCCCCCCCCCCCCCCCCC is -455.7296021857194 kJ/mol
-
-
-Prediction of Hf_298 for CCCCCCCCCCCCCCCCCCCC in liquid pahse is -562.0446963539416 kJ/mol
-
-
-Working on CN(c1ccccc1)c2ccccc2...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  604016.342044: -20.696566668778114 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-Add ring correction  604016.342044: -20.696566668778114 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CN(c1ccccc1)c2ccccc2
-Prediction are made based on such group types:
-[7[6[1][1][1]][6[6][6]][6[6][6]]]: 21.6438888
-[6[7[6][6]][6[6][1]][6[6][1]]]: 7.48726934
-[6[6[7][6]][6[6][1]][1]]      : 6.45477222
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[7][6]][6[6][1]][1]]      : 6.45477222
-[6[7[6][6]][6[6][1]][6[6][1]]]: 7.48726934
-[6[6[7][6]][6[6][1]][1]]      : 6.45477222
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[7][6]][6[6][1]][1]]      : 6.45477222
-Prediction of Hf_0 for CN(c1ccccc1)c2ccccc2 is 215.437173911617 kJ/mol
-Prediction of Hf_298 for CN(c1ccccc1)c2ccccc2 is 215.5718482483443 kJ/mol
-
-
-Prediction of Hf_298 for CN(c1ccccc1)c2ccccc2 in liquid pahse is 135.16899136791847 kJ/mol
-
-
-Working on C1CCC(=CC1)c2ccccc2...
-Identify rings! Add ring correction to final predictoon
-Add ring correction  604616.866589: -2.793399554571533 kcal/mole into final prediction (based on depth=0 ring  603211.419040)
-Add ring correction  603815.814753: -20.63925820353573 kcal/mole into final prediction (based on depth=0 ring  602410.368879)
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of C1CCC(=CC1)c2ccccc2
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][6]][1][1]]: -4.77403301
-[6[6[6][1][1]][6[6][6]][6[6][1]]]: 11.20550476
-[6[6[6][1][1]][6[6][6]][1]]   : 9.385553
 [6[6[6][1][1]][6[6][1]][1][1]]: -4.91316901
-[6[6[6][6]][6[6][1]][6[6][1]]]: 11.11144891
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][1]][6[6][1]][1]]      : 6.74395169
-[6[6[6][6]][6[6][1]][1]]      : 7.05133934
-Prediction of Hf_0 for C1CCC(=CC1)c2ccccc2 is 120.21450691039341 kJ/mol
-Prediction of Hf_298 for C1CCC(=CC1)c2ccccc2 is 96.31196163231358 kJ/mol
-
-
-Prediction of Hf_298 for C1CCC(=CC1)c2ccccc2 in liquid pahse is 28.251015098430003 kJ/mol
-
-
-Working on CC(C)(OO)C#CC=C...
-
-========================================================================================================================
-Unknown CAVs are required for this compound, skipping...
-
-
-========================================================================================================================
-Working on CCCCCC(C)O...
-
-========================================================================================================================
-========================================================================================================================
-
-No more information is needed, begin to calculate enthalpy of fomation of CCCCCC(C)O
-Prediction are made based on such group types:
-[6[6[6][1][1]][6[1][1][1]][1][1]]: -4.88375089
 [6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[6][1][1]][6[6][1][1]][1][1]]: -4.94902197
-[6[6[8][6][1]][6[6][1][1]][1][1]]: -4.90593487
-[6[6[6][1][1]][6[1][1][1]][8[1]][1]]: -4.46173771
-[8[6[6][6][1]][1]]            : -40.68113313
-Prediction of Hf_0 for CCCCCC(C)O is -306.39056906521176 kJ/mol
-Prediction of Hf_298 for CCCCCC(C)O is -354.8063920571032 kJ/mol
+[6[6[6][1][1]][6[6][1]][1][1]]: -4.91316901
+[6[6[6][1][1]][6[6][1]][1]]   : 8.7673097
+[6[6[6][1][1]][6[6][1]][1]]   : 8.7673097
+Prediction of Hf_0 for R1.xyz is 58.47180720490894 KJ/mol
+Prediction of Hf_298 for R1.xyz is 35.04294359326045 KJ/mol
 
 
-Prediction of Hf_298 for CCCCCC(C)O in liquid pahse is -420.132472863532 kJ/mol
+Prediction of Hf_298 for R1.xyz in liquid pahse is 0.7262204453138992 kJ/mol
 
 
-Working on CC(C)(C)OC(=O)C(F)(F)F...
+Working on company/step1P_A.xyz...
 
 ========================================================================================================================
 ========================================================================================================================
 
-No more information is needed, begin to calculate enthalpy of fomation of CC(C)(C)OC(=O)C(F)(F)F
+No more information is needed, begin to calculate enthalpy of fomation of step1P_A.xyz
 Prediction are made based on such group types:
-[6[6[1][1][1]][6[1][1][1]][6[1][1][1]][8[6]]]: -2.21876143
-[8[6[6][6][6]][6[8][6]]]      : -37.47999995
-[6[6[9][9][9]][8[6]][8]]      : -35.6924299
-[6[6[8][8]][9][9][9]]         : -161.0938906
-Prediction of Hf_0 for CC(C)(C)OC(=O)C(F)(F)F is -1082.2537143837396 kJ/mol
-Prediction of Hf_298 for CC(C)(C)OC(=O)C(F)(F)F is -1114.7856785185309 kJ/mol
+[8[6[7][7]][6[8][6]]]         : -39.91756426
+[7[6[1][1][1]][6[1][1][1]][6[8][7]]]: 13.26303543
+[7[6[1][1][1]][6[8][7]]]      : 10.78556245
+[6[6[1][1][1]][8[6]][8]]      : -42.93231508
+[6[7[6][6]][8[6]][7[6]]]      : 25.55970934
+Prediction of Hf_0 for step1P_A.xyz is -266.9417569851803 KJ/mol
+Prediction of Hf_298 for step1P_A.xyz is -306.1935019204539 KJ/mol
 
 
-Prediction of Hf_298 for CC(C)(C)OC(=O)C(F)(F)F in liquid pahse is -1164.385218345432 kJ/mol
+Prediction of Hf_298 for step1P_A.xyz in liquid pahse is -355.79304174735495 kJ/mol
+
+
+Working on company/step1P_B.xyz...
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of step1P_B.xyz
+Prediction are made based on such group types:
+[7[6[1][1][1]][6[1][1][1]][1]]: 16.15517147
+Prediction of Hf_0 for step1P_B.xyz is 5.936742383036414 KJ/mol
+Prediction of Hf_298 for step1P_B.xyz is -15.96229605114516 KJ/mol
+
+
+Prediction of Hf_298 for step1P_B.xyz in liquid pahse is -45.8891430501393 kJ/mol
+
+
+Working on company/step1R_A.xyz...
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of step1R_A.xyz
+Prediction are made based on such group types:
+[7[6[1][1][1]][6[1][1][1]][6[7][7]]]: 13.77024686
+[7[6[1][1][1]][6[1][1][1]][6[7][7]]]: 13.77024686
+[7[6[1][1][1]][6[7][7]]]      : 3.77436967
+[6[7[6][6]][7[6][6]][7[6]]]   : 33.94196315
+Prediction of Hf_0 for step1R_A.xyz is 113.09146326870457 KJ/mol
+Prediction of Hf_298 for step1R_A.xyz is 64.14561366660244 KJ/mol
+
+
+Prediction of Hf_298 for step1R_A.xyz in liquid pahse is 20.097642204827167 kJ/mol
+
+
+Working on company/step1R_B.xyz...
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of step1R_B.xyz
+Prediction are made based on such group types:
+[6[6[1][1][1]][8[1]][8]]      : -43.28403387
+[8[6[8][6]][1]]               : -49.63129399
+Prediction of Hf_0 for step1R_B.xyz is -417.37959804356376 KJ/mol
+Prediction of Hf_298 for step1R_B.xyz is -430.5350320075647 KJ/mol
+
+
+Prediction of Hf_298 for step1R_B.xyz in liquid pahse is -479.69793648772895 kJ/mol
+
+
+Working on company/step2P_A.xyz...
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of step2P_A.xyz
+Prediction are made based on such group types:
+[8[6[8][6]][7[1][1]]]         : -22.90045584
+[6[6[1][1][1]][8[7]][8]]      : -41.73126285
+[7[8[6]][1][1]]               : 16.64787021
+Prediction of Hf_0 for step2P_A.xyz is -224.5007509853309 KJ/mol
+Prediction of Hf_298 for step2P_A.xyz is -242.54192982602945 KJ/mol
+
+
+Prediction of Hf_298 for step2P_A.xyz in liquid pahse is -271.0361576983699 kJ/mol
+
+
+Working on company/step2P_B.xyz...
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of step2P_B.xyz
+Prediction are made based on such group types:
+[7[6[1][1][1]][6[8][7]][1]]   : 4.01743649
+[6[7[6][6]][7[6][1]][8]]      : -39.79039211
+[7[6[1][1][1]][6[1][1][1]][6[8][7]]]: 13.26303543
+Prediction of Hf_0 for step2P_B.xyz is -186.5671790666343 KJ/mol
+Prediction of Hf_298 for step2P_B.xyz is -219.5145903868522 KJ/mol
+
+
+Prediction of Hf_298 for step2P_B.xyz in liquid pahse is -254.66725860484934 kJ/mol
+
+
+Working on company/step3P_A.xyz...
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of step3P_A.xyz
+Prediction are made based on such group types:
+[7[6[1][1][1]][6[8][6]][1]]   : 6.05430241
+[6[6[1][1][1]][7[6][1]][8]]   : -41.85881772
+Prediction of Hf_0 for step3P_A.xyz is -211.87564266169048 KJ/mol
+Prediction of Hf_298 for step3P_A.xyz is -233.3613855300704 KJ/mol
+
+
+Prediction of Hf_298 for step3P_A.xyz in liquid pahse is -308.44223722392246 kJ/mol
+
+
+Working on company/step3P_B.xyz...
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of step3P_B.xyz
+Prediction are made based on such group types:
+[8[7[1][1]][1]]               : -26.6236765
+[7[8[1]][1][1]]               : 16.75831179
+Prediction of Hf_0 for step3P_B.xyz is -30.894621515777846 KJ/mol
+Prediction of Hf_298 for step3P_B.xyz is -41.276640377229015 KJ/mol
+
+
+Prediction of Hf_298 for step3P_B.xyz in liquid pahse is -60.87556500579133 kJ/mol
+
+
+Working on company/step3R_B.xyz...
+
+========================================================================================================================
+========================================================================================================================
+
+No more information is needed, begin to calculate enthalpy of fomation of step3R_B.xyz
+Prediction are made based on such group types:
+[7[6[1][1][1]][1][1]]         : 5.27677953
+Prediction of Hf_0 for step3R_B.xyz is -4.649215124306501 KJ/mol
+Prediction of Hf_298 for step3R_B.xyz is -19.699708250002093 KJ/mol
+
+
+Prediction of Hf_298 for step3R_B.xyz in liquid pahse is -43.74628450045348 kJ/mol
 
 
