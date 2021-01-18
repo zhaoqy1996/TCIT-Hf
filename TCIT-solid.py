@@ -1,7 +1,7 @@
 # This is file is write to 
 # 1. Indentify whether this is a minimal structure or not, if so, append it into database
 # 2. use Taffi component theory to get prediction of Hf
-# Author: Qiyuan Zhao, Nicolae C. Iovanac
+# Author: Qiyuan Zhao, Nicolae C. Iovanac, Brett Savoie
 
 def warn(*args,**kwargs): #Keras spits out a bunch of junk
     pass
@@ -22,7 +22,11 @@ random.seed(0)
 # import taffi related functions
 sys.path.append('utilities')
 from taffi_functions import * 
-from deal_ring import get_rings
+from deal_ring import get_rings,return_smi 
+
+# import calculate_Hsub module to get H_sub
+sys.path.append('HSUB')
+from calculate_Hsub import calc_HSUB
 
 # import Machine learning related functions
 sys.path.append('/'.join(os.path.abspath(__file__).split('/')[:-1])+'/ML-package')
@@ -62,6 +66,7 @@ def main(argv):
     # parse configuration dictionary (c)                                                                                                   
     print("parsing calculation configuration...")
     args=parser.parse_args()    
+
     # set default value
     if args.Itype not in ['xyz','smiles']:
         print("Warning! input_type must be either xyz or smiles, use default xyz...")
@@ -73,6 +78,9 @@ def main(argv):
     if args.Itype == 'smiles' and args.input_name == None:
         args.input_name = 'input.txt'
     
+    # Energy convert from kj to kcal
+    kj2kcal = 0.239006
+
     # load database
     FF_dict = parse_HF_database(args.dbfile)    
     G4_dict = parse_G4_database(args.g4dbfile)
@@ -100,24 +108,30 @@ def main(argv):
     # load in ML model
     base_model = getModel()
 
+    # create result dict
+    TCITresult = {}
+
     # loop for target xyz files
     for i in items:
         print("Working on {}...".format(i))
         if args.Itype == 'xyz':
             E,G = xyz_parse(i)
+            adj_mat = Table_generator(E,G)
             name = i.split('/')[-1]
+            smiles= return_smi(E,G,adj_mat)
+
         else:
             E,G = parse_smiles(i)
-            name = i
+            adj_mat = Table_generator(E,G)
+            name =  i
+            smiles= i
             
         if True in [element.lower() not in ['h','c','n','o','f','s','cl','br','p'] for element in E]:
             print("can't deal with some element in this compounds")
             continue
 
-        adj_mat = Table_generator(E,G)
+        # determine atom types and replace "R" group by normal group
         atom_types = id_types(E,adj_mat,2)
-
-        # replace "R" group by normal group
         atom_types = [atom_type.replace('R','') for atom_type in atom_types]
         
         # remove terminal atoms                                                                                                           
@@ -137,14 +151,24 @@ def main(argv):
             print("\n"+"="*120)
             print("="*120)
             print("\nNo more information is needed, begin to calculate enthalpy of fomation of {}".format(i.split('/')[-1]))
-            TCIT_Hf_0k,TCIT_Hf_298k = calculate_CAV(E,G,adj_mat,name,FF_dict,ring_dict,base_model)
-            if len(group_types) < 2: 
-                print("\n{} is too small for TCIT prediction, the result comes directly from a G4 calculation".format(i.split('/')[-1]))
 
+            # calculate gasous phase enthalpy of formation
+            Hf_0k,Hf_298k = calculate_CAV(E,G,adj_mat,name,FF_dict,ring_dict,base_model)
+
+            # predict solid phase enthalpy of formation (at room temperature)
+            H_sub = calc_HSUB(smiles,E,G)
+            print("Prediction of Hf_298 for {} in solid pahse is {} kJ/mol (HSUB: {} kJ/mol)\n\n".format(name, Hf_298k/kj2kcal-H_sub, H_sub))
+            TCITresult[smiles]=Hf_298k/kj2kcal-H_sub
+            
         else:
             print("\n"+"="*120)
             print("Unknown CAVs are required for this compound, skipping...\n") 
             print("\n"+"="*120)
+
+    # write TCIT predictions to target file
+    with open('TCIT_result.txt','w') as f:
+        for i in sorted(TCITresult.keys()):
+            f.write('{:<60s} {:< 8.4f}\n'.format(i,TCITresult[i]))
 
     return
 

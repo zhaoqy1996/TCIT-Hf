@@ -158,12 +158,17 @@ def main(argv):
             # predict liquid phase enthalpy of formation (at room temperature)
             P,H_vap = calculate_PandHvap(smiles,T=298.0)
             print("Prediction of Hf_298 for {} in liquid pahse is {} kJ/mol\n\n".format(name, Hf_298k/kj2kcal-H_vap))
-            TCITresult[smiles]=Hf_298k-H_vap
+            TCITresult[smiles]=Hf_298k/kj2kcal-H_vap
             
         else:
             print("\n"+"="*120)
             print("Unknown CAVs are required for this compound, skipping...\n") 
             print("\n"+"="*120)
+
+    # write TCIT predictions to target file
+    with open('TCIT_result.txt','w') as f:
+        for i in sorted(TCITresult.keys()):
+            f.write('{:<60s} {:< 8.4f}\n'.format(i,TCITresult[i]))
 
     return
 
@@ -209,7 +214,8 @@ def calculate_CAV(E,G,adj_mat,name,FF_dict,ring_dict,base_model):
                     ring_corr_0K  +=RC_0K 
                     ring_corr_298K+=RC_298
                 
-                    print("Add ring correction {}: {} kcal/mole into final prediction (based on depth=0 ring {})".format(depth2_ring["hash_index"],RC_298,depth0_ring["hash_index"]))
+                    print("Add ring correction {}: {} kcal/mol into final prediction (based on depth=0 ring {}: {} kcal/mol)".format(depth2_ring["hash_index"],RC_298,\
+                                                                                                                                     depth0_ring["hash_index"],ring_dict["HF_298"][float(depth0_ring["hash_index"])] ))
                     
                 else:
                     print("Information of ring {} is missing, the final prediction might be not accurate, please update ring_correction database first".format(depth0_ring["hash_index"]))

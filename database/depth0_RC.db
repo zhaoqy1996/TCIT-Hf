@@ -3,161 +3,416 @@
 #     Enthalpy of formation unit:          kcal/mol 
 
 # Ring_type	          Hf_0k              Hf_298k                    Inchikey		Smile
-1004019.80767         2.04864486           11.70750046         QSBDXVOJNUPDPI-UHFFFAOYSA-N    O1COCOCOCOC1                            
-1006019.90752         14.39995317          13.37898784         LMGZGXSXHCMSAA-UHFFFAOYSA-N    C1CCCCCCCCC1                            
-301405.43755          54.63831943          55.02966962         OOXWYYGXTJLWHA-UHFFFAOYSA-N    C1=CC1                                  
-301405.943498         26.34458579          27.03691497         IAYPIBMASNFSPL-UHFFFAOYSA-N    O1CC1                                   
-301407.974316         20.68591224          21.03955658         VOVUARRWDCVURC-UHFFFAOYSA-N    S1CC1                                   
-301605.972015         27.16226191          27.52379358         NOWKCMXCCJGMRR-UHFFFAOYSA-N    N1CC1                                   
-301805.962243         27.53329692          27.79478751         LVZWSLJZHVFIQJ-UHFFFAOYSA-N    C1CC1                                   
-401606.911406         75.22847124          75.56880757         HWEQKSVYKBUIIK-UHFFFAOYSA-N    C1=CC=C1                                
-401607.412775         19.88851269          20.04357084         LHAMNQGGGDUVFZ-UHFFFAOYSA-N    C1CN=N1                                 
-401609.428719         22.76869555          22.56619782         HPINPCFOKNNWNW-UHFFFAOYSA-N    C1SC=C1                                 
-402007.436297         31.20042193          31.13684731         CFBGXYDUODCMNS-UHFFFAOYSA-N    C1CC=C1                                 
-402007.943202         26.33036791          26.82769360         AHHWIHXENZJRFG-UHFFFAOYSA-N    C1CCO1                                  
-402009.977876         20.96660163          20.82101799         XSROQCDVUIHRSI-UHFFFAOYSA-N    C1CCS1                                  
-402207.971581         26.10715629          26.19056381         HONIICLYMWZJFZ-UHFFFAOYSA-N    C1CCN1                                  
-402407.961672         26.63724224          26.58073472         PMPVIKIVABFJJI-UHFFFAOYSA-N    C1CCC1                                  
-501408.84056         -19.48300367         -19.76439119         JKFAIQOWCVVSKC-UHFFFAOYSA-N    c1cnon1                                 
-501608.85877         -3.14442784          -3.52360937          CTAPFRYPJLPFDF-UHFFFAOYSA-N    c1ccno1                                 
-501608.863923        -16.28034262         -16.87557314         ZCQWOFVYLHDMMC-UHFFFAOYSA-N    c1ncco1                                 
-501610.861515        -12.60047740         -13.44014446         FZWLAAWBMGSTSO-UHFFFAOYSA-N    c1nccs1                                 
-501808.876564        -10.95003427         -11.78027627         YLQBMQCUIZJEEH-UHFFFAOYSA-N    c1ccco1                                 
-501809.373882         1.51368280           1.88355924          JKNSMBZZZFGYCB-UHFFFAOYSA-N    C1CN=NO1                                
-501809.38163          4.40350963           6.34389566          ABADUMLIAZCWJD-UHFFFAOYSA-N    C1OC=CO1                                
-501810.875924        -12.72848174         -13.62856521         YTPLMLYBLZKORZ-UHFFFAOYSA-N    c1cccs1                                 
-501813.408981        -1.16421778          -2.21877807          IVJFXSLMUSQZMC-UHFFFAOYSA-N    C1SC=CS1                                
-502008.90891         -8.92616005          -9.26486886          KAESVJOAVNADME-UHFFFAOYSA-N    c1ccc[nH]1                              
-502009.388324         9.53100830           9.75430003          WEQPBCSPRXFQQS-UHFFFAOYSA-N    O1CCC=N1                                
-502009.395075         3.69494652           3.48045141          IMSODMZESSGVBE-UHFFFAOYSA-N    C1COC=N1                                
-502208.902973         6.36257443           5.97749545          ZSWFCLXCOIISFI-UHFFFAOYSA-N    C1C=CC=C1                               
-502209.404726         4.35756176           4.38848183          DNXIASIHZYFFRO-UHFFFAOYSA-N    C1CN=NC1                                
-502209.405723         5.55177242           5.35869793          JKTCBAGSMQIFNL-UHFFFAOYSA-N    C1CC=CO1                                
-502209.408917         3.74002909           3.34593810          ARGCQEVBJHPOGB-UHFFFAOYSA-N    O1CC=CC1                                
-502209.915041         6.16965436           8.08535003          WNXJIVFYUVYPPR-UHFFFAOYSA-N    C1OCCO1                                 
-502211.422932         2.82864092           2.30609076          OXBLVCZKDOZZOJ-UHFFFAOYSA-N    C1CC=CS1                                
-502211.440443         5.04170918           4.70764628          WURYWHAKEJHAOV-UHFFFAOYSA-N    S1CC=CC1                                
-502213.978091         6.94488659           6.87771022          IMLSAISZLJGWPP-UHFFFAOYSA-N    C1SCCS1                                 
-502409.436078         6.48568030           6.14944970          RSEBUVRVKCANEP-UHFFFAOYSA-N    C1CC=CN1                                
-502609.428148         6.52930626           6.18161902          LPIQUOYDBNQMRZ-UHFFFAOYSA-N    C1CC=CC1                                
-502609.935149         6.61029700           6.46790903          WYURNTSHIVDZCO-UHFFFAOYSA-N    C1CCCO1                                 
-502611.970209         3.02113381           2.47980524          RAOIDOHSFRTOEL-UHFFFAOYSA-N    C1CCCS1                                 
-502809.963515         6.44233879           6.22940768          RWRDLPDLKQPQOW-UHFFFAOYSA-N    C1CCCN1                                 
-503009.953592         7.55534923           7.36282121          RGSFGYAAUTVSQA-UHFFFAOYSA-N    C1CCCC1                                 
-601810.331719        -9.54772643          -10.53939871         JIHQDMXYYFUGFV-UHFFFAOYSA-N    n1cncnc1                                
-602010.341081        -0.26293637          -0.66019310          PBMFSQRYOILNGV-UHFFFAOYSA-N    c1ccnnc1                                
-602010.344489        -16.08530854         -16.55249569         CZPWVGJYEJSRLH-UHFFFAOYSA-N    c1ccncn1                                
-602010.344796        -26.47209467         -27.02304761         KYQCOXFCLRTKLS-UHFFFAOYSA-N    n1ccncc1                                
-602014.799699         10.91826174          10.39227170         RIYVKHUVXPAOPS-UHFFFAOYSA-N    S1SC=CC=C1                              
-602210.356875        -15.27916957         -15.76179568         JUJWROOIHBZHMG-UHFFFAOYSA-N    c1cccnc1                                
-602410.368879        -19.91215591         -20.50010593         UHOVQNZJYSORNB-UHFFFAOYSA-N    c1ccccc1                                
-602410.871015         3.12542623           2.55464293          MGADZUXDNSDTHW-UHFFFAOYSA-N    O1CC=CC=C1                              
-602410.873704         2.91472943           2.55797030          WUCWFMVYIKMAPG-UHFFFAOYSA-N    N1=CC=NCC1                              
-602411.373963        -0.45256399          -0.39134918          HIZVCIIORGCREW-UHFFFAOYSA-N    C1COC=CO1                               
-602411.884582         2.59173452           8.24950926          BGJSXRVXTHVRSN-UHFFFAOYSA-N    O1COCOC1                                
-602610.88205          7.43487136           7.03717642          RDOAUPPSCNSYPM-UHFFFAOYSA-N    C1CC=CN=C1                              
-602610.883808         7.98566052           7.63801893          NZHIIDNOLFOHSG-UHFFFAOYSA-N    C1CC=CC=N1                              
-602810.893639         0.98866576           0.33939059          UVJHQYIOXKWHFD-UHFFFAOYSA-N    C1=CCC=CC1                              
-602810.893836         5.21630665           4.71013765          MGNZXYYWBUKAII-UHFFFAOYSA-N    C1CC=CC=C1                              
-602811.395628         10.57874552          10.24681101         MSBGDLOZNZOWIQ-UHFFFAOYSA-N    C1CCN=NC1                               
-602811.396653         0.17922402          -0.49516216          BUDQDWGNQVEFAC-UHFFFAOYSA-N    C1COC=CC1                               
-602811.400167         2.87831992           2.33765572          MUGSKSNNEORSJG-UHFFFAOYSA-N    O1CCC=CC1                               
-602811.436314         4.37387096           3.90648544          OTPDWCMLUKMQNO-UHFFFAOYSA-N    C1NCC=CN1                               
-602811.906081         2.45878096           4.37086338          VDFVNEFVBPFDSB-UHFFFAOYSA-N    C1CCOCO1                                
-602811.907308         4.00012075           4.12160351          RYHBNJHYFVUHQT-UHFFFAOYSA-N    O1CCOCC1                                
-602815.969787         4.01837748           3.40177242          WQADWIOXOXRPLN-UHFFFAOYSA-N    C1CCSCS1                                
-603011.409229         5.12375093           4.71670740          DWKUKQRKVCMOLP-UHFFFAOYSA-N    C1CCC=NC1                               
-603211.41904          2.13865396           1.52505185          HGCIXCUEYOPUTN-UHFFFAOYSA-N    C1CCC=CC1                               
-603211.926051         2.41542751           1.77996641          DHXVGJBLRPWPCS-UHFFFAOYSA-N    C1CCCOC1                                
-603211.964264         1.37782444           0.85904747          GLUUGHFHXGJENI-UHFFFAOYSA-N    N1CCNCC1                                
-603213.961149         0.84998084           0.05968015          YPWFISCTZQNZAU-UHFFFAOYSA-N    C1CCCSC1                                
-603411.954415         0.94287808           0.29962475          NQRYJNQNLNOLGT-UHFFFAOYSA-N    C1CCCNC1                                
-603611.94449          1.48234531           0.79423413          XDTMQSROBMDMFD-UHFFFAOYSA-N    C1CCCCC1                                
-702612.333016         5.64484613           4.75479025          ATYBXHSAIOKLMG-UHFFFAOYSA-N    C1=CC=CC=CO1                            
-702812.36536          11.60006424          11.19903151         XYOVOXDWRFGKEX-UHFFFAOYSA-N    C1=CC=CC=CN1                            
-703012.359422         5.03956285           4.34868646          CHVJITGCYZJHLR-UHFFFAOYSA-N    C1=CC=CC=CC1                            
-703012.865366         6.44311525           5.79342757          AHALYBXZBTZMTD-UHFFFAOYSA-N    C1OCC=CC=C1                             
-703013.364875         4.43782848           4.47032967          SEMAUTYMNAWLQX-UHFFFAOYSA-N    C1COC=COC1                              
-703212.894128         7.28518894           6.82603864          VQCYLCUZWFDTQE-UHFFFAOYSA-N    C1NCC=CC=C1                             
-703412.884385         7.95608934           7.34322892          HQGYGGZHZWXFSI-UHFFFAOYSA-N    C1CC=CCC=C1                             
-703412.884602         7.43520665           6.87208328          GWYPDXLJACEENP-UHFFFAOYSA-N    C1CC=CC=CC1                             
-703413.896865         5.11944605           6.68109645          CZLMRJZAHXYRIX-UHFFFAOYSA-N    C1CCCOCO1                               
-703413.898214         8.22777887           8.38827131          LMTDPKYREUZYAO-UHFFFAOYSA-N    C1COCCOC1                               
-703813.409809         5.89181347           5.23192464          ZXIJMRYMVAMXQP-UHFFFAOYSA-N    C1CCC=CCC1                              
-703815.951923         5.60670050           4.80379399          JWCVYQRPINPYQJ-UHFFFAOYSA-N    C1CCCCSC1                               
-704013.945184         7.60391429           7.03611099          ZSIQJIWKELUFRJ-UHFFFAOYSA-N    C1CCCCNC1                               
-704213.93526          7.71542038           7.05946111          DMEGYFMYUHOHGS-UHFFFAOYSA-N    C1CCCCCC1                               
-803213.825196         17.86052573          17.43803756         KDUIUFJBNGTBMD-DLMDZQPMSA-N    C1=CC=CC=CC=C1                          
-803215.846136         3.04190842           10.72972599         XGJWQNKXTXSVML-UHFFFAOYSA-N    O1COCOCOC1                              
-803615.868875         5.71660657           7.98548209          AUAGGMPIKOZAJZ-UHFFFAOYSA-N    C1OCCOCCO1                              
-804014.875117         9.75221126           8.93103706          VYXHVRARDIDEHS-QGTKBVGQSA-N    C1CC=CCCC=C1                            
-804015.88762          3.94521627           5.33413953          CJSITSBWCLTCAP-UHFFFAOYSA-N    C1CCCOCOC1                              
-804415.400562         7.55160295           6.67035239          URYYVOIYTNXXBN-UPHRSURJSA-N    C1CCCC=CCC1                             
-804815.926013         11.22573390          10.38229839         WJTCGQSWYFHTAC-UHFFFAOYSA-N    C1CCCCCCC1                              
-603211.963957         1.54316135           1.02194183          DKYBVKMIZODYKL-UHFFFAOYSA-N    C1CCNCN1                                
-402007.977661         27.11267941          27.30614716         YRTMEEURRDTMST-UHFFFAOYSA-N    C1CNN1                                  
-501408.845712        -8.98916163          -9.33243125          BBVIDBNAYOIXOE-UHFFFAOYSA-N    c1ncno1                                 
-501408.847487        -39.08062533         -39.62129581         FKASFBLJDCHBNZ-UHFFFAOYSA-N    o1cnnc1                                 
-501408.862453        -21.66937798         -21.37781893         KJUGUADJHNHALS-UHFFFAOYSA-N    c1nnn[nH]1                              
-501408.864052        -17.70141571         -17.69352154         KJUGUADJHNHALS-UHFFFAOYSA-N    n1ncn[nH]1                              
-501410.807754         4.12874820           3.70108096          UDGKZGLPXCRRAM-UHFFFAOYSA-N    c1cnsn1                                 
-501410.827222        -12.39986932         -13.06336221         YGTAZGSLCXNBQL-UHFFFAOYSA-N    c1ncns1                                 
-501410.843313        -18.77420833         -19.54267553         MBIZXFATKUQOOA-UHFFFAOYSA-N    s1cnnc1                                 
-501608.878888        -27.82275773         -28.14101165         QWENRTYMTSOGBR-UHFFFAOYSA-N    c1cnn[nH]1                              
-501608.880666        -15.14906918         -14.83166252         NSPMIYGKQJPBQR-UHFFFAOYSA-N    [nH]1cnnc1                              
-501608.882265        -11.39201386         -11.57763011         NSPMIYGKQJPBQR-UHFFFAOYSA-N    c1ncn[nH]1                              
-501610.842047        -7.24226922          -8.03767136          ZLTPDFXIESTBQG-UHFFFAOYSA-N    c1ccns1                                 
-501808.894907        -14.73587690         -15.07760544         WTKZEGDFNFYCGP-UHFFFAOYSA-N    c1ccn[nH]1                              
-501808.896685        -14.32864230         -14.71192895         RAXXELZNTBOGNW-UHFFFAOYSA-N    c1ncc[nH]1                              
-502011.389451         4.96721546           4.89307054          GUUULVAMQJLDSY-UHFFFAOYSA-N    S1CCC=N1                                
-502011.408794         6.09709354           5.72265672          YTQQIHUQLOZOJI-UHFFFAOYSA-N    C1NSC=C1                                
-502011.410517         3.10061987           2.71129640          CBDKQYKMCICBOF-UHFFFAOYSA-N    C1CSC=N1                                
-502011.424705         9.08052224           8.63685253          UPUWMQZUXFAUCJ-UHFFFAOYSA-N    C1C=CNS1                                
-502011.428261         8.81029539           8.43431692          OYJGEOAXBALSMM-UHFFFAOYSA-N    C1NC=CS1                                
-502209.42247          3.11594837           2.86124448          MCGBIXXDQFWVDW-UHFFFAOYSA-N    N1CCC=N1                                
-502209.425847         6.76049432           6.55664454          MTNDZQHUAFNZQY-UHFFFAOYSA-N    C1CNC=N1                                
-502409.437677         6.59075909           6.42046346          JVQIKJMSUIMUDI-UHFFFAOYSA-N    N1CC=CC1                                
-502409.944239         9.45731405           9.40115306          WYNCHZVNFNFDNH-UHFFFAOYSA-N    C1NCCO1                                 
-502411.956465         5.28765877           4.81764045          CZSRXHJVZUBEGW-UHFFFAOYSA-N    C1CCNS1                                 
-502411.977532         3.50283290           3.13274634          OGYGFUAIIOPWQD-UHFFFAOYSA-N    C1NCCS1                                 
-502609.969645         4.83883395           4.96170553          USPWKWBDZOARPV-UHFFFAOYSA-N    C1CNNC1                                 
-502609.973022         6.59146721           6.48009294          WRYCSMQKUKOKBP-UHFFFAOYSA-N    C1NCCN1                                 
-601810.328619        -5.94346978          -6.05645598          FYADHXFMURLYQI-UHFFFAOYSA-N    n1ccnnc1                                
-602210.873746         11.14658046          11.18754926         IIATVLXXAYLQIZ-UHFFFAOYSA-N    N1CC=NN=C1                              
-602410.867304        -4.85056971          -5.94854999          MRUWJENAYHTDQG-UHFFFAOYSA-N    C1C=COC=C1                              
-602410.873507         5.17150008           4.82407225          BNDCYQXUFIHUHS-UHFFFAOYSA-N    N1=CCN=CC1                              
-602410.88775          6.00694550           5.74229071          ZEFGUWRQFNTGGX-UHFFFAOYSA-N    N1CC=CC=N1                              
-602410.889399         4.58312151           4.33654832          OKGNMRKOGWTADH-UHFFFAOYSA-N    C1NC=NC=C1                              
-602410.889706         3.64313842           3.28358667          QYMGRIFMUQCAJW-UHFFFAOYSA-N    N1CC=NC=C1                              
-602410.891158         7.12941387           7.01063542          WCFAPJDPAPDDAQ-UHFFFAOYSA-N    C1NC=CC=N1                              
-602610.901568         4.12458463           3.80816365          MMWRGWQTAMNAFC-UHFFFAOYSA-N    N1CC=CC=C1                              
-602611.386076         4.32377169           4.18973136          YWOIQIYQBRDOQA-UHFFFAOYSA-N    C1CCN=CO1                               
-602611.422637         5.77215997           5.43421125          HGYGEJZLUZEDIH-UHFFFAOYSA-N    N1CNN=CC1                               
-602811.413388         2.34215948           1.90448751          BGMLUCPALPKNOV-UHFFFAOYSA-N    C1CNN=CC1                               
-602813.433321         3.87097546           3.28094371          UNVYSECOIMWWKM-UHFFFAOYSA-N    S1CCC=CC1                               
-603011.428748         2.98249637           2.47918745          FTAHXMZRJCZXDL-UHFFFAOYSA-N    N1CCC=CC1                               
-603011.93521          5.40543641           5.15830216          LQPOOAJESJYDLS-UHFFFAOYSA-N    C1CCOCN1                                
-603011.935824         7.22414384           6.96171367          YNAVUWVOSKDBBP-UHFFFAOYSA-N    C1CNCCO1                                
-603011.973116         1.20508015           0.74729384          LKLLNYWECKEQIB-UHFFFAOYSA-N    N1CNCNC1                                
-603013.970601         1.59271900           1.03279200          BRNULMACUQOKMR-UHFFFAOYSA-N    C1CNCCS1                                
-703013.370617         1.32024029           2.69256755          BAKUAUDFCNFLBX-UHFFFAOYSA-N    C1OCC=CCO1                              
-703613.926662         12.13640714          12.16409274         ZNGWEEUXTBNKFR-UHFFFAOYSA-N    C1CNCCOC1                               
-703813.955068         6.20607330           5.76865147          FQUYSHZXSKYCSY-UHFFFAOYSA-N    C1CNCCNC1                               
-501608.880487        -22.54053427         -22.88962168         QWENRTYMTSOGBR-UHFFFAOYSA-N    c1cn[nH]n1                              
-501809.395003         9.15363726           8.91292452          HBJUQLMVCIEESP-UHFFFAOYSA-N    C1NC=NO1                                
-502409.418334         5.71860129           5.59378786          ZVJHJDDKYZXRJI-UHFFFAOYSA-N    C1CCC=N1                                
-602410.871639         5.40742544           5.11968229          BBZZGDLNBVRFFI-UHFFFAOYSA-N    C1CC=NC=N1                              
-602411.37625         -2.05376348          -0.89161564          UCZQXJKDCHCTAI-UHFFFAOYSA-N    C1OCC=CO1                               
-602610.883611         3.12852807           2.72176997          LPHWCAUEPAUFHZ-UHFFFAOYSA-N    C1=CCC=NC1                              
-603013.947428         1.81396628           1.13643675          AJZGFFKDLABHDD-UHFFFAOYSA-N    C1CCNSC1                                
-1004819.344396        12.11174386          11.24080260         JISCZNAIZUAGGE-UPHRSURJSA-N    C1CCCOC/C=C\CO1                         
-401609.911645         25.73362166          25.56815827         CTFDXEOXCVVOJI-UHFFFAOYSA-N    C1COS1                                  
-501809.398198         7.94990097           7.84138939          HBJUQLMVCIEESP-UHFFFAOYSA-N    C1ONC=N1                                
-502011.889861         14.31463203          13.90053480         GMQOZFVOGGIFIX-UHFFFAOYSA-N    N1CCOS1                                 
-502013.912055         9.83524227           9.46446624          WGKLFJKQSWDWHK-UHFFFAOYSA-N    N1CSSC1                                 
-502211.942304         8.99902935           8.42656005          SOQFZXMZMHODLD-UHFFFAOYSA-N    C1CNSN1                                 
-602413.82817          7.26136158           7.02344783          AVFVSPRFKUZFPS-UHFFFAOYSA-N    C1COSOC1                                
-602415.407492         2.44486989           1.84969660          FLVUYLNVCUGFGX-UHFFFAOYSA-N    C1CSC=CS1                               
-602813.937934         4.26276265           3.67319820          QVFHFKPGBODJJB-UHFFFAOYSA-N    C1CCSCO1                                
-703813.91682          8.03668131           7.46223753          UHHKSVZZTYJVEG-UHFFFAOYSA-N    C1CCCCOC1                               
-905017.898326         10.66018497          9.78926306          YVQBOKCDPCUWSP-UHFFFAOYSA-N    C1CCCCCOCC1                             
+ 1003616.760770       14.05450138          13.39082328         HVIPDMMFBOJNPL-DMEQYLTMSA-N    C1=C=C/C=C\C=C=C/C=C\1                  
+ 1003617.253698       36.80796760          36.47745327         KWPSCKRLYQXIPA-GTYSCAGESA-N    c1ccccnnccc1                            
+ 1003617.257450       35.61107152          35.41480298         YDZGMPBNPXNUFC-JZBHHQCHSA-N    c1ccccnccnc1                            
+ 1004017.783632       18.36717462          17.59957994         RMUCMKLNQAMLFO-KZPCVFJPSA-N    O1C/C=C\C=C/C=C\C=C/1                   
+ 1004019.807671       2.04864486           11.70750046         QSBDXVOJNUPDPI-UHFFFAOYSA-N    O1COCOCOCOC1                            
+ 1004417.806251       14.32090426          13.37567129         FSMQAFVXDFWYLW-ROFMVKHDSA-N    C1/C=C\C=C/C/C=C\C=C/1                  
+ 1004417.810598       2.03071589           1.14136119          ADAQQPDXZURMQF-OHQBKGPHSA-N    C1CC=C=CCCC=C=C1                        
+ 1004417.810622       7.90717470           7.21498755          JOQXRQNFXXWBRW-AWFVSMACSA-N    C1CCC=C=CCC=C=C1                        
+ 1004418.818157       6.05749528           4.84135217          PKEKPUOKXKLBDX-LOKDLIDFSA-N    O1C/C=C\COC/C=C\C1                      
+ 1004419.830422       1.67353824           5.75467816          JXPFMLAMOCPRQB-UHFFFAOYSA-N    C1OCCOCOCCO1                            
+ 1004818.331413       13.66074220          12.87450799         RBGHZLIWLPEVLM-AZXOHOHHSA-N    C\1=C\CC/C=C\C=C/CC1                    
+ 1004819.344396       12.11174386          11.24080260         JISCZNAIZUAGGE-UPHRSURJSA-N    C1CCCOC/C=C\CO1                         
+ 1005218.856616       13.41754767          12.36198302         GWCMUONZBWHLRN-REXUQAFDSA-N    C1C/C=C\CCC/C=C\C1                      
+ 1005218.856618       10.05598196          9.09077860          RDAFFINKUCJOJK-NQOXHWNZSA-N    C1CC/C=C\CC/C=C\C1                      
+ 1005218.859055       6.23323616           5.27129488          PNJVOFCTSPGBRA-VKHMYHEASA-N    C1CCCC=C=CCCC1                          
+ 1005218.861050       8.74176534           7.84030562          BGMJEAAFHCTKBY-UHFFFAOYSA-N    C1CCCCC#CCCC1                           
+ 1005619.889078       9.48465489           8.47119869          FWICBZQTZDXXOL-UHFFFAOYSA-N    C1CCCCCOCCC1                            
+ 1006019.907517       14.39995317          13.37898784         LMGZGXSXHCMSAA-UHFFFAOYSA-N    C1CCCCCCCCC1                            
+ 300805.392299        34.66628767          35.51603511         TYCZWVSOBCRZOB-UHFFFAOYSA-N    O1C=N1                                  
+ 300805.410440        11.90064936          12.67115708         MZTQIUTZJNWTSX-UHFFFAOYSA-N    N1=NN1                                  
+ 301004.915478        68.13743727          68.64697456         VVLPCWSYZYKZKR-UHFFFAOYSA-N    C1=CC=1                                 
+ 301005.413034        21.38774543          21.86135261         GKVDXUXIAHWQIK-UHFFFAOYSA-N    N1=NC1                                  
+ 301005.428982        47.89897451          48.73817704         KFJGTWZIOKFALT-UHFFFAOYSA-N    N1C=N1                                  
+ 301005.908011        23.03306856          23.02873087         ASQQEOXYFGEFKQ-UHFFFAOYSA-N    O1OC1                                   
+ 301205.427386        42.09152040          42.60179129         NTJMGOWFGQXUDY-UHFFFAOYSA-N    C1C=N1                                  
+ 301205.443334        75.82113722          76.39698190         ZHKJHQBOAJQXQR-UHFFFAOYSA-N    C1=CN1                                  
+ 301205.944895        21.70360460          22.29121857         SJGALSBBFTYSBA-UHFFFAOYSA-N    C1NO1                                   
+ 301405.437550        54.63831943          55.02966962         OOXWYYGXTJLWHA-UHFFFAOYSA-N    C1=CC1                                  
+ 301405.943498        26.34458579          27.03691497         IAYPIBMASNFSPL-UHFFFAOYSA-N    O1CC1                                   
+ 301405.977597        26.77314357          27.22666630         DIXBSCZRIZDQGC-UHFFFAOYSA-N    N1NC1                                   
+ 301407.974316        20.68591224          21.03955658         VOVUARRWDCVURC-UHFFFAOYSA-N    S1CC1                                   
+ 301605.972015        27.16226191          27.52379358         NOWKCMXCCJGMRR-UHFFFAOYSA-N    N1CC1                                   
+ 301805.962243        27.53329692          27.79478751         LVZWSLJZHVFIQJ-UHFFFAOYSA-N    C1CC1                                   
+ 401006.866931        71.13187037          72.10899644         MWYGWOUAYPHWMD-UHFFFAOYSA-N    C1=NN=N1                                
+ 401206.886610        96.67831111          96.88734207         KFCLOPRWEZEAJG-UHFFFAOYSA-N    N1=CN=C1                                
+ 401207.380791        18.83618479          19.35160212         JCDJDQPRMVXFLQ-UHFFFAOYSA-N    C1ON=N1                                 
+ 401207.415243        23.93495812          24.32951462         QGYNNJLFKIUEBQ-UHFFFAOYSA-N    n1n[nH][nH]1                            
+ 401406.899387        75.01525217          75.40708963         LKSPYOVNNMPMIZ-UHFFFAOYSA-N    C1=CC=N1                                
+ 401407.395982        27.78625693          27.82264500         SIVKUKATDHXXGH-UHFFFAOYSA-N    C1ON=C1                                 
+ 401606.911406        75.22847124          75.56880757         HWEQKSVYKBUIIK-UHFFFAOYSA-N    C1=CC=C1                                
+ 401607.412775        19.88851269          20.04357084         LHAMNQGGGDUVFZ-UHFFFAOYSA-N    C1CN=N1                                 
+ 401607.413485        27.66737537          27.35565834         CRYATLIDHPPXDV-UHFFFAOYSA-N    C1OC=C1                                 
+ 401607.909426        28.64468210          28.77854864         BVTJGGGYKAMDBN-UHFFFAOYSA-N    C1COO1                                  
+ 401607.921703        26.92189102          31.23611780         GFAJOMHUNNCCJQ-UHFFFAOYSA-N    O1COC1                                  
+ 401607.984475        15.68123184          15.62642756         NFKXMRGBYMCSII-UHFFFAOYSA-N    N1NNN1                                  
+ 401609.428719        22.76869555          22.56619782         HPINPCFOKNNWNW-UHFFFAOYSA-N    C1SC=C1                                 
+ 401609.911645        25.73362166          25.56815827         CTFDXEOXCVVOJI-UHFFFAOYSA-N    C1COS1                                  
+ 401609.949170        38.33954454          38.23228881         ACDRCENGDOEXRS-UHFFFAOYSA-N    C1NSN1                                  
+ 401807.426451        29.72151833          29.82861870         PTLWKRLAWHBMLM-UHFFFAOYSA-N    C1CC=N1                                 
+ 401807.444033        33.17488569          33.16626898         QABCDCRBWNTCGD-UHFFFAOYSA-N    C1NC=C1                                 
+ 401807.951596        33.17220413          33.36441820         RUWWNRBXWIYKAD-UHFFFAOYSA-N    N1COC1                                  
+ 402007.436297        31.20042193          31.13684731         CFBGXYDUODCMNS-UHFFFAOYSA-N    C1CC=C1                                 
+ 402007.943202        26.33036791          26.82769360         AHHWIHXENZJRFG-UHFFFAOYSA-N    C1CCO1                                  
+ 402007.977661        27.11267941          27.30614716         YRTMEEURRDTMST-UHFFFAOYSA-N    C1CNN1                                  
+ 402007.980733        29.69769244          29.83841704         MFVFDTCSVFBOTL-UHFFFAOYSA-N    N1CNC1                                  
+ 402009.977876        20.96660163          20.82101799         XSROQCDVUIHRSI-UHFFFAOYSA-N    C1CCS1                                  
+ 402207.971581        26.10715629          26.19056381         HONIICLYMWZJFZ-UHFFFAOYSA-N    C1CCN1                                  
+ 402407.961672        26.63724224          26.58073472         PMPVIKIVABFJJI-UHFFFAOYSA-N    C1CCC1                                  
+ 501208.843822       -43.51718045         -43.72244924         WUHLVXDDBHWHLQ-UHFFFAOYSA-N    n1nnn[nH]1                              
+ 501408.840560       -19.48300367         -19.76439119         JKFAIQOWCVVSKC-UHFFFAOYSA-N    c1cnon1                                 
+ 501408.842335       -14.26277098         -13.59441794         WCPAKWJPBJAGKN-UHFFFAOYSA-N    c1cnno1                                 
+ 501408.845712       -8.98916163          -9.33243125          BBVIDBNAYOIXOE-UHFFFAOYSA-N    c1ncno1                                 
+ 501408.846307        9.06694417           9.52802800          DFRRALWXTFSAEC-UHFFFAOYSA-N    C1N=NN=N1                               
+ 501408.847487       -39.08062533         -39.62129581         FKASFBLJDCHBNZ-UHFFFAOYSA-N    o1cnnc1                                 
+ 501408.862453       -21.66937798         -21.37781893         KJUGUADJHNHALS-UHFFFAOYSA-N    c1nnn[nH]1                              
+ 501408.864052       -17.70141571         -17.69352154         KJUGUADJHNHALS-UHFFFAOYSA-N    n1ncn[nH]1                              
+ 501410.807754        4.12874820           3.70108096          UDGKZGLPXCRRAM-UHFFFAOYSA-N    c1cnsn1                                 
+ 501410.827222       -12.39986932         -13.06336221         YGTAZGSLCXNBQL-UHFFFAOYSA-N    c1ncns1                                 
+ 501410.843313       -18.77420833         -19.54267553         MBIZXFATKUQOOA-UHFFFAOYSA-N    s1cnnc1                                 
+ 501608.858770       -3.14442784          -3.52360937          CTAPFRYPJLPFDF-UHFFFAOYSA-N    c1ccno1                                 
+ 501608.861144        3.11262632           2.91881033          AEJARLYXNFRVLK-UHFFFAOYSA-N    C1C=NN=N1                               
+ 501608.863923       -16.28034262         -16.87557314         ZCQWOFVYLHDMMC-UHFFFAOYSA-N    c1ncco1                                 
+ 501608.866120        6.97975456           7.08554390          FFGRBWANQMLTQI-UHFFFAOYSA-N    C1N=NC=N1                               
+ 501608.878888       -27.82275773         -28.14101165         QWENRTYMTSOGBR-UHFFFAOYSA-N    c1cnn[nH]1                              
+ 501608.880487       -22.54053427         -22.88962168         QWENRTYMTSOGBR-UHFFFAOYSA-N    c1cn[nH]n1                              
+ 501608.880666       -15.14906918         -14.83166252         NSPMIYGKQJPBQR-UHFFFAOYSA-N    [nH]1cnnc1                              
+ 501608.882265       -11.39201386         -11.57763011         NSPMIYGKQJPBQR-UHFFFAOYSA-N    c1ncn[nH]1                              
+ 501609.363398       -2.16972550          -1.01016647          ZWEGOVJVJZJDQJ-UHFFFAOYSA-N    O1COC=N1                                
+ 501609.375990        4.05342660           3.67637849          FFJBRYXQVYFDEQ-UHFFFAOYSA-N    N1OC=CO1                                
+ 501610.842047       -7.24226922          -8.03767136          ZLTPDFXIESTBQG-UHFFFAOYSA-N    c1ccns1                                 
+ 501610.861515       -12.60047740         -13.44014446         FZWLAAWBMGSTSO-UHFFFAOYSA-N    c1nccs1                                 
+ 501808.380239        67.54233612          67.48879731         NEEKTUZROXXPHS-UHFFFAOYSA-N    C1=C=CC=C1                              
+ 501808.875564        7.77984702           7.58944805          NILYRCYRBPDITI-UHFFFAOYSA-N    C1C=NN=C1                               
+ 501808.876564       -10.95003427         -11.78027627         YLQBMQCUIZJEEH-UHFFFAOYSA-N    c1ccco1                                 
+ 501808.877163        8.81240776           8.60343203          DEEPVUMBLJVOEL-UHFFFAOYSA-N    C1C=CN=N1                               
+ 501808.880540        0.20027290          -0.03256721          LGRQUXHYJBFGTM-UHFFFAOYSA-N    C1=NCC=N1                               
+ 501808.882138       -6.41271566          -6.72303340          ACVSHQGHCWUJFU-UHFFFAOYSA-N    N1=CC=NC1                               
+ 501808.894907       -14.73587690         -15.07760544         WTKZEGDFNFYCGP-UHFFFAOYSA-N    c1ccn[nH]1                              
+ 501808.896685       -14.32864230         -14.71192895         RAXXELZNTBOGNW-UHFFFAOYSA-N    c1ncc[nH]1                              
+ 501808.897080        51.29189794          51.20022067         AKOSKEPBAZDUGV-UHFFFAOYSA-N    C1NN=C=C1                               
+ 501809.373882        1.51368280           1.88355924          JKNSMBZZZFGYCB-UHFFFAOYSA-N    C1CN=NO1                                
+ 501809.381630        4.40350963           6.34389566          ABADUMLIAZCWJD-UHFFFAOYSA-N    C1OC=CO1                                
+ 501809.383828        6.54857397           6.67016446          LSXASSHCHQDGRF-UHFFFAOYSA-N    O1CN=NC1                                
+ 501809.389851        3.54955440           3.53256664          MFMZCAORNQSRKY-UHFFFAOYSA-N    C1NON=C1                                
+ 501809.394821        5.01097374           4.90669553          RLFZYIUUQBHRNV-UHFFFAOYSA-N    C1ONN=C1                                
+ 501809.395003        9.15363726           8.91292452          HBJUQLMVCIEESP-UHFFFAOYSA-N    C1NC=NO1                                
+ 501809.396602        18.58971992          18.55180332         CQHHFSBXAPCQFG-UHFFFAOYSA-N    C1NOC=N1                                
+ 501809.398198        7.94990097           7.84138939          HBJUQLMVCIEESP-UHFFFAOYSA-N    C1ONC=N1                                
+ 501809.398377        6.00495052           6.04599242          RZQQXRVPPOOCQR-UHFFFAOYSA-N    C1NN=CO1                                
+ 501809.409191        13.88157474          13.96380577         AJFRKMLYNVKEBD-UHFFFAOYSA-N    O1NC=CN1                                
+ 501809.410969        3.55093096           3.20281073          VEUMBMHMMCOFAG-UHFFFAOYSA-N    N1NC=CO1                                
+ 501809.411747        8.04633563           8.11456532          PZJFUNZDCRKXPZ-UHFFFAOYSA-N    C1NN=NN1                                
+ 501809.413346        11.14902281          11.36725991         PZJFUNZDCRKXPZ-UHFFFAOYSA-N    C1NNN=N1                                
+ 501809.431090        10.26694112          10.06643450         YMRIDJQAEZFTSC-UHFFFAOYSA-N    N1NNC=N1                                
+ 501809.866272        12.00920408          12.27750302         MAAKQSASDHJHIR-UHFFFAOYSA-N    C1COOO1                                 
+ 501809.879769        9.18963819           10.70218872         RZYIPLSVRHWROD-UHFFFAOYSA-N    C1OOCO1                                 
+ 501810.875924       -12.72848174         -13.62856520         YTPLMLYBLZKORZ-UHFFFAOYSA-N    c1cccs1                                 
+ 501813.355733        8.86132464           8.49454227          PCGDBWLKAYKBTN-UHFFFAOYSA-N    C1SSC=C1                                
+ 501813.408981       -1.16421778          -2.21877807          IVJFXSLMUSQZMC-UHFFFAOYSA-N    C1SC=CS1                                
+ 502008.891165        6.40379808           6.11548810          VXIKDBJPBRMXBP-UHFFFAOYSA-N    C1=CCC=N1                               
+ 502008.892764        3.98868651           3.73909401          JZIBVTUXIVIFGC-UHFFFAOYSA-N    C1C=CC=N1                               
+ 502008.908910       -8.92616005          -9.26486886          KAESVJOAVNADME-UHFFFAOYSA-N    c1ccc[nH]1                              
+ 502009.388324        9.53100830           9.75430003          WEQPBCSPRXFQQS-UHFFFAOYSA-N    O1CCC=N1                                
+ 502009.395075        3.69494652           3.48045141          IMSODMZESSGVBE-UHFFFAOYSA-N    C1COC=N1                                
+ 502009.398270        5.23946581           5.14540429          NHZLLKNRTDIFAD-UHFFFAOYSA-N    C1OCC=N1                                
+ 502009.407667        5.53256511           5.17151996          FJRPOHLDJUJARI-UHFFFAOYSA-N    C1NOC=C1                                
+ 502009.408445        4.61059833           4.51355699          GBLQGXFTPLQBTA-UHFFFAOYSA-N    C1CN=NN1                                
+ 502009.409263        8.81764607           8.75505469          OFJBYLCQNJHFMI-UHFFFAOYSA-N    C1C=CNO1                                
+ 502009.412819        11.15072408          10.76723096         ZABMHLDQFJHDSC-UHFFFAOYSA-N    C1NC=CO1                                
+ 502009.413421        7.33926309           7.19655812          RBSVPKWBWJHWNY-UHFFFAOYSA-N    N1CN=NC1                                
+ 502009.427788        2.66443044           2.40196911          SYOANZBNGDEJFH-UHFFFAOYSA-N    N1NCC=N1                                
+ 502009.429566        10.05750961          10.00681560         JRLFRFTXXMZSND-UHFFFAOYSA-N    N1CNC=N1                                
+ 502009.431165        10.15053535          10.12884912         JRLFRFTXXMZSND-UHFFFAOYSA-N    C1NNC=N1                                
+ 502009.445532        3.43138884           3.38987725          SNTWKPAKVQFCCF-UHFFFAOYSA-N    N1NC=CN1                                
+ 502009.909800        14.80694393          14.29953585         CSKSDHFVLDUNOC-UHFFFAOYSA-N    N1COOC1                                 
+ 502011.389451        4.96721546           4.89307054          GUUULVAMQJLDSY-UHFFFAOYSA-N    S1CCC=N1                                
+ 502011.408794        6.09709354           5.72265672          YTQQIHUQLOZOJI-UHFFFAOYSA-N    C1NSC=C1                                
+ 502011.410517        3.10061987           2.71129640          CBDKQYKMCICBOF-UHFFFAOYSA-N    C1CSC=N1                                
+ 502011.424705        9.08052224           8.63685253          UPUWMQZUXFAUCJ-UHFFFAOYSA-N    C1C=CNS1                                
+ 502011.428261        8.81029539           8.43431692          OYJGEOAXBALSMM-UHFFFAOYSA-N    C1NC=CS1                                
+ 502011.889861        14.31463203          13.90053480         GMQOZFVOGGIFIX-UHFFFAOYSA-N    N1CCOS1                                 
+ 502013.912055        9.83524227           9.46446624          WGKLFJKQSWDWHK-UHFFFAOYSA-N    N1CSSC1                                 
+ 502208.902973        6.36257443           5.97749545          ZSWFCLXCOIISFI-UHFFFAOYSA-N    C1C=CC=C1                               
+ 502209.404726        4.35756176           4.38848183          DNXIASIHZYFFRO-UHFFFAOYSA-N    C1CN=NC1                                
+ 502209.405723        5.55177242           5.35869793          JKTCBAGSMQIFNL-UHFFFAOYSA-N    C1CC=CO1                                
+ 502209.408917        3.74002909           3.34593810          ARGCQEVBJHPOGB-UHFFFAOYSA-N    O1CC=CC1                                
+ 502209.422470        3.11594837           2.86124448          MCGBIXXDQFWVDW-UHFFFAOYSA-N    N1CCC=N1                                
+ 502209.425847        6.76049432           6.55664454          MTNDZQHUAFNZQY-UHFFFAOYSA-N    C1CNC=N1                                
+ 502209.427446        5.58825375           5.35338293          FFMBYMANYCDCMK-UHFFFAOYSA-N    C1NCC=N1                                
+ 502209.441813        7.84114109           7.87123105          KEQTWHPMSVAFDA-UHFFFAOYSA-N    C1NNC=C1                                
+ 502209.443591        15.33896759          15.10552439         LWTIGYSPAXKMDG-UHFFFAOYSA-N    C1NC=CN1                                
+ 502209.901544        6.14388540           5.78124823          SNQXJPARXFUULZ-UHFFFAOYSA-N    C1COOC1                                 
+ 502209.915041        6.16965436           8.08535003          WNXJIVFYUVYPPR-UHFFFAOYSA-N    C1OCCO1                                 
+ 502209.980653        7.33293439           7.21015011          ZYXWYDDFNXBTFO-UHFFFAOYSA-N    C1NNNN1                                 
+ 502211.422932        2.82864092           2.30609076          OXBLVCZKDOZZOJ-UHFFFAOYSA-N    C1CC=CS1                                
+ 502211.440443        5.04170918           4.70764628          WURYWHAKEJHAOV-UHFFFAOYSA-N    S1CC=CC1                                
+ 502211.942304        8.99902935           8.42656005          SOQFZXMZMHODLD-UHFFFAOYSA-N    C1CNSN1                                 
+ 502211.946566        3.68978591           2.97873355          WJJSZTJGFCFNKI-UHFFFAOYSA-N    C1OCCS1                                 
+ 502213.978091        6.94488659           6.87771022          IMLSAISZLJGWPP-UHFFFAOYSA-N    C1SCCS1                                 
+ 502409.418334        5.71860129           5.59378786          ZVJHJDDKYZXRJI-UHFFFAOYSA-N    C1CCC=N1                                
+ 502409.436078        6.48568030           6.14944970          RSEBUVRVKCANEP-UHFFFAOYSA-N    C1CC=CN1                                
+ 502409.437677        6.59075909           6.42046346          JVQIKJMSUIMUDI-UHFFFAOYSA-N    N1CC=CC1                                
+ 502409.937488        9.10920553           9.37969558          CIISBYKBBMFLEZ-UHFFFAOYSA-N    C1CCNO1                                 
+ 502409.944239        9.45731405           9.40115306          WYNCHZVNFNFDNH-UHFFFAOYSA-N    C1NCCO1                                 
+ 502409.978734        8.83781852           8.76705732          WNBQDDAKLKODPH-UHFFFAOYSA-N    C1NNCN1                                 
+ 502411.956465        5.28765877           4.81764045          CZSRXHJVZUBEGW-UHFFFAOYSA-N    C1CCNS1                                 
+ 502411.977532        3.50283290           3.13274634          OGYGFUAIIOPWQD-UHFFFAOYSA-N    C1NCCS1                                 
+ 502609.428148        6.52930626           6.18161902          LPIQUOYDBNQMRZ-UHFFFAOYSA-N    C1CC=CC1                                
+ 502609.935149        6.61029700           6.46790903          WYURNTSHIVDZCO-UHFFFAOYSA-N    C1CCCO1                                 
+ 502609.969645        4.83883395           4.96170553          USPWKWBDZOARPV-UHFFFAOYSA-N    C1CNNC1                                 
+ 502609.973022        6.59146721           6.48009294          WRYCSMQKUKOKBP-UHFFFAOYSA-N    C1NCCN1                                 
+ 502611.970209        3.02113381           2.47980524          RAOIDOHSFRTOEL-UHFFFAOYSA-N    C1CCCS1                                 
+ 502809.963515        6.44233879           6.22940768          RWRDLPDLKQPQOW-UHFFFAOYSA-N    C1CCCN1                                 
+ 503009.953592        7.55534923           7.36282121          RGSFGYAAUTVSQA-UHFFFAOYSA-N    C1CCCC1                                 
+ 601410.292016        33.85453313          34.67773095         ALAGDBVXZZADSN-UHFFFAOYSA-N    n1cnnnn1                                
+ 601610.308652        13.57815580          13.47076595         DPOPAJRDYZGTIR-UHFFFAOYSA-N    c1cnnnn1                                
+ 601610.312059        8.79823468           8.95232164          ZFXBERJDEUDDMX-UHFFFAOYSA-N    c1ncnnn1                                
+ 601610.312366        19.15909025          20.00558366         HTJMXYRLEDBSLT-UHFFFAOYSA-N    n1ncnnc1                                
+ 601810.324904        1.64669885           1.24445424          JYEUMXHLPRZUAT-UHFFFAOYSA-N    c1cnnnc1                                
+ 601810.328619       -5.94346978          -6.05645598          FYADHXFMURLYQI-UHFFFAOYSA-N    n1ccnnc1                                
+ 601810.331719       -9.54772643          -10.53939871         JIHQDMXYYFUGFV-UHFFFAOYSA-N    n1cncnc1                                
+ 601810.820342        7.67728890           6.94977841          XVDNGXHEWBPHCS-UHFFFAOYSA-N    O1OC=CN=C1                              
+ 602009.848357        27.04855285          27.57796990         KLYCPFXDDDMZNQ-UHFFFAOYSA-N    C1=CC#CC=C1                             
+ 602010.341081       -0.26293637          -0.66019310          PBMFSQRYOILNGV-UHFFFAOYSA-N    c1ccnnc1                                
+ 602010.344489       -16.08530854         -16.55249569         CZPWVGJYEJSRLH-UHFFFAOYSA-N    c1ccncn1                                
+ 602010.344796       -26.47209467         -27.02304761         KYQCOXFCLRTKLS-UHFFFAOYSA-N    n1ccncc1                                
+ 602010.833045        9.76759172           9.22446508          VCZQYTJRWNRPHF-UHFFFAOYSA-N    O1OC=CC=C1                              
+ 602010.838829        6.76466639           6.59759120          NGUCKHVSIWZIPQ-UHFFFAOYSA-N    C1C=NOC=N1                              
+ 602010.844493        16.10760749          15.75545104         HCNVXDPRTRLNFX-UHFFFAOYSA-N    C1OC=CN=N1                              
+ 602010.853181        16.29796331          16.20081844         UAQGIRQWYVUDFP-UHFFFAOYSA-N    O1NC=CC=N1                              
+ 602010.856586        13.43352694          13.29762725         QMEQBOSUJUOXMX-UHFFFAOYSA-N    N1OC=CC=N1                              
+ 602010.861228        20.59165800          20.81014855         XHVZLMCORSCVAG-UHFFFAOYSA-N    C1NN=CN=N1                              
+ 602014.799699        10.91826174          10.39227170         RIYVKHUVXPAOPS-UHFFFAOYSA-N    S1SC=CC=C1                              
+ 602210.356875       -15.27916957         -15.76179568         JUJWROOIHBZHMG-UHFFFAOYSA-N    c1cccnc1                                
+ 602210.849698        5.72073582           5.34284466          BMRPOOWUTVUBRI-UHFFFAOYSA-N    O1C=CCC=N1                              
+ 602210.853410        13.81681767          13.38191633         QFPDHKBNCJAOKJ-UHFFFAOYSA-N    O1CC=CC=N1                              
+ 602210.858463        2.56663920           2.10502413          GMLMFZXBPRIXPK-UHFFFAOYSA-N    C1OC=NC=C1                              
+ 602210.871170        10.74647830          10.59102737         BCHZICNRHXRCHY-UHFFFAOYSA-N    O1NC=CC=C1                              
+ 602210.871593       -4.25242151          -4.76680758          CJUYNKWJWWMLJW-UHFFFAOYSA-N    N1=CCC=NN1                              
+ 602210.873126        4.36053456           3.57342227          UOSQFVCDJBZRKS-UHFFFAOYSA-N    N1C=COC=C1                              
+ 602210.873746        11.14658046          11.18754926         IIATVLXXAYLQIZ-UHFFFAOYSA-N    N1CC=NN=C1                              
+ 602210.875307        8.55064247           8.50546704          IIATVLXXAYLQIZ-UHFFFAOYSA-N    C1C=NNC=N1                              
+ 602210.877263        5.20618557           5.01204990          GRYYTSJXIFGRAL-UHFFFAOYSA-N    N1=CC=NNC1                              
+ 602210.878408        7.19446908           7.05467737          RMQOXNXLVICLNK-UHFFFAOYSA-N    N1=CNC=NC1                              
+ 602210.878605        10.71869113          10.33346811         RMQOXNXLVICLNK-UHFFFAOYSA-N    C1NC=NC=N1                              
+ 602210.893265        5.40111566           5.27688500          USSYLANTAAUELR-UHFFFAOYSA-N    n1cc[nH][nH]c1                          
+ 602211.355809        4.56815528           4.35299294          RLDJTWKQIMTLEN-UHFFFAOYSA-N    C1COC=NO1                               
+ 602211.364908        2.34652929           3.90075510          BKBKTDKXZVCKEG-UHFFFAOYSA-N    C1OCN=CO1                               
+ 602211.370802        0.67777619          -0.11302484          IBDPSLIRLQQZIQ-UHFFFAOYSA-N    C1ONOC=C1                               
+ 602211.376470        2.73286879           3.24630588          VRJMDLLQRTTXLD-UHFFFAOYSA-N    C1ONC=CO1                               
+ 602410.368879       -19.91215591         -20.50010593         UHOVQNZJYSORNB-UHFFFAOYSA-N    c1ccccc1                                
+ 602410.370874        34.98243069          34.48800614         QJJOAYUATFWLKY-UHFFFAOYSA-N    C1=CC=C=CC1                             
+ 602410.867304       -4.85056971          -5.94854999          MRUWJENAYHTDQG-UHFFFAOYSA-N    C1C=COC=C1                              
+ 602410.868231        17.31823358          16.98453873         WHLQWRYLRFHDLG-UHFFFAOYSA-N    C1CN=NC=C1                              
+ 602410.869792        5.36774362           4.95754414          HVNJSCGJARXZDD-UHFFFAOYSA-N    C1=CCN=NC1                              
+ 602410.871015        3.12542623           2.55464293          MGADZUXDNSDTHW-UHFFFAOYSA-N    O1CC=CC=C1                              
+ 602410.871639        5.40742544           5.11968229          BBZZGDLNBVRFFI-UHFFFAOYSA-N    C1CC=NC=N1                              
+ 602410.873200        2.78309935           2.53053726          WRLAXLNSBDVNRL-UHFFFAOYSA-N    C1N=CCC=N1                              
+ 602410.873507        5.17150008           4.82407225          BNDCYQXUFIHUHS-UHFFFAOYSA-N    N1=CCN=CC1                              
+ 602410.873704        2.91472943           2.55797030          WUCWFMVYIKMAPG-UHFFFAOYSA-N    N1=CC=NCC1                              
+ 602410.885794       -0.43181263          -0.95539782          HZVGMPJZVYBYEK-UHFFFAOYSA-N    N1C=CCC=N1                              
+ 602410.887750        6.00694550           5.74229071          ZEFGUWRQFNTGGX-UHFFFAOYSA-N    N1CC=CC=N1                              
+ 602410.889201        4.61243286           4.42639531          OKGNMRKOGWTADH-UHFFFAOYSA-N    C1C=CNC=N1                              
+ 602410.889399        4.58312151           4.33654832          OKGNMRKOGWTADH-UHFFFAOYSA-N    C1NC=NC=C1                              
+ 602410.889706        3.64313842           3.28358667          QYMGRIFMUQCAJW-UHFFFAOYSA-N    N1CC=NC=C1                              
+ 602410.891158        7.12941387           7.01063542          WCFAPJDPAPDDAQ-UHFFFAOYSA-N    C1NC=CC=N1                              
+ 602410.905510        13.43542791          12.88734098         XYNBEQAWBCGIMD-UHFFFAOYSA-N    [nH]1cc[nH]cc1                          
+ 602411.362631        3.65036324           2.79209545          OKPBTVORLCHBJF-UHFFFAOYSA-N    C1CC=COO1                               
+ 602411.366145        1.81156579           0.66319118          JHUUPUMBZGWODW-UHFFFAOYSA-N    O1OCC=CC1                               
+ 602411.373963       -0.45256399          -0.39134918          HIZVCIIORGCREW-UHFFFAOYSA-N    C1COC=CO1                               
+ 602411.376250       -2.05376348          -0.89161564          UCZQXJKDCHCTAI-UHFFFAOYSA-N    C1OCC=CO1                               
+ 602411.390084        1.52779909           1.00946444          XFAXZUVCSIKZEJ-UHFFFAOYSA-N    C1CNN=CO1                               
+ 602411.391952        8.58990394           8.32404202          SMQFZKPICICAGA-UHFFFAOYSA-N    C1NOCC=N1                               
+ 602411.393598        7.88154518           7.51366498          UGPZADIOYYEJER-UHFFFAOYSA-N    N1COCC=N1                               
+ 602411.394636        15.19461664          14.84031398         HIVQLNMFEQSXNV-UHFFFAOYSA-N    C1NCN=CO1                               
+ 602411.396392        4.57919590           4.13372869          UCQAJZZYVAQYBH-UHFFFAOYSA-N    C1NC=NCO1                               
+ 602411.426337        4.27682993           4.00121966          OYMXLBNQMJUENE-UHFFFAOYSA-N    N1CNN=CN1                               
+ 602411.857344        5.61358292           5.42993643          KQBSGRWMSNFIPG-UHFFFAOYSA-N    C1COOOC1                                
+ 602411.872190        4.71496515           5.16411758          FQERLIOIVXPZKH-UHFFFAOYSA-N    O1CCOOC1                                
+ 602411.884582        2.59173452           8.24950926          BGJSXRVXTHVRSN-UHFFFAOYSA-N    O1COCOC1                                
+ 602411.906682       -5.65431599          -6.17945496          LHNMEECSXXSADY-UHFFFAOYSA-N    O1CCONN1                                
+ 602413.828170        7.26136158           7.02344783          AVFVSPRFKUZFPS-UHFFFAOYSA-N    C1COSOC1                                
+ 602415.407492        2.44486989           1.84969660          FLVUYLNVCUGFGX-UHFFFAOYSA-N    C1CSC=CS1                               
+ 602610.882050        7.43487136           7.03717642          RDOAUPPSCNSYPM-UHFFFAOYSA-N    C1CC=CN=C1                              
+ 602610.883611        3.12852807           2.72176997          LPHWCAUEPAUFHZ-UHFFFAOYSA-N    C1=CCC=NC1                              
+ 602610.883808        7.98566052           7.63801893          NZHIIDNOLFOHSG-UHFFFAOYSA-N    C1CC=CC=N1                              
+ 602610.899612        0.32331383          -0.22022550          YNGDWRXWKFWCJY-UHFFFAOYSA-N    C1C=CNC=C1                              
+ 602610.901568        4.12458463           3.80816365          MMWRGWQTAMNAFC-UHFFFAOYSA-N    N1CC=CC=C1                              
+ 602610.903762        26.56489765          26.16422156         HKMGXGFHOQWGHW-UHFFFAOYSA-N    C1CC=C=CN1                              
+ 602611.379264        8.44526177           8.01029654          BYVSMDBDTBXASR-UHFFFAOYSA-N    C1CON=CC1                               
+ 602611.386076        4.32377169           4.18973136          YWOIQIYQBRDOQA-UHFFFAOYSA-N    C1CCN=CO1                               
+ 602611.389590        7.04750899           6.89857451          LUSYNJGQFRRKIA-UHFFFAOYSA-N    C1CC=NCO1                               
+ 602611.390204        9.52860047           9.24890565          RHOMRSNINFNDIY-UHFFFAOYSA-N    C1COCC=N1                               
+ 602611.399404        13.97904936          13.89068991         LFWBTAXIAYXNCD-UHFFFAOYSA-N    C1CNN=NC1                               
+ 602611.400538        4.59795491           4.26052291          UFTHEDBYLPFRDP-UHFFFAOYSA-N    C1CC=CNO1                               
+ 602611.402297        3.24726005           2.64547057          DNUJVGBNIXGTHC-UHFFFAOYSA-N    O1NCC=CC1                               
+ 602611.404451        4.54059899           4.17761945          YEEGQDGJIXWFIQ-UHFFFAOYSA-N    C1COC=CN1                               
+ 602611.405595       -0.08801893          -0.90972769          NLXFKDHULKLENC-UHFFFAOYSA-N    C1NCC=CO1                               
+ 602611.420879        0.44549297           0.18587500          OYEHFRMFJLFNSD-UHFFFAOYSA-N    C1CNC=NN1                               
+ 602611.422637        5.77215997           5.43421125          HGYGEJZLUZEDIH-UHFFFAOYSA-N    N1CNN=CC1                               
+ 602611.425738        8.23837787           7.90830118          FUIQANIDAMJELP-UHFFFAOYSA-N    C1NCN=CN1                               
+ 602611.908890        3.82733202           3.59819656          GDSQQEQPAKALBR-UHFFFAOYSA-N    O1CCONC1                                
+ 602611.914476        6.70911845           8.26456092          IBRQRBGGDRALLO-UHFFFAOYSA-N    C1NCOCO1                                
+ 602615.974936        1.10644292           0.42671430          MXVVJAPMTOADGU-UHFFFAOYSA-N    C1NCSCS1                                
+ 602810.893639        0.98866576           0.33939059          UVJHQYIOXKWHFD-UHFFFAOYSA-N    C1=CCC=CC1                              
+ 602810.893836        5.21630665           4.71013765          MGNZXYYWBUKAII-UHFFFAOYSA-N    C1CC=CC=C1                              
+ 602810.896029        31.16782108          30.74117669         NMGSDTSOSIPXTN-UHFFFAOYSA-N    C1CC=C=CC1                              
+ 602810.898025        40.13404538          39.72270190         AAFFTDXPYADISO-UHFFFAOYSA-N    C1CCC#CC1                               
+ 602811.395628        10.57874552          10.24681101         MSBGDLOZNZOWIQ-UHFFFAOYSA-N    C1CCN=NC1                               
+ 602811.396653        0.17922402          -0.49516216          BUDQDWGNQVEFAC-UHFFFAOYSA-N    C1COC=CC1                               
+ 602811.400167        2.87831992           2.33765572          MUGSKSNNEORSJG-UHFFFAOYSA-N    O1CCC=CC1                               
+ 602811.413388        2.34215948           1.90448751          BGMLUCPALPKNOV-UHFFFAOYSA-N    C1CNN=CC1                               
+ 602811.416795        4.47887269           4.41195981          VBXZSFNZVNDOPB-UHFFFAOYSA-N    C1CCN=CN1                               
+ 602811.418554        5.40751821           4.94478028          OHFXUPDPPRJZES-UHFFFAOYSA-N    C1CC=NCN1                               
+ 602811.418861        5.97273271           5.57049753          IOLQWFQLCNMKAZ-UHFFFAOYSA-N    C1CNCC=N1                               
+ 602811.432907        2.09152270           1.77374142          JQIZHNLEFQMDCQ-UHFFFAOYSA-N    C1CC=CNN1                               
+ 602811.434665        3.44139917           3.22175854          WNSPCCWAAVHWIM-UHFFFAOYSA-N    N1NCC=CC1                               
+ 602811.434863        4.73554104           4.27104457          OQJVXNHMUWQQEW-UHFFFAOYSA-N    C1CNC=CN1                               
+ 602811.436314        4.37387095           3.90648544          OTPDWCMLUKMQNO-UHFFFAOYSA-N    C1NCC=CN1                               
+ 602811.892462        2.09334174           1.00627719          OIXUJRCCNNHWFI-UHFFFAOYSA-N    C1CCOOC1                                
+ 602811.906081        2.45878096           4.37086338          VDFVNEFVBPFDSB-UHFFFAOYSA-N    C1CCOCO1                                
+ 602811.907308        4.00012075           4.12160351          RYHBNJHYFVUHQT-UHFFFAOYSA-N    O1CCOCC1                                
+ 602811.937482        7.65007905           7.22585352          NSCWRMLDSIVPGO-UHFFFAOYSA-N    N1CCNOC1                                
+ 602811.937788        7.76648957           7.49103661          XWHMKUCXNREQAK-UHFFFAOYSA-N    C1CNCNO1                                
+ 602811.941193        3.94398565           3.54087969          USUGUKDXBSEMBW-UHFFFAOYSA-N    O1CCNNC1                                
+ 602811.943987        3.91527202           3.44117288          LDINCHHKFKKGCU-UHFFFAOYSA-N    C1NCOCN1                                
+ 602811.971977        6.37767603           5.71506438          XVLNWCPNWUYFFP-UHFFFAOYSA-N    C1CNNNN1                                
+ 602811.975692        8.40015213           8.08292754          VCFZIHDBHSLHEI-UHFFFAOYSA-N    N1NCNNC1                                
+ 602813.433321        3.87097546           3.28094371          UNVYSECOIMWWKM-UHFFFAOYSA-N    S1CCC=CC1                               
+ 602813.937934        4.26276265           3.67319820          QVFHFKPGBODJJB-UHFFFAOYSA-N    C1CCSCO1                                
+ 602815.969787        4.01837748           3.40177242          WQADWIOXOXRPLN-UHFFFAOYSA-N    C1CCSCS1                                
+ 602815.976220        5.35406290           5.24558988          LOZWAPSEEHRYPG-UHFFFAOYSA-N    S1CCSCC1                                
+ 603011.409229        5.12375093           4.71670740          DWKUKQRKVCMOLP-UHFFFAOYSA-N    C1CCC=NC1                               
+ 603011.426989        0.59833621           0.04659551          VSWICNJIUPRZIK-UHFFFAOYSA-N    C1CNC=CC1                               
+ 603011.428748        2.98249637           2.47918745          FTAHXMZRJCZXDL-UHFFFAOYSA-N    N1CCC=CC1                               
+ 603011.928398        2.88018141           2.34880428          OZQGLZFAWYKKLQ-UHFFFAOYSA-N    C1CCNOC1                                
+ 603011.935210        5.40543641           5.15830216          LQPOOAJESJYDLS-UHFFFAOYSA-N    C1CCOCN1                                
+ 603011.935824        7.22414384           6.96171367          YNAVUWVOSKDBBP-UHFFFAOYSA-N    C1CNCCO1                                
+ 603011.970016        5.07615657           4.67863541          VWKKSBDTNICZRS-UHFFFAOYSA-N    N1CCNNC1                                
+ 603011.973116        1.20508015           0.74729384          LKLLNYWECKEQIB-UHFFFAOYSA-N    N1CNCNC1                                
+ 603013.947428        1.81396628           1.13643675          AJZGFFKDLABHDD-UHFFFAOYSA-N    C1CCNSC1                                
+ 603013.970601        1.59271900           1.03279200          BRNULMACUQOKMR-UHFFFAOYSA-N    C1CNCCS1                                
+ 603211.419040        2.13865396           1.52505185          HGCIXCUEYOPUTN-UHFFFAOYSA-N    C1CCC=CC1                               
+ 603211.926051        2.41542751           1.77996641          DHXVGJBLRPWPCS-UHFFFAOYSA-N    C1CCCOC1                                
+ 603211.960549        2.38470579           2.01733846          HTFFABIIOAKIBH-UHFFFAOYSA-N    C1CCNNC1                                
+ 603211.964264        1.37782444           0.85904747          GLUUGHFHXGJENI-UHFFFAOYSA-N    N1CCNCC1                                
+ 603213.961149        0.84998084           0.05968015          YPWFISCTZQNZAU-UHFFFAOYSA-N    C1CCCSC1                                
+ 603411.954415        0.94287808           0.29962475          NQRYJNQNLNOLGT-UHFFFAOYSA-N    C1CCCNC1                                
+ 603611.944490        1.48234531           0.79423413          XDTMQSROBMDMFD-UHFFFAOYSA-N    C1CCCCC1                                
+ 702212.323259        17.40536070          17.38341339         PDFKKUVDUNYGQH-UHFFFAOYSA-N    N1=CC=NN=CN1                            
+ 702411.822884        22.44428472          21.86004449         JNQJJVRYTGYFSJ-UHFFFAOYSA-N    C1=CC=CN=C=C1                           
+ 702612.331665        28.18956793          27.67470442         FJWMZNBWZYPRGN-UHFFFAOYSA-N    C1C=CN=NC=C1                            
+ 702612.333016        5.64484613           4.75479025          ATYBXHSAIOKLMG-UHFFFAOYSA-N    C1=CC=CC=CO1                            
+ 702612.333599        14.19854560          13.59642439         SPMKLZHLVPRRIZ-UHFFFAOYSA-N    C1=CC=CN=NC1                            
+ 702612.335235        2.16930825           1.53276598          DSJQWQNRADIYDV-UHFFFAOYSA-N    N1=CN=CCC=C1                            
+ 702612.335733       -2.47773492          -3.09957156          KOQDCAMXEHEMTH-UHFFFAOYSA-N    C1=NC=CN=CC1                            
+ 702612.827757        5.12713170           4.13820876          JOWXBGIZDALBJW-UHFFFAOYSA-N    O1CC=CC=CO1                             
+ 702612.838161       -0.69022052           0.44876498          GTPWYANJPNGAAY-UHFFFAOYSA-N    C1OC=CC=CO1                             
+ 702612.870387        15.73361803          15.56316829         ODFIAPQANLNBSK-UHFFFAOYSA-N    N1CC=NN=CN1                             
+ 702812.347439        9.73870781           9.16244411          KTMITVKWECXAGF-UHFFFAOYSA-N    C1=CN=CC=CC1                            
+ 702812.347598        5.54236295           4.90947385          VEBXESWALRZCMT-UHFFFAOYSA-N    C1C=CC=CN=C1                            
+ 702812.365360        11.60006424          11.19903151         XYOVOXDWRFGKEX-UHFFFAOYSA-N    C1=CC=CC=CN1                            
+ 703012.359422        5.03956285           4.34868646          CHVJITGCYZJHLR-UHFFFAOYSA-N    C1=CC=CC=CC1                            
+ 703012.361400        21.71779950          21.12636415         VCWRKOYLTYOOKH-UHFFFAOYSA-N    C1=CCC=C=CC1                            
+ 703012.364030        39.80234493          40.27366591         CIKNAJPJTPUSBM-UHFFFAOYSA-N    C1CC=C=C=CC1                            
+ 703012.858057        0.58133935          -0.53544698          MFGFKKVWWFCBST-UHFFFAOYSA-N    C1CC=COC=C1                             
+ 703012.862140        4.70158953           4.13169763          WLGQUBABAPAJNB-UHFFFAOYSA-N    C1CC=CC=CO1                             
+ 703012.865366        6.44311525           5.79342757          AHALYBXZBTZMTD-UHFFFAOYSA-N    C1OCC=CC=C1                             
+ 703012.878714        6.79396090           6.28526929          UTUHKMXHKAWBAD-UHFFFAOYSA-N    C1C=CC=NNC1                             
+ 703012.882462        5.93552294           5.66761770          SNZDVARAEBPODD-UHFFFAOYSA-N    C1CNC=CC=N1                             
+ 703013.364875        4.43782847           4.47032967          SEMAUTYMNAWLQX-UHFFFAOYSA-N    C1COC=COC1                              
+ 703013.367391        1.94144856           3.30548265          FKZHHBXSHRSSHO-UHFFFAOYSA-N    O1CCC=COC1                              
+ 703013.368421        3.44791345           2.93369777          AXJZXZDPYXAJHY-UHFFFAOYSA-N    O1CCOC=CC1                              
+ 703013.370617        1.32024029           2.69256755          BAKUAUDFCNFLBX-UHFFFAOYSA-N    C1OCC=CCO1                              
+ 703013.393919        15.37586660          15.26466868         ZHZPONIUBWFHRD-UHFFFAOYSA-N    C1CNN=NNC1                              
+ 703013.876743        2.13502144           6.14413833          ULAGGPJVDRGWTI-UHFFFAOYSA-N    O1COCCOC1                               
+ 703212.875013        18.95320721          18.34838659         YGDSSMBAKOGBOM-UHFFFAOYSA-N    C1CCCN=C=C1                             
+ 703212.892137        7.13634889           6.61082867          OXAFMBPHIFGPST-UHFFFAOYSA-N    N1CC=CCC=C1                             
+ 703212.892514        3.83458950           3.39035068          BEWVAZNECYSPMT-UHFFFAOYSA-N    C1CC=CC=CN1                             
+ 703212.894128        7.28518895           6.82603864          VQCYLCUZWFDTQE-UHFFFAOYSA-N    C1NCC=CC=C1                             
+ 703213.376856        7.28147933           6.72458725          MJKMZJJRWSLSLR-UHFFFAOYSA-N    C1CCOC=NC1                              
+ 703213.397068        6.12853720           5.48959017          HKKUFCWKIDIVKY-UHFFFAOYSA-N    C1COC=CCN1                              
+ 703213.905948        5.54009452           7.21559070          NFVRZJLPANWYHO-UHFFFAOYSA-N    O1CNCCOC1                               
+ 703213.906623        7.79048703           7.64573709          NFDCMLQFMHGARV-UHFFFAOYSA-N    C1OCCOCN1                               
+ 703215.415969        9.68771593           9.24510682          CVULXOYIRCRFGI-UHFFFAOYSA-N    C1SCCC=NC1                              
+ 703412.884385        7.95608934           7.34322892          HQGYGGZHZWXFSI-UHFFFAOYSA-N    C1CC=CCC=C1                             
+ 703412.884602        7.43520665           6.87208328          GWYPDXLJACEENP-UHFFFAOYSA-N    C1CC=CC=CC1                             
+ 703413.390971        6.13715782           5.49105981          BCIQLQRTHJLAQY-UHFFFAOYSA-N    C1CC=CCOC1                              
+ 703413.407570        9.39191806           8.92875805          DENXBHJBFMGWBK-UHFFFAOYSA-N    C1CCNC=NC1                              
+ 703413.409682        9.60574713           9.19706526          XHLDTXBBXATFFB-UHFFFAOYSA-N    C1NCC=NCC1                              
+ 703413.409842        7.80629485           7.30720634          YURWQUFDMVGOKS-UHFFFAOYSA-N    C1NCCC=NC1                              
+ 703413.427444        4.26475490           3.79461688          TXQQQSGOUIMIMA-UHFFFAOYSA-N    N1CCNC=CC1                              
+ 703413.883234        3.66339743           2.52314356          HGGNZMUHOHGHBJ-UHFFFAOYSA-N    C1CCOOCC1                               
+ 703413.896865        5.11944605           6.68109645          CZLMRJZAHXYRIX-UHFFFAOYSA-N    C1CCCOCO1                               
+ 703413.898214        8.22777887           8.38827131          LMTDPKYREUZYAO-UHFFFAOYSA-N    C1COCCOC1                               
+ 703613.399998        7.89674138           7.34112717          WNHPMKYMPWMAIT-UHFFFAOYSA-N    C1CCCC=NC1                              
+ 703613.417760        3.76973579           3.14205258          SCEIUGQQBYRBPP-UHFFFAOYSA-N    C1CCC=CNC1                              
+ 703613.419534        6.71674778           6.18555394          YHCUZRJTNSWYCY-UHFFFAOYSA-N    C1CC=CCNC1                              
+ 703613.419694        6.06783901           5.49477083          SMOHMDMTVAYPAI-UHFFFAOYSA-N    N1CCC=CCC1                              
+ 703613.919168        3.80515785           3.20866873          AQNQGBUEVCAVML-UHFFFAOYSA-N    C1CCCNOC1                               
+ 703613.926662        12.13640714          12.16409274         ZNGWEEUXTBNKFR-UHFFFAOYSA-N    C1CNCCOC1                               
+ 703613.961161        6.85828438           6.45580526          BCTOTXKVBAMWTM-UHFFFAOYSA-N    N1CCNNCC1                               
+ 703813.409809        5.89181347           5.23192464          ZXIJMRYMVAMXQP-UHFFFAOYSA-N    C1CCC=CCC1                              
+ 703813.916820        8.03668131           7.46223753          UHHKSVZZTYJVEG-UHFFFAOYSA-N    C1CCCCOC1                               
+ 703813.951319        4.35547842           3.88208164          QPMLSUSACCOBDK-UHFFFAOYSA-N    C1CCNNCC1                               
+ 703813.954730        4.59546838           4.02689430          ZBOWKDHBOFMERX-UHFFFAOYSA-N    C1CCCNCN1                               
+ 703813.955068        6.20607330           5.76865147          FQUYSHZXSKYCSY-UHFFFAOYSA-N    C1CNCCNC1                               
+ 703815.951923        5.60670050           4.80379399          JWCVYQRPINPYQJ-UHFFFAOYSA-N    C1CCCCSC1                               
+ 704013.945184        7.60391429           7.03611099          ZSIQJIWKELUFRJ-UHFFFAOYSA-N    C1CCCCNC1                               
+ 704213.935260        7.71542038           7.05946111          DMEGYFMYUHOHGS-UHFFFAOYSA-N    C1CCCCCC1                               
+ 802414.267990       -19.71477044         -20.45747120         HODLVFVXXWMLFG-XCADPSHZSA-N    c1nncocco1                              
+ 802813.800809        13.78824322          13.40981881         XQAWYOVBYNABFT-KIRGHHFZSA-N    C1=CC=CN=CN=C1                          
+ 803013.813192        20.30413317          19.96124104         XXRGLCKZBCIEKO-BONZMOEMSA-N    C1=CC=CC=NC=C1                          
+ 803014.315450        16.21823968          15.67104385         IBKQADUFYUSGQD-NOMKNXCESA-N    C1=CC=CN=CCO1                           
+ 803014.316545        15.15897325          14.47544768         QRGWHGWLOYITDQ-XPFMFLLJSA-N    O1C=CC=CC=NC1                           
+ 803014.329463        7.17311927           6.08213610          QIROUCHIMHUWAP-OSOWKVBCSA-N    c1ccocc[nH]c1                           
+ 803213.825196        17.85111310          17.42925243         KDUIUFJBNGTBMD-BONZMOEMSA-N    C1=CC=CC=CC=C1                          
+ 803214.361828        7.38014109           6.60071238          PBMKGYXLQYJOHL-FWNKLROWSA-N    c1cc[nH]cc[nH]c1                        
+ 803215.846136        3.04190842           10.72972598         XGJWQNKXTXSVML-UHFFFAOYSA-N    O1COCOCOC1                              
+ 803614.350154        12.39792454          11.70706737         ICPMUWPXCAVOOQ-XCADPSHZSA-N    C1CC=CC=CC=C1                           
+ 803614.354783        26.85999998          27.17835771         LNGBWEYBTAWPHP-XFSBKJJWSA-N    C1CCC=C=C=CC1                           
+ 803615.868875        5.71660657           7.98548209          AUAGGMPIKOZAJZ-UHFFFAOYSA-N    C1OCCOCCO1                              
+ 803815.391379        9.90414023           9.33897111          BRNYALPBLWFVMI-UPHRSURJSA-N    N1CCOCC=CC1                             
+ 804014.875117        9.75221125           8.93103706          VYXHVRARDIDEHS-QGTKBVGQSA-N    C1CC=CCCC=C1                            
+ 804014.875136        9.11261660           8.23697886          DNZZPKYSGRTNGK-PQZOIKATSA-N    C1CC=CCC=CC1                            
+ 804014.875356        8.78754671           8.00448287          RRKODOZNUZCUBN-CCAGOZQPSA-N    C1CCC=CC=CC1                            
+ 804014.879547        17.20241283          16.52655845         ZPWOOKQUDFIEIX-UHFFFAOYSA-N    C1CCCC#CCC1                             
+ 804015.418234        8.14196085           7.61406429          MNMZAUTZWZDMSA-IWQZZHSRSA-N    C1CNCC=CNC1                             
+ 804015.873988        5.06214317           3.77331862          WXIXHCWLYVANJA-UHFFFAOYSA-N    C1CCCOOCC1                              
+ 804015.887620        3.94521627           5.33413953          CJSITSBWCLTCAP-UHFFFAOYSA-N    C1CCCOCOC1                              
+ 804015.888982        7.89174246           7.47712127          GYZMNNQUSLUCLP-UHFFFAOYSA-N    C1CCOCCOC1                              
+ 804015.923542        10.39874438          10.33644573         SUHVBFZVGUVOII-UHFFFAOYSA-N    C1CCNNCCO1                              
+ 804015.958041        9.86486509           9.38144561          YNOXDQFYUVGLQK-UHFFFAOYSA-N    C1CNNCCNN1                              
+ 804215.917422        9.34276097           8.76446013          NZBVQPIZDGSDNN-UHFFFAOYSA-N    C1CCNCCOC1                              
+ 804415.400562        7.55160295           6.67035239          URYYVOIYTNXXBN-UPHRSURJSA-N    C1CCCC=CCC1                             
+ 804415.907574        9.15737149           8.36677886          HZIVRQOIUMAXID-UHFFFAOYSA-N    C1CCCCOCC1                              
+ 804415.945825        7.71583786           7.04648130          CXPUAWQOXQINEX-UHFFFAOYSA-N    C1CCNCCNC1                              
+ 804415.945856        10.30164967          9.86501117          HTSQWLLKIZBMEO-UHFFFAOYSA-N    C1CCNCCCN1                              
+ 804615.935938        10.48700678          9.81631178          QXNDZONIWRINJR-UHFFFAOYSA-N    C1CCCCNCC1                              
+ 804815.926013        11.22573390          10.38229839         WJTCGQSWYFHTAC-UHFFFAOYSA-N    C1CCCCCCC1                              
+ 903016.261027       -0.83575737          -1.70604051          GQNOFMQXNNZQRY-SQCKSILFSA-N    C\1=C\O/C=C\O/C=C\O1                    
+ 903215.771531        29.41476181          28.78791204         WMTYYHWTPIMCON-KZPCVFJPSA-N    c1ccccnocc1                             
+ 903215.777256        18.87156161          18.13168989         QAVCUNPCLZYNGR-BJBWPHLGSA-N    c1cnccoccc1                             
+ 903415.793508        29.79844795          29.40291770         RFZFJIUNYBYILC-GDISZRAYSA-N    C\1=N\C/C=C\C=N/C=C1                    
+ 903415.794926        30.46153147          30.14194292         WXDCSVNIGJHKPA-SBIJUXIRSA-N    N\1=C\C=C/C=C\C=N/C1                    
+ 903415.807662        32.03438710          31.36769232         XDPFSAXBVHBYLO-BWYSQNKRSA-N    c1ccccn[nH]cc1                          
+ 903815.817699        14.90784922          14.27730778         CVSWDMYJOLIREH-FVZMISCUSA-N    C\1=C\CC=C=CC\C=C1                      
+ 904216.340486        7.76687376           6.62541610          CDCDYENGTKUCSR-UAOXYDSYSA-N    C\1=C\C/C=C\C/C=C\C1                    
+ 904216.340684        11.26534919          10.38245937         DNRZWYGHTIEMRJ-ALEGAURCSA-N    C\1=C\C/C=C\C=C/CC1                     
+ 904216.342879        8.46440125           7.50792382          JXWVBOJZTMKXQK-XRHZSYRXSA-N    C1/C=C\CC=C=CCC1                        
+ 904216.345535        22.92366419          23.21079543         WNWVKHYVLMZWJK-XFSBKJJWSA-N    C1CCC=C=C=CCC1                          
+ 904616.865866        9.45872225           8.53313921          UWMOLRCQDVCRLG-NQOXHWNZSA-N    C1C/C=C\CC/C=C\C1                       
+ 904616.866107        15.13477038          14.39478699         HVSYSQGJZITGQV-CCAGOZQPSA-N    C1CC/C=C\C=C/CC1                        
+ 904616.868303        9.61987405           8.81654360          YHGPUHUSTRYSIC-GSVOUGTGSA-N    C1CCCC=C=CCC1                           
+ 904617.368931        10.62796919          9.72202070          OKESJPVDHSFKHI-ALCCZGGFSA-N    C1CCC/C=C\OCC1                          
+ 904617.878372        4.81547769           6.09802972          BQLZNUMAQHULJO-UHFFFAOYSA-N    C1CCCCOCOC1                             
+ 904817.946426        8.38888983           7.83003878          ITWBWJFEJCHKSN-UHFFFAOYSA-N    N1CCNCCNCC1                             
+ 905017.391314        10.74063186          9.75599127          BESIOWGPXPAVOS-UPHRSURJSA-N    C1CCC/C=C\CCC1                          
+ 905017.898326        10.66018497          9.78926306          YVQBOKCDPCUWSP-UHFFFAOYSA-N    C1CCCCCOCC1                             
+ 905017.936236        8.94410160           8.19407516          XDFPXACLQFPFNE-UHFFFAOYSA-N    C1CCCCNCNC1                             
+ 905017.936611        8.59019385           7.85115678          GQHLRKZHTIDGFF-UHFFFAOYSA-N    C1NCCCCNCC1                             
+ 905217.926690        14.41047851          13.59632331         NRHDCQLCSOWVTF-UHFFFAOYSA-N    C1CCCCCNCC1                             
+ 905417.916765        13.53994650          12.56676509         GPTJTTCOVDDHER-UHFFFAOYSA-N    C1CCCCCCCC1                             
