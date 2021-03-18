@@ -1,4 +1,4 @@
-(Notes: this package is just used for reproducing [paper](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00092?casa_token=J-tbN5mxhiAAAAAA:KaJcTVzRs0t3M3kkwdSpvg5LQkAD6iSyzpUEjzNg_MmwqNGdmah57E_NSlwBlJ81p8ROOqibqUN8NEs5) result, an up-to-date version will be found inTCIT-Hf folder in https://github.com/zhaoqy1996/TCIT_thermo.git, we'll also add TCIT predictions for other properties and for radicals species in TCIT_thermo in the near future)
+(Notes: this package is just used for reproducing [paper1](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00092?casa_token=J-tbN5mxhiAAAAAA:KaJcTVzRs0t3M3kkwdSpvg5LQkAD6iSyzpUEjzNg_MmwqNGdmah57E_NSlwBlJ81p8ROOqibqUN8NEs5) and [paper2](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00092?casa_token=J-tbN5mxhiAAAAAA:KaJcTVzRs0t3M3kkwdSpvg5LQkAD6iSyzpUEjzNg_MmwqNGdmah57E_NSlwBlJ81p8ROOqibqUN8NEs5) results. An up-to-date version can be found in TCIT-Hf folder in https://github.com/zhaoqy1996/TCIT_thermo.git. We'll also add TCIT predictions for other properties and for radicals species in TCIT_thermo peoject in the near future)
 
 ## TCIT
 
