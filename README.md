@@ -1,3 +1,5 @@
+(Notes: this package is just used for reproduce paper's result, an up-to-date version will be found inTCIT-Hf folder in https://github.com/zhaoqy1996/TCIT_thermo.git, we'll also add TCIT predictions for other properties and for radicals species in TCIT_thermo in the near future)
+
 ## TCIT
 
 **TCIT**, the short of Taffi component increment theory, is a powerful tool to predict thermochemistry properties, like enthalpy of formation.
