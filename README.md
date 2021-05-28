@@ -1,27 +1,21 @@
-(Notes: this package is just used for reproducing [paper1](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00092?casa_token=J-tbN5mxhiAAAAAA:KaJcTVzRs0t3M3kkwdSpvg5LQkAD6iSyzpUEjzNg_MmwqNGdmah57E_NSlwBlJ81p8ROOqibqUN8NEs5) and [paper2](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00092?casa_token=J-tbN5mxhiAAAAAA:KaJcTVzRs0t3M3kkwdSpvg5LQkAD6iSyzpUEjzNg_MmwqNGdmah57E_NSlwBlJ81p8ROOqibqUN8NEs5) results. An up-to-date version can be found in TCIT-thermo folder in https://github.com/zhaoqy1996/TCIT_thermo.git. We'll continue update new component additivity values (CAVs) and ring corrections (RCs) and also add TCIT predictions for other properties and radicals species in TCIT_thermo project in a near future.
+(Notes: this package is just used for reproducing [paper1](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00092?casa_token=J-tbN5mxhiAAAAAA:KaJcTVzRs0t3M3kkwdSpvg5LQkAD6iSyzpUEjzNg_MmwqNGdmah57E_NSlwBlJ81p8ROOqibqUN8NEs5) and [paper2](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00092?casa_token=J-tbN5mxhiAAAAAA:KaJcTVzRs0t3M3kkwdSpvg5LQkAD6iSyzpUEjzNg_MmwqNGdmah57E_NSlwBlJ81p8ROOqibqUN8NEs5) results. An up-to-date version can be found in TCIT-thermo folder in https://github.com/zhaoqy1996/TCIT_thermo. We'll continue update new component additivity values (CAVs) and ring corrections (RCs) and also add TCIT predictions for other properties and radicals species in TCIT_thermo project in a near future.
 
 ## TCIT
 
 **TCIT**, the short of Taffi component increment theory, is a powerful tool to predict thermochemistry properties, like enthalpy of formation.
 
-This script implemented TCIT which performs on a given folder of target compounds based on a fixed TCIT CAV database distributed with the paper "A Self-Consistent Component Increment Theory for Predicting Enthalpy of Formation" by Zhao and Savoie. (The paper can be found [here](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00092?casa_token=J-tbN5mxhiAAAAAA:KaJcTVzRs0t3M3kkwdSpvg5LQkAD6iSyzpUEjzNg_MmwqNGdmah57E_NSlwBlJ81p8ROOqibqUN8NEs5).) Further ring correction is added distributed with the paper "Ring correction XXX"' by Zhao, Iovanac and Savoie. 
+This script implemented TCIT which performs on a given folder of target compounds based on a fixed TCIT CAV database distributed with the paper "[A Self-Consistent Component Increment Theory for Predicting Enthalpy of Formation](https://pubs.acs.org/doi/abs/10.1021/acs.jcim.0c00092)" by Zhao and Savoie. Further ring correction is added distributed with the paper "[Transferable Ring Corrections for Predicting Enthalpy of Formation of Cyclic Compounds](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00367)" by Zhao, Iovanac and Savoie.
 
 The script operates on either a folder of xyz files or a list of smiles strings, prints out the Taffi components and corresponding CAVs that are used for each prediction, and returns the 0K and 298K enthalpy of formation. 
 
 ## Software requirement
-1. openbabel 2.4.1 
-2. python 3.5 or higher
-3. tensorflow 2.X
-4. numpy 1.17 or higher
+1. openbabel 2.4.1 or higher
+2. anaconda
 
 ## Set up an environment if needed
-* conda create -n TCIT python=3.7
+* conda create -n TCIT -c conda-forge python=3.7 rdkit
 * source activate TCIT
-* conda install numpy=1.17.2
-* conda install tensorflow=2.0.0
-* conda install matplotlib=3.1.0
-* conda install -c anaconda scikit-learn=0.21.3 
-* conda install -c conda-forge rdkit
+* pip install alfabet
 
 ## Usage
 If your input type a xyz file:
